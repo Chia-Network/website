@@ -1,0 +1,2 @@
+# faq
+Web site FAQ
