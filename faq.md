@@ -14,7 +14,7 @@ A: Chia farming is a bit like mining in that it's how blocks are made. Farming w
 
 + <b>Q: Main difference between Chia and Bitcoin?</b>
 
-A: A cryptocurrency that is mined with hard drives instead of processing power, allowing easier access to users, and vastly reducing the cost/waste of securing the network (electricity burned).  Resistant to miner centralization. A bunch of basic improvements: Everything is BLS signatures for better smart transaction support, and a bunch of bug fixes like timewarp. The goal is to make hard forks effectively impossible, so governance will come from user choice and bitcoin-like decentralized incentives.
+A: A cryptocurrency that is mined with hard drives instead of processing power, allowing easier access to users, and vastly reducing the cost/waste of securing the network (electricity burned).  Chia is resistant to miner centralization. Chia has a bunch of basic improvements: Everything is BLS signatures for better smart transaction support, and a bunch of bug fixes like timewarp. The goal is to make hard forks effectively impossible, so governance will come from user choice and bitcoin-like decentralized incentives.
 
 
 
@@ -32,13 +32,13 @@ A: Seeding is a process that requires reading and writing every sector more than
 
 + <b>Q: When will Chia launch?</b>
 
-A: Chia plans to sale in Q2 and launch by end of '18 but this is not set in stone and is dependant on development.
+A: Chia plans to sale in Q2 and launch by end of '18, but this is not set in stone and is dependant on development.
 
 
 
 + <b>Q: How will I be able to buy Chia?</b>
 
-A: We're planning on doing some kind of sales to the public, working over that with lawyers at the moment. We need to do some amount of fund-raising because there's quite a bit of work to do done just getting the thing up and running and it would be nice to fund ongoing development and enhancements in the future (many of which will be shared with Bitcoin). There will be a pre-mine (er, pre-farm) of currency whose allocation will be split between being earmarked to fund future development and going to the team. The funding mechanism will be transparent and available publicly before sales commence.
+A: We're planning on doing some kind of sales to the public, working over that with lawyers at the moment. We need to do some amount of fund-raising because there's quite a bit of work still to be done. We're just getting the thing up and running and it would be nice to fund ongoing development and enhancements in the future (many of which will be shared with Bitcoin). There will be a pre-mine (er, pre-farm) of currency whose allocation will be split between being earmarked to fund future development and going to the team. The funding mechanism will be transparent and available publicly before sales commence.
 
 
 
@@ -84,7 +84,7 @@ A: Because burstcoin doesn't have the proof of time component, there are some at
 
 
 
-+ <b>: How is Chia  going to be funded?</b>
++ <b>Q: How is Chia going to be funded?</b>
 
 A: We have enough development work to do that raising funds is necessary to make it happen. We're going to try to do so in a way which is as transparent and open to the public as possible
 
@@ -134,7 +134,7 @@ A: There will be farming rewards but they won't have halving so the amount in ci
 
 + <b>Q: Will Chia be open source?</b>
 
-A: We'll release acaidemic papers about the building blocks, and all implementation code will be open source. We're going to use the Apache license. There's some chance we'll keep it a bit more proprietary when testnet is out but mainnet isn't up yet, but definitely Apache once mainnet is up
+A: We'll release academic papers about the building blocks, and all implementation code will be open source. We're going to use the Apache license. There's some chance we'll keep it a bit more proprietary when testnet is out but mainnet isn't up yet, but definitely Apache once mainnet is up
 
 
 
