@@ -78,7 +78,7 @@ A: The likely outcome is that it rapidly becomes unprofitable to buy hard drives
 
 
 
-+ <b>Q: How is Chia any different from other stoage coins such as Burst?</b>
++ <b>Q: How is Chia any different from other storage coins such as Burst?</b>
 
 A: Because burstcoin doesn't have the proof of time component, there are some attacks that make it unsuitable as a mining algorithm.
 
