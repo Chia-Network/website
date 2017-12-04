@@ -14,7 +14,7 @@ A: Chia farming is a bit like mining in that it's how blocks are made. Farming w
 
 + <b>Q: Main difference between Chia and Bitcoin?</b>
 
-A: A cryptocurrency that is mined with hard drives instead of processing power, allowing easier access to users, and vastly reducing the cost/waste of securing the network (electricity burned).  Chia is resistant to miner centralization. Chia has a bunch of basic improvements: Everything is BLS signatures for better smart transaction support, and a bunch of bug fixes like timewarp. The goal is to make hard forks effectively impossible, so governance will come from user choice and bitcoin-like decentralized incentives.
+A: A cryptocurrency that is farmed with hard drives instead of mining with processing power, allowing easier access to users, and vastly reducing the cost/waste of securing the network (electricity burned).  Chia is resistant to farmer centralization. Chia has a bunch of basic improvements: Everything is BLS signatures for better smart transaction support, and a bunch of bug fixes like timewarp. The goal is to make hard forks effectively impossible, so governance will come from user choice and bitcoin-like decentralized incentives.
 
 
 
@@ -74,7 +74,7 @@ A: Your chances of farming the next block are directly proportional to your amou
 
 + <b>Q: Is it worth buying hard drives to farm Chia?</b>
 
-A: The likely outcome is that it rapidly becomes unprofitable to buy hard drives just for the purposes of farming, so you'll always be able to get rewards off your unused storage. They'll likely be small, but it isn't costing you anything extra if you already have the storage for some other reason. People have already paid for a lot of not used storage capacity, there's ridiculous excess resources available, so it will be unprofitable to buy storage just for the sake of farming. This is directly related to storage being useful for other things, although it isn't 'useful' mining in the sense that the calculation itself isn't productive, but it is leveraging a useful resource
+A: The likely outcome is that it rapidly becomes unprofitable to buy hard drives just for the purposes of farming, so you'll always be able to get rewards off your unused storage. They'll likely be small, but it isn't costing you anything extra if you already have the storage for some other reason. People have already paid for a lot of not used storage capacity, there's ridiculous excess resources available, so it will be unprofitable to buy storage just for the sake of farming. This is directly related to storage being useful for other things, although it isn't 'useful' farming in the sense that the calculation itself isn't productive, but it is leveraging a useful resource
 
 
 
@@ -129,6 +129,12 @@ A: There will still be some rewards for desktop farmers and the cost will still 
 + <b>Q: Will Chia have a similar supply to that of Bitcoin?</b>
 
 A: There will be farming rewards but they won't have halving so the amount in circulation increases without bound but the proportion of coins (grains?) minted (grown?) each year goes down as a fraction of the total so far
+
+
+
++ <b>Q - "How is chia resistant to miner centralization?"
+
+A: Chia Network uses vacant hard disk drive (HDD) space to farm seeds. As there is so much HDD space available and anyone with HDD space will be able to farm, this makes farming decentralized. A Bitcoin Asic centralized mining system makes the formation of blocks a centralized process because ASIC mining and electricity costs are beyond many people's affordability. Manufacturers of HDD could optimize to farm faster, but the cost of doing so is not worth the reward. Thus Chia will be the most decentralized cryptocurrency on the market.
 
 
 
