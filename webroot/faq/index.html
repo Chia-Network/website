@@ -46,7 +46,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="//cdn.rawgit.com/showdownjs/showdown/1.6.4/dist/showdown.min.js"></script>
     <script>
-        $.get('//raw.githubusercontent.com/Chia-Network/faq/master/faq.md', function(md){
+        $.get('faq.md', function(md){
                     $('.doc').html(new showdown.Converter().makeHtml(md));  
         });
     </script>
