@@ -5,6 +5,7 @@ learn-more = Learn more
 recent-talk = A <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">recent talk</a> (starts about 20:00) with <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">slides</a>. An <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">older talk</a> with <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>. <br />A very <a href="https://eprint.iacr.org/2017/893">technical paper</a> on proofs of space.
 sell-plan = We plan to sell Chia to the public next year to allow everyone to invest in a better digital money.
 subscribe = Subscribe to the <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list</a> to learn more.
+get-chia = Get Chia
 community = Community
 join-keybase = Join our Keybase group to participate in discussion.
 install-keybase =  Install and setup <a href="https://keybase.io/download">Keybase</a>
