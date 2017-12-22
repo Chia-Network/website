@@ -16,6 +16,12 @@
     <meta name="apple-mobile-web-app-title" content="Chia">
     <meta name="application-name" content="Chia">
     <meta name="theme-color" content="#ffffff">
+
+    <!-- translation -->
+    <meta name="defaultLanguage" content="en-US">    
+    <meta name="availableLanguages" content="en-US, fr, ja">
+    <link rel="localization" href="locales/app.{locale}.ftl">
+    <script defer src="./node_modules/l20n/dist/web/l20n.js"></script>
   </head>
   <body class="layout">
     <div class="page js-page">
@@ -30,7 +36,7 @@
                 </div>
                 <div class="col-lg-10 col-md-6 col-sm-6 col-xs-12">
                   <div class="box header-button">
-                    <a href="#jobs">we're hiring!</a>
+                    <a data-l10n-id="hiring" href="#jobs">we're hiring!</a>
                   </div>
                 </div>
               </div>
@@ -42,10 +48,10 @@
       <div class="wrap container-fluid" style="padding-bottom:0;padding-top:10px;">
         <div class="row">
           <div class="col-lg-4">
-            <div class="box"><h1>green money for<br />a digital world</h1></div>
+            <div class="box"><h1 data-l10n-id="slogan">green money for<br />a digital world</h1></div>
           </div>
           <div class="col-lg-7 col-lg-offset-1">
-            <div class="box"><p><br />
+            <div class="box" data-l10n-id="mission"><p><br />
               We're building a blockchain based on proofs of space and time to make a cryptocurrency which is less wasteful, more decentralized, and more secure.
             </p>
             </div>
