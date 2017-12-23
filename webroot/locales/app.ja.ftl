@@ -12,6 +12,8 @@ jobs = 求人
 
 learn-more = 更に詳しく知る
 
+faq = Frequently Asked Questions
+
 financial-instituations = 金融機関
 
 slogan = 電子世界の為の<br />グリーンマネー

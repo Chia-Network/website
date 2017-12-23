@@ -12,6 +12,8 @@ jobs = Jobs
 
 learn-more = Learn more
 
+faq = Frequently Asked Questions
+
 financial-instituations = Financial Institutions
 
 slogan = l'argent vert pour un monde numérique
