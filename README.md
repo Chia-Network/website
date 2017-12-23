@@ -23,7 +23,9 @@ with its rules and syntax before adding content or translations.
 
 ## Guidelines for new content in existing files
 
-- All text section elements must include the `data-l10n-id="text-id"` attribute
+- All text section elements must include the `data-l10n-id="text-id"` attribute:
+
+        `<span data-l10n-id="new-text-section">This is a new section of text</span>`
 
 - Before adding new translation entries, make sure one does not already exist by checking the [app.en-US.ftl](locales/app.en-US.ftl)
 
