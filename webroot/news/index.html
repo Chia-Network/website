@@ -17,6 +17,12 @@
     <meta name="apple-mobile-web-app-title" content="Chia">
     <meta name="application-name" content="Chia">
     <meta name="theme-color" content="#ffffff">
+
+    <!-- translation -->
+    <meta name="defaultLanguage" content="en-US">    
+    <meta name="availableLanguages" content="en-US, fr, ja">
+    <link rel="localization" href="/locales/app.{locale}.ftl">
+    <script defer src="/js/l20n.min.js"></script>    
 </head>
 <body id="news-feed-page">
 <header class="hero header">
@@ -41,11 +47,11 @@
                     <div class="row">
                         <div class="col-lg-6 col-sm-12 col-md-12">
                             <!--<div class="box" style="text-align:center;"><h2>Get Chia</h2>-->
-                            <div class="box"><h3>Chia in News</h3></div>
+                            <div class="box"><h3 data-l10n-id="in-the-news">Chia in News</h3></div>
                         </div>
                         <div class="col-lg-6  col-sm-12 col-md-12">
-                            <div class="box"><br />Get the Latest and Updated Newscast from Chia
-                                <p>
+                            <div class="box" data-l10n-id="get-the-latest-news"><br />Get the Latest and Updated Newscast from Chia
+                                <p data-l10n-id="join-announcement-list">
                                     Join our <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list</a> to keep updated.
                                 </p>
                             </div>
@@ -230,7 +236,7 @@
                             <div class="box">
                                 <div class="grey-fade">
                                     <img src="../images/leaf.png" style="max-width:100px;" />
-                                    <h2>green money for a digital world</h2><br />
+                                    <h2 data-l10n-id="slogan">green money for a digital world</h2><br />
                                     <p>
                                         <a href="mailto:hello@chia.network">hello@chia.network</a><br />
                                         (650) 924-2785<br />

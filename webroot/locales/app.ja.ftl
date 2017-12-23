@@ -18,8 +18,11 @@ financial-instituations = 金融機関
 
 slogan = 電子世界の為の<br />グリーンマネー
 
+in-the-news = Chia in the News
+
 
 // longer content sections
+get-the-latest-news = <br />Get the Latest and Updated Newscast from Chia
 
 mission = 私達はブロックチェーンをproofs of spaceと時間に基いて構築し暗号通貨をより無駄が少ない、より分散化された、より安全なものにします。
 

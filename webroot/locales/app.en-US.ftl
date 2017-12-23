@@ -18,8 +18,11 @@ financial-instituations = Financial Institutions
 
 slogan = green money for a digital world
 
+in-the-news = Chia in the News
+
 
 // longer content sections
+get-the-latest-news = <br />Get the Latest and Updated Newscast from Chia
 
 mission = We're building a blockchain based on proofs of space and time to make a cryptocurrency 
     which is less wasteful, more decentralized, and more secure.
