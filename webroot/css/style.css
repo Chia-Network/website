@@ -14,22 +14,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 220%;
+  font-size: 200%;
   line-height: 140%;
   text-align: right;
 }
 
 h2 {
-  font-size: 200%;
+  font-size: 180%;
 }
 
 h3 {
-  font-size: 190%;
+  font-size: 170%;
 }
 
 h4 {
   color: rgb(130,130,130);
-  font-size: 140%;
+  font-size: 130%;
   margin: 8px;
 }
 
