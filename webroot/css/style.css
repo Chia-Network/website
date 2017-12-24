@@ -55,11 +55,11 @@ a:hover {
 
 .header .wrap {
   padding-bottom: 20px;
-  padding-top: 10px;
+  padding-top: 22px;
 }
 
 .logo {
-  max-width: 95%;
+  max-width: 115%;
 }
 
 .hero {
@@ -68,7 +68,7 @@ a:hover {
 
 .header-button {
   font-size: 90%;
-  padding-top: 12px;
+  padding-top: 30px;
   text-align: right;
 }
 
