@@ -2,7 +2,7 @@
 
 hiring = 人材募集中！
 
-get-chia = 得る Chia
+get-chia = Get Chia
 
 community = コミュニティ
 
