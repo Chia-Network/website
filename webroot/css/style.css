@@ -80,10 +80,14 @@ a:hover {
   margin-top: 12px;
   padding: 8px 15px;
   text-decoration: none;
+  
+  -webkit-transition-duration: 0.5s;
+   transition-duration: 0.5s;
 }
 
 .header-button a:hover {
   background-color: rgb(230,230,230);
+  color: black;
 }
 
 .info-box {
@@ -172,7 +176,6 @@ ol.info-box {
 /*.grey-fade h2:hover {
   color: rgb(64,171,92);
 }*/
-
 
 .page-footer {
   background-color: rgb(80,80,80);
