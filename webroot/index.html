@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>chia.network</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
-    <link rel="stylesheet" href="css/style.css" type="text/css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Roboto" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -21,7 +21,11 @@
     <meta property="og:url" content="https://chia.network/" />
     <meta property="og:image" content="https://chia.network/android-chrome-384x384.png" />
     <meta property="og:description" content="We're building a blockchain based on proofs of space and time to make a cryptocurrency which is less wasteful, more decentralized, and more secure." />
-  </head>
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
+	
+ </head>
   <body class="layout">
     <div class="page js-page">
 
@@ -49,8 +53,15 @@
           </div>
         </div>
       </header>
-
-      <div class="wrap container-fluid" style="padding-bottom:0;padding-top:10px;">
+	  
+	  
+	  <script>
+	  AOS.init({
+	  duration: 1100
+	  });
+	  </script>
+	  
+      <div class="wrap container-fluid" style="padding-bottom:0;padding-top:15px;" data-aos="zoom-in" aos-duration="1600">
         <div class="row">
           <div class="col-lg-4">
             <div class="box"><h1>green money for<br />a digital world</h1></div>
@@ -64,7 +75,7 @@
         </div>
       </div>
 
-      <div class="wrap container-fluid" style="padding-bottom:60px;padding-top:10px;">
+      <div class="wrap container-fluid" style="padding-bottom:60px;padding-top:35px;" data-aos="zoom-in" aos-duration="1600">
         <div class="row">
           <div class="col-lg-4">
             <div class="box centered">
@@ -84,7 +95,7 @@
         </div>
       </div>
 
-      <div class="wrap container-fluid" style="padding-bottom:60px;padding-top:10px;">
+      <div class="wrap container-fluid" style="padding-bottom:60px;padding-top:10px;" data-aos="zoom-in-up" aos-duration="1600">
         <div class="row">
           <div class="col-lg-12">
             <div class="box centered">
@@ -102,17 +113,20 @@
         </div>
       </div>
 
-      <div class="hero get-chia">
+      <div class="hero get-chia" data-aos="fade-right">
         <div class="row">
           <div class="col-lg-12 wrap">
             <div class="box">
               <div class="wrap container-fluid">
                 <div class="row">
                   <div class="col-lg-6">
-                    <div class="box"><p><br />
+                    <div class="box" data-aos="fade-right" aos-duration="1600">
+					<p>
+					<br/>
                       We plan to sell Chia to the public next year to allow everyone to invest in a better digital money.
                       </p>
-                      <p>
+                      
+					  <p>
                       Subscribe to the <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list</a> to learn more.
                       </p>
                     </div>
@@ -132,7 +146,7 @@
       </div>
 
 	  <a name="community"></a>
-      <div class="hero community">
+      <div class="hero community" data-aos="fade-left">
         <div class="row">
           <div class="col-lg-12 wrap">
             <div class="box">
@@ -142,7 +156,8 @@
                     <div class="box"><h3>Community</h3></div>
                   </div>
                   <div class="col-lg-6">
-                    <div class="box"><br />Join our Keybase group to participate in discussion.
+                    <div class="box" data-aos="fade-left" aos-duration="1600">
+					<br />Join our Keybase group to participate in discussion.
                       <ol class="info-box">
                         <li>
                           Install and setup <a href="https://keybase.io/download">Keybase</a>
@@ -164,7 +179,7 @@
       </div>
 
       <a name="jobs"></a>
-      <div class="hero jobs">
+      <div class="hero jobs" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-12 wrap">
             <div class="box">
@@ -186,7 +201,7 @@
         </div>
       </div>
 
-      <div class="hero fi">
+      <div class="hero fi" data-aos="fade-left">
         <div class="row">
           <div class="col-lg-12 wrap">
             <div class="box">
@@ -198,7 +213,7 @@
                     </div>
                   </div>
                   <div class="col-lg-8">
-                    <div class="box">
+                    <div class="box" data-aos="fade-left" aos-duration="1600">
                       <p>
                       Digital Money is being increasingly demanded by individual and institutional investors. Chia can help traditional financial institutions meet that demand.
                       </p>
@@ -218,7 +233,7 @@
       <div class="wrap container-fluid">
         <div class="row">
           <div class="col-lg-12">
-            <div class="box"><h3>About Us</h3>
+            <div class="box" data-aos="fade-up"><h3>About Us</h3>
             <p>
               Chia Network is a San Francisco-based company focused on improving crypto-currency infrastructure. Our CEO, Bram Cohen, famously invented BitTorrent: the first modern decentralized network protocol and one of the inspirations for the Bitcoin protocol. Our founding team has experience across the crypto-currency and finance sectors, coming from Tradehill, CryptoCorp and Lightning Labs.
             </p></div>
