@@ -27,11 +27,11 @@ with its rules and syntax before adding content or translations.
 
         `<span data-l10n-id="new-text-section">This is a new section of text</span>`
 
-- Before adding new translation entries, make sure one does not already exist by checking the [app.en-US.ftl](locales/app.en-US.ftl)
+- Before adding new translation entries, make sure one does not already exist by checking the [app.en-US.ftl](website/locales/app.en-US.ftl)
 
-- Add new text entries and english translations to [app.en-US.ftl](locales/app.en-US.ftl)
+- Add new text entries and english translations to `app.en-US.ftl'
 
-- Add the same entries to the remaining [translation files](locales/)
+- Add the same entries to the remaining [translation files](website/locales/)
 
 ## Guidelines for new html files
 
