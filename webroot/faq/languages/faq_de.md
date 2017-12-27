@@ -1,4 +1,4 @@
-### Chia FAQ
+### Chia FAQ (Häufig gestellte Fragen)
 
 + <b>Q: Was ist Chia?</b>
 
@@ -42,7 +42,7 @@ A: Wir haben vor einen öffentlich Verkauf zu veranstalten und arbeiten darüber
 
 + <b>Q: Wie weit ist die Entwicklung von Chia?</b>
 
-A: Bisher wurde noch keine Code geschrieben. Etwas primitve Mathematik wurde schon ausgetüftelt und das wird bald öffentlich gemacht. Ich stelle gerade Programmierer ein und das Coden wird bald anfangen.
+A: Bisher wurde noch kein Code geschrieben. Etwas primitive Mathematik wurde schon ausgetüftelt und das wird bald öffentlich gemacht. Ich stelle gerade Programmierer ein und das Coden wird bald anfangen.
 
 
 
@@ -71,7 +71,7 @@ A: Ihre Chancen beim Farmen vom nächsten Block sind direkt proportional zu der 
 
 + <b>Q: Lohnt es sich dann, Festplatten zum Farmen von Chia zu kaufen?</b>
 
-A: Es wird wahrscheinlich so sein, dass es sehr schnell unwirtschaftlich wird sich Festplatten zu kaufen nur zum Farmen, also werden Sie immer Preise durch Ihren ungenutzten Speicherplatz bekommen können. Diese werden vermutlich gering sein, aber es wird Sie nichts zusätzliches kosten, wenn man schon den Speicher für andere Gründe hat. Die Leute haben schon längst viel für unausgeschöpfte Speicherkapazität bezahlt und es gibt unglaublich viele Ressourcen, die noch genutzt werden können, also wäre es nicht profitabel sich ein Laufwerk nur zum Farmen zu kaufen. Das hängt direkt damit zusammen, dass der Speicher für andere Dinge nützlich sein kann, auch wenn es nicht "nützliches" Farmen in dem Sinne ist, dass die Rechnung nicht produktiv ist, aber es wäre eine Aushebelung für eine nützliche Ressource.
+A: Es wird wahrscheinlich so sein, dass es sehr schnell unwirtschaftlich wird sich Festplatten zu kaufen nur zum Farmen, also werden Sie immer Preise durch Ihren ungenutzten Speicherplatz bekommen können. Diese werden vermutlich gering sein, aber es wird Sie nichts Zusätzliches kosten, wenn man schon den Speicher für andere Gründe hat. Die Leute haben schon längst viel für unausgeschöpfte Speicherkapazität bezahlt und es gibt unglaublich viele Ressourcen, die noch genutzt werden können, also wäre es nicht profitabel sich ein Laufwerk nur zum Farmen zu kaufen. Das hängt direkt damit zusammen, dass der Speicher für andere Dinge nützlich sein kann, auch wenn es nicht "nützliches" Farmen in dem Sinne ist, dass die Rechnung nicht produktiv ist, aber es wäre eine Aushebelung für eine nützliche Ressource.
 
 + <b>Q: Wie ist Chia anders verglichen mit anderen Speicher Coins, wie Burst?</b>
 
@@ -91,61 +91,60 @@ A: Chia wird das Lightning Netzwerk von Haus aus unterstützen, also werden die 
 
 
 
-+ <b>Q: Any other Chia developments in the works?</b>
++ <b>Q: Sind andere Entwicklungen für Chia in Arbeit?</b>
 
-A: After the initial release focus will be on supporting lightning as it is today, adding in off-chain channels, supporting MAST and probably simplicity and covenants to support vaults. Chia is going to support atomic swaps out of the gate. We're starting with Bitcoin script using BLS signatures instead of DSA. The plan is to roll releases out in conjunction with Bitcoin rollouts because it's based on the same codebase.
-
-
-
-+ <b>Q: What scripting language will Chia use?</b>
-
-A: We will be going with minimally modified Bitcoin script for starters (switch to BLS signatures) and longer term probably going with Simplicity. We're building on the Bitcoin codebase, so C/C++.
+A:  Nach der Erstveröffentlichung wird wir uns darauf konzentrieren, Lightning zu zu unterstützen, wie es jetzt ist, off-chain Kanäle hinzuzufügen, eine Unterstützung für MAST einzubauen und wahrscheinlich auch Simplicity und Smart Contracts, um Vaults zu unterstützen. Chia wird von Anfang an Atomic Swaps unterstützen. Wir werden mit Bitcoin Skripten und BLS Signaturen anfangen, anstatt mit DSA. Es ist geplant, Versionen in Einklang mit Bitcoin zu veröffentlichen, da es die gleiche Codebasis ist.
 
 
 
-+ <b>Q: How will Chia farming difficulty adjust?</b>
++ <b>Q: Welche Skriptsprache wird Chia nutzen?</b>
 
-A: Like Bitcoin, difficulty will dynamically adjust to keep block time regular. As a result, as farming competition goes up, you can expect rewards from a particular disk to go down. We do not expect farming to have a high enough expected value to be worth purchasing drives in order to farm.
-
-
-
-+ <b>Q: How large will a hard drive have to be?</b>
-
-A: There will likely be a minimum allocation size of 100 GB or 1 TB or so. It isn't so much to enforce a minimum as to require a minimum amount of wall clock time to pass before an allocation can be done so attackers can't repeatedly generate and try new allocations instead of doing a single lookup.
+A: Wir werden erst einmal ein minimal verändertes Bitcoin Skript nutzen (Wechsel zu BSL-Signaturen) und längerfristig werden wir wahrscheinlich mit Simplicity arbeiten. Wir bauen auf der Bitcoin Codebasis auf, also C/C++.
 
 
 
-+ <b>Q: Would I be able to farm Chia on my desktop?</b>
++ <b>Q: Wie wird sich der Schwierigkeitsgrad des Chia-Farmens anpassen?</b>
 
-A: There will still be some rewards for desktop farmers and the cost will still be effectively zero for some nonzero rewards. It isn't like Bitcoin mining where a desktop loses money mining because of the electricity it's burning.
-
-
-
-+ <b>Q: Will Chia have a similar supply to that of Bitcoin?</b>
-
-A: There will be farming rewards but they won't have halving so the amount in circulation increases without bound but the proportion of coins (grains?) minted (grown?) each year goes down as a fraction of the total so far.
+A: Wie Bitcoin wird der Schwierigkeitsgrad sich dynamisch anpassen, damit Block-Zeiten regulär bleiben. Als Folge wird der Wettbewerb beim Farmen ansteigen und die Menge der Preise pro Festplatte wird sinken. Wir erwarten nicht, dass das Farmen so viel Geld einbringt, dass man sich damit eine neue Festplatte zum Farmen kaufen wird.
 
 
 
-+ <b>Q: How is chia resistant to miner centralization?</b>
++ <b>Q: Wie groß wird eine Festplatte mindestens sein müssen?</b>
 
-A: Chia Network uses vacant hard disk drive (HDD) space to farm seeds. As there is so much HDD space available and anyone with HDD space will be able to farm, this makes farming decentralized. A Bitcoin Asic centralized mining system makes the formation of blocks a centralized process because ASIC mining and electricity costs are beyond many people's affordability. Manufacturers of HDD could optimize to farm faster, but the cost of doing so is not worth the reward. Thus Chia will be the most decentralized cryptocurrency on the market.
-
-
-
-+ <b>Q: Will Chia be open source?</b>
-
-A: We'll release academic papers about the building blocks, and all implementation code will be open source. We're going to use the Apache license. There's some chance we'll keep it a bit more proprietary when testnet is out but mainnet isn't up yet, but definitely Apache once mainnet is up.
+A: Es wird vermutlich eine Mindestzuteilungsgröße geben von, beispielsweise, 100 GB oder 1 TB. Es geht weniger darum, ein Minimum zu erzwingen, sondern eher darüber, dass eine Mindestmenge an wall clock time vorbei sein muss, bis eine Zuweisung erfolgt, sodass Angreifer nicht wiederholt generieren und neue Zuweisungen versuchen können, anstatt einen einzelnen Lookup zu machen.
 
 
 
-+ <b>Q: Do you have whitepapers where I can read more?</b>
++ <b>Q: Werde ich Chia auf meinem Desktop farmen können?</b>
 
-A: Instead of just one whitepaper, we're going to have academic papers in journals. So far we have the one which got accepted to Asiacrypt (https://eprint.iacr.org/2017/893). There will be at least two more going over proofs of time and how to hook the whole thing together into a blockchain.
+A: Es wird einige Belohnungen für Desktop-Farmer geben und der Kostenaufwand wird effektiv bei null bleiben für wertvollere Entlohnungen. Es ist nicht so, wie das Minen von Bitcoin, wo Geld verloren geht, weil viel Strom verbraucht wird.
 
 
 
-+ <b>Q: Where can I find out more?</b>
++ <b>Q: Wird Chia ein ähnlich großes Angebot haben wie Bitcoin</b>
 
-A: You can sign up for the announcements list to get info as it comes out. Also we're available to discuss announcements on Keybase. Check out our homepage for links.
+A: Es wird Farm-Belohnungen geben, aber es wird nicht halbiert, also erhöht sich die Geldmenge im Umlauf ohne gebunden zu sein, aber der Anteil an Münzen (Getreide?), der jährlich gemünzt (angebaut?) wird, wird bisher als Teil des Ganzen gesehen.
 
+
+
++ <b>Q: Wie ist Chia gegenüber Miner Zentralisierung geschützt?</b>
+
+A: Chia Network nutzt freien Festplattenspeicher (HDD), um Seeds zu farmen. Da so viel HDD Platz verfügbar ist, kann jeder mit einer HDD farmen und das macht Farmen dezentralisiert. Das Erschaffen neuer Blöcke wird durch Bitcoin Asics zentralisiert, weil der Kostenaufwand für das ASIC Mining und für den Strom zu viel für die meisten Leute ist. Hersteller von HDDs könnten ihre Festplatten so optimieren, dass sie schneller farmen, aber das zu machen kosten zu viel, dass es finanziell etwas bringen könnte. Deshalb wird Chia die dezentralisierteste Kryptowährung auf dem Markt werden.
+
+
+
++ <b>Q: Wird Chia quelloffen sein?</b>
+
+A: Wir werden akademische Papiere über die Grundbestandteile veröffentlichen und der ganze verwirklichte Code wird quelloffen unter der Apache Lizenz verfügbar sein. Es kann sein, dass wir es noch etwas proprietär behalten werden, solange noch Testnet und noch nicht Mainnet draußen ist, wenn Mainnet dann aber läuft, definitiv Apache.
+
+
+
++ <b>Q: Habt ihr noch Publikationen, worin ich noch mehr erfahren kann?</b>
+
+A: Anstatt einer Publikation werden wir mehrere akademische Papiere in Zeitschriften veröffentlichen. Bisher haben wir eins, was von Asiacrypt aktzeptiert wurde (https://eprint.iacr.org/2017/893). Es wird mindestens noch zwei weitere geben, die über Proofs of Time und das Zusammenbringen des Ganzen in eine Blockchain sein werden.
+
+
+
++ <b>Q: Wo kann ich mehr erfahren?</b>
+
+A: Sie können sich an der Ankündigungsliste anmelden, um mehr aktuelle Informationen zu erhalten. Außerdem werden wir diese Ankündigungen auf Keybase diskutieren. Auf unserer Homepage befinden sich die Links.
