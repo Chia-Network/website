@@ -15,3 +15,5 @@ or with python 3:
 $ cd webroot
 $ python3 -m http.server
 ```
+
+Then browse to http://127.0.0.1:8000/
