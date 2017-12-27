@@ -12,7 +12,7 @@ jobs = 求人
 
 learn-more = 更に詳しく知る
 
-faq = Frequently Asked Questions
+faq = よくある質問
 
 financial-instituations = 金融機関
 
