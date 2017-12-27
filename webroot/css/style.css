@@ -10,26 +10,26 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: rgb(51,51,51);
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-  font-size: 220%;
+  font-size: 200%;
   line-height: 140%;
   text-align: right;
 }
 
 h2 {
-  font-size: 200%;
+  font-size: 180%;
 }
 
 h3 {
-  font-size: 190%;
+  font-size: 170%;
 }
 
 h4 {
   color: rgb(130,130,130);
-  font-size: 140%;
+  font-size: 130%;
   margin: 8px;
 }
 
@@ -76,7 +76,7 @@ a:hover {
   border: 1px solid rgb(153,153,153);
   border-radius: 4px;
   color: rgb(102,102,102);
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-top: 12px;
   padding: 8px 15px;
   text-decoration: none;
