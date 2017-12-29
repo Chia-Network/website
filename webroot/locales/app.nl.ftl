@@ -47,8 +47,8 @@ join-announcement-list = Schrijf je in op <a href="https://groups.google.com/a/c
 looking-to-hire = We zijn op zoek naar technisch getalenteerde developers die ons huidig team van cryptographers kunnen versterken.
     Uitstekende algoritme skills zijn een must.
     Ervaring met cryptography is een plus maar geen vereiste. Remote werken is een mogelijkheid maar gevestigd in San Francisco is een voordeel.
-    To apply please do several HackerRank challenges and send a link to your
-    HackerRank profile plus your resume to <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
+    Interesse? Los een aantal HackerRank challenges op en stuur ons jouw HackerRank profiel samen met jouw CV naar het volgend emailadres:
+    <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
 
 hiring-detail = We zijn ook op zoek naar een assistant voor de oprichters  (Executive Assistant/Office manager). Location is in San Francisco.
     Om te solliciteren,  verstuur jouw cv naar <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
