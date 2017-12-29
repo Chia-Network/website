@@ -22,7 +22,7 @@ in-the-news = Chia in de pers
 
 
 // longer content sections
-get-the-latest-news = <br />Get the Latest and Updated Newscast from Chia
+get-the-latest-news = <br />Bekijk het laatste nieuws van Chia
 
 mission = We bouwen een blockchain gebasseerd op "proofs of space" en "proofs of time" voor een minder belastend cryptocurrency, meer gedecentraliseerd en veiliger.
 
@@ -32,7 +32,7 @@ recent-talk = Een <a href="https://www.facebook.com/BerkeleyBlockchain/videos/20
     <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>. <br />
     Een <a href="https://eprint.iacr.org/2017/893">zeer technische paper</a> over "proofs of space".
 
-sell-plan = We plannen de publieke verkoop van Chia  to allow everyone to invest in a better digital money.
+sell-plan = De publieke verkoop van Chia is gepland in de loop van volgend jaar zo is het voor iedereen mogelijk om te investeren in betere digitale munt.
 
 subscribe = Schrijf je in op <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">onze nieuwsbrief</a> en blijf op de hoogte.
 
@@ -46,7 +46,8 @@ join-announcement-list = Schrijf je in op <a href="https://groups.google.com/a/c
 
 looking-to-hire = We zijn op zoek naar technisch getalenteerde developers die ons huidig team van cryptographers kunnen versterken.
     Uitstekende algoritme skills zijn een must.
-    Ervaring met cryptography is een plus maar geen vereiste. Remote werken is een mogelijkheid maar gevestigd in San Francisco is een voordeel. To apply please do several HackerRank challenges and send a link to your
+    Ervaring met cryptography is een plus maar geen vereiste. Remote werken is een mogelijkheid maar gevestigd in San Francisco is een voordeel.
+    To apply please do several HackerRank challenges and send a link to your
     HackerRank profile plus your resume to <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
 
 hiring-detail = We zijn ook op zoek naar een assistant voor de oprichters  (Executive Assistant/Office manager). Location is in San Francisco.
@@ -59,5 +60,4 @@ contact-us = <a href="mailto:hello@chia.network">Contacteer ons</a> voor meer in
 
 about-detail = Het Chia Network is een bedrijf gevestigd in San Francisco met als doel de cryptocurrency infrastructuur te verbeteren.
     Onze CEO, Bram Cohen, uitvinder van BitTorrent: het eerste moderne gedecentraliseerde netwerk protocol en een van de inspiraties van het Bitcoin protocol.
-    Ons huidig team heeft ervaring in de cryptocurrency en financiële sector.  experience across the crypto-currency and finance
-    sectors, coming from Tradehill, CryptoCorp and Lightning Labs.
+    Ons huidig team heeft ervaring in de cryptocurrency en financiële sector.
