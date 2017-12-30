@@ -40,7 +40,7 @@ with its rules and syntax before adding content or translations.
 
 ````html
     <meta name="defaultLanguage" content="en-US">
-    <meta name="availableLanguages" content="en-US, fr, ja">
+    <meta name="availableLanguages" content="en-US, fr, ja, nl">
     <link rel="localization" href="./locales/app.{locale}.ftl">
     <script defer src="./js/l20n.min.js"></script>
 ````
