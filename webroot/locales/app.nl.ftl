@@ -24,11 +24,11 @@ in-the-news = Chia in de pers
 // longer content sections
 get-the-latest-news = <br />Bekijk het laatste nieuws van Chia
 
-mission = We bouwen een blockchain gebasseerd op "proofs of space" en "proofs of time" voor een minder belastend cryptocurrency, meer gedecentraliseerd en veiliger.
+mission = We bouwen een blockchain gebaseerd op "proofs of space" en "proofs of time" voor een minder belastend cryptocurrency, meer gedecentraliseerd en veiliger.
 
 recent-talk = Een <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">recente presentatie</a> (start rond 20:00) met
     <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">slides</a>.
-    Een <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">oudere presentatie</a> with
+    Een <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">oudere presentatie</a> met
     <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>. <br />
     Een <a href="https://eprint.iacr.org/2017/893">zeer technische paper</a> over "proofs of space".
 
@@ -50,7 +50,7 @@ looking-to-hire = We zijn op zoek naar technisch getalenteerde developers die on
     Interesse? Los een aantal HackerRank challenges op en stuur ons jouw HackerRank profiel samen met jouw CV naar het volgend emailadres:
     <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
 
-hiring-detail = We zijn ook op zoek naar een assistant voor de oprichters  (Executive Assistant/Office manager). Location is in San Francisco.
+hiring-detail = We zijn ook op zoek naar een assistent voor de oprichters  (Executive Assistant/Office manager). Locatie is San Francisco.
     Om te solliciteren,  verstuur jouw cv naar <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
 
 financial-instituation-value-prop = De vraag naar digitaal geld door zowel particulieren en bedrijven wordt steeds groter.
