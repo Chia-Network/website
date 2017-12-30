@@ -28,8 +28,16 @@ mission = 私達はブロックチェーンをproofs of spaceと時間に基い�
 
 recent-talk = <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">スライド</a>を使用した
     <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">最近の講演</a>(20分頃から始まります)。
-    <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">スライド</a>を使用した<a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">以前の講演</a>。
-    <br />proofs of spaceについての非常に<a href="https://eprint.iacr.org/2017/893">技術的な論文</a>
+
+older-talk =  <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">スライド</a>を使用した
+    <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">以前の講演</a>。
+    <br />
+
+tech-paper-link = proofs of spaceについての非常に<a href="https://eprint.iacr.org/2017/893">技術的な論文</a>
+
+news-link = Follow the latest articles in the <a href="/news">news</a> section.
+
+faq-link = <a href="faq/">Frequently Asked Questions (FAQ)</a>
 
 sell-plan = 私達は誰もがより良い電子通貨に投資できるよう、来年にChiaを一般公開する予定です。
 

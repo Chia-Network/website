@@ -29,9 +29,15 @@ mission = Nous construisons une blockchain basée sur des preuves d'espace et de
 
 recent-talk = A <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">recent talk</a> (starts about 20:00) with
     <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">slides</a>.
-    An <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">older talk</a> with
-    <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>. <br />
-    A very <a href="https://eprint.iacr.org/2017/893">technical paper</a> on proofs of space.
+
+older-talk = An <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">older talk</a> with
+    <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>.
+
+tech-paper-link = A very <a href="https://eprint.iacr.org/2017/893">technical paper</a> on proofs of space.
+
+news-link = Follow the latest articles in the <a href="/news">news</a> section.
+
+faq-link = <a href="faq/">Frequently Asked Questions (FAQ)</a>
 
 sell-plan = We plan to sell Chia to the public next year to allow everyone to invest in a better digital money.
 
