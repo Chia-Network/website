@@ -32,8 +32,7 @@ function changeLocale(locale) {
             document.l10n.requestLanguages([locale]);
             Cookies.set("locale", locale);
         }
-        catch (e)
-        {
+        catch (e) {
             Cookies.remove('locale');
         }
     }

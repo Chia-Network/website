@@ -1,11 +1,11 @@
-// depends on jquery, l20n.js and js.cookie
+// depends on jquery, and showdown.js
 
 // not all browsers support navigator.languages - if not just use the browser render language
 if (typeof navigator !== 'undefined' && navigator.languages === undefined) {
     navigator.languages = [navigator.language];
 }
 
-// when browser language changes reload the faq
+// when browser language changes, reload the faq
 $(window).bind("languagechange", function() {
     loadFaq();
 });
@@ -28,7 +28,7 @@ function loadFaq() {
 function getBrowserLocale()
 {
     if (typeof navigator !== 'undefined' && navigator.languages !== undefined) {
-        // use the first lanaguage in the list as the user's preference
+        // the first lanaguage in the list is the user's preference
         var userLang = navigator.languages[0];
 
         return userLang.split('-')[0];
