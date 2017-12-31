@@ -58,15 +58,15 @@ with its rules and syntax before adding content or translations.
     <meta name="availableLanguages" content="en-US, fr, ja, nl">
 ````
 
-- Add the new language to the footer links in each html file
+- Add the translated name of the langauge to the dictionary at the top of `locales.js`
 
-````html
-<div class="box">
-    <a class="langSwitch" locale="en-US" href="#">English</a>
-    <a class="langSwitch" locale="fr" href="#">Français</a>
-    <a class="langSwitch" locale="ja" href="#">日本語</a>
-    <a class="langSwitch" locale="nl" href="#">Nederlands</a>
-</div>
+````javascript
+var names = {
+   "en-US": "English",
+   "fr": "Français",
+   "ja": "日本語",
+   "nl": "Nederlands"
+};
 ````
 
 - Copy `locales/app.en-US.ftl` and rename it with the locale code being added.
