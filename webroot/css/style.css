@@ -295,3 +295,30 @@ ol.info-box {
   font-size: medium;
 }
 /*translation end*/
+
+.faq-doc {
+  padding-bottom:0;
+  padding-top:10px;
+}
+
+.leaf {
+  max-width:100px;
+}
+
+.big-leaf {
+  max-width:150px;
+}
+
+.v-padding {
+  padding-bottom:60px;
+  padding-top:10px;
+}
+
+.get-chia {
+  text-align:center;
+}
+
+.mission-banner {
+  padding-bottom:0;
+  padding-top:10px;
+}
