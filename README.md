@@ -27,11 +27,13 @@ with its rules and syntax before adding content or translations.
 
 - All text section elements must include the `data-l10n-id="text-id"` attribute:
 
-        `<span data-l10n-id="new-text-section">This is a new section of text</span>`
+````html
+    <span data-l10n-id="new-text-section">This is a new section of text</span>
+````
 
-- Before adding new translation entries, make sure one does not already exist by checking the [app.en-US.ftl](blob/master/webroot/locales/app.en-US.ftl)
+- Before adding new translation entries, make sure one does not already exist by checking the [app.en-US.ftl](webroot/locales/app.en-US.ftl)
 
-- Add new text entries and english translations to `app.en-US.ftl'
+- Add new text entries and english translations to `app.en-US.ftl`
 
 - Add the same entries to the remaining [translation files](webroot/locales/)
 
@@ -46,8 +48,32 @@ with its rules and syntax before adding content or translations.
     <script defer src="./js/l20n.min.js"></script>
 ````
 
-## Guidelines for new FAQ languages
+## Guidelines for adding languages
+
+### For html
+
+- Add the two character locale code to the following meta element in all existing html files
+
+````html
+    <meta name="availableLanguages" content="en-US, fr, ja, nl">
+````
+
+- Add the new language to the footer links in each html file
+
+````html
+<div class="box">
+    <a class="langSwitch" locale="en-US" href="#">English</a>
+    <a class="langSwitch" locale="fr" href="#">Français</a>
+    <a class="langSwitch" locale="ja" href="#">日本語</a>
+    <a class="langSwitch" locale="nl" href="#">Nederlands</a>
+</div>
+````
+
+- Copy `locales/app.en-US.ftl` and rename it with the locale code being added.
+- Translate away!
+
+### For the FAQ
 
 - Translations of the FAQ are kept in markdown, and don't use l20n
-- Copy [faq.md](blob/master/webroot/faq/faq.md) to the [translated markdown files](webroot/faq/locales/) folder, changing its name to `faq.<2 letter locale code>.md`
+- Copy [faq.md](/webroot/faq/faq.md) to the [translated markdown files](webroot/faq/locales/) folder, changing its name to `faq.<2 letter locale code>.md`
 - Translate away!
