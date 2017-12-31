@@ -15,6 +15,7 @@ or with python 3:
     $ cd webroot
     $ python3 -m http.server
 ````
+
 Then browse to http://127.0.0.1:8000/
 
 # Translations
@@ -44,3 +45,9 @@ with its rules and syntax before adding content or translations.
     <link rel="localization" href="./locales/app.{locale}.ftl">
     <script defer src="./js/l20n.min.js"></script>
 ````
+
+## Guidelines for new FAQ languages
+
+- Translations of the FAQ are kept in markdown, and don't use l20n
+- Copy [faq.md](faq/faq.md) to the [translated markdown files](faq/locales/) folder, changing its name to `faq.<2 letter locale code>.md`
+- Translate away!
