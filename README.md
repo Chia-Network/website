@@ -29,11 +29,11 @@ with its rules and syntax before adding content or translations.
 
         `<span data-l10n-id="new-text-section">This is a new section of text</span>`
 
-- Before adding new translation entries, make sure one does not already exist by checking the [app.en-US.ftl](website/locales/app.en-US.ftl)
+- Before adding new translation entries, make sure one does not already exist by checking the [app.en-US.ftl](blob/master/webroot/locales/app.en-US.ftl)
 
 - Add new text entries and english translations to `app.en-US.ftl'
 
-- Add the same entries to the remaining [translation files](website/locales/)
+- Add the same entries to the remaining [translation files](webroot/locales/)
 
 ## Guidelines for new html files
 
@@ -49,5 +49,5 @@ with its rules and syntax before adding content or translations.
 ## Guidelines for new FAQ languages
 
 - Translations of the FAQ are kept in markdown, and don't use l20n
-- Copy [faq.md](faq/faq.md) to the [translated markdown files](faq/locales/) folder, changing its name to `faq.<2 letter locale code>.md`
+- Copy [faq.md](blob/master/webroot/faq/faq.md) to the [translated markdown files](webroot/faq/locales/) folder, changing its name to `faq.<2 letter locale code>.md`
 - Translate away!
