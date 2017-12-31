@@ -28,9 +28,15 @@ mission = We bouwen een blockchain gebaseerd op "proofs of space" en "proofs of 
 
 recent-talk = Een <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">recente presentatie</a> (start rond 20:00) met
     <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">slides</a>.
-    Een <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">oudere presentatie</a> met
-    <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>. <br />
-    Een <a href="https://eprint.iacr.org/2017/893">zeer technische paper</a> over "proofs of space".
+
+older-talk = Een <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">oudere presentatie</a> met
+    <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>.
+
+tech-paper-link = Een <a href="https://eprint.iacr.org/2017/893">zeer technische paper</a> over "proofs of space".
+
+news-link = Follow the latest articles in the <a href="/news">news</a> section.
+
+faq-link = <a href="faq/">Frequently Asked Questions (FAQ)</a>
 
 sell-plan = De publieke verkoop van Chia is gepland in de loop van volgend jaar zo is het voor iedereen mogelijk om te investeren in betere digitale munt.
 
