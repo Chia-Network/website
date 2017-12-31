@@ -21,7 +21,7 @@
     <script src="//cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <!-- translation -->
     <meta name="defaultLanguage" content="en-US">
-    <meta name="availableLanguages" content="en-US, fr, ja">
+    <meta name="availableLanguages" content="en-US, fr, ja, nl">
     <link rel="localization" href="/locales/app.{locale}.ftl">
     <script defer src="/js/l20n.min.js"></script>
     <script defer src="/js/locales.js"></script>
@@ -255,11 +255,7 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-12 wrap">
-                          <div class="box">
-                            <a class="langSwitch" locale="en-US" href="#">English</a>
-                            <a class="langSwitch" locale="fr" href="#">Français</a>
-                            <a class="langSwitch" locale="ja" href="#">日本語</a>
-                          </div>
+                            <div class="box" id="lang-box"></div>
                         </div>
                     </div>
                 </div>
