@@ -18,9 +18,13 @@ or with python 3:
 
 Then browse to http://127.0.0.1:8000/
 
+# A note to contributors
+
+The [Content Secutiry Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy) used on this site requires all script and CSS to be external to the html files. This means that inline styles and embedded `script` elements will be blocked.
+
 # Translations
 
-This site uses [l20n.js]([https://http://l20n.org/) v5.0 to translate static html content. Please take a moment to familarize yourself
+This site uses [l20n.js](https://http://l20n.org/) v5.0 to translate static html content. Please take a moment to familarize yourself
 with its rules and syntax before adding content or translations.
 
 ## Guidelines for new content in existing files
