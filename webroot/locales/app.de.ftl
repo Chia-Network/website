@@ -38,7 +38,7 @@ news-link = Folge die neusten Artikel in den <a href="/news">Nachrichten</a>.
 
 faq-link = <a href="faq/">Häufig gestellte Fragen (FAQ)</a>
 
-sell-plan = Wir haben vor, Chia nächstes Jahr zum Verkauf anzubieten, damit jeder in eine bessere digitale Währung investieren kann.
+sell-plan = Wir haben vor, Chia 2018 zum Verkauf anzubieten, damit jeder in eine bessere digitale Währung investieren kann.
 
 subscribe = Abonniere die <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">Ankündigungsliste</a>, um mehr zu erfahren.
 
