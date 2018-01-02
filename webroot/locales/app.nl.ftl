@@ -38,7 +38,7 @@ news-link = Follow the latest articles in the <a href="/news">news</a> section.
 
 faq-link = <a href="faq/">Frequently Asked Questions (FAQ)</a>
 
-sell-plan = De publieke verkoop van Chia is gepland in de loop van volgend jaar zo is het voor iedereen mogelijk om te investeren in betere digitale munt.
+sell-plan = De publieke verkoop van Chia is gepland in de loop van 2018 zo is het voor iedereen mogelijk om te investeren in betere digitale munt.
 
 subscribe = Schrijf je in op <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">onze nieuwsbrief</a> en blijf op de hoogte.
 
