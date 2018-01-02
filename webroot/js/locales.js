@@ -4,7 +4,9 @@ var names = {
    "en-US": "English",
    "fr": "Français",
    "ja": "日本語",
-   "nl": "Nederlands"
+   "nl": "Nederlands",
+   "de": "Deutsche",
+   "es": "Español"
 };
 
 // this creates the list of manual language selection links at the bottom of each page
@@ -17,7 +19,7 @@ $.each($('meta[name=availableLanguages]').attr("content").split(','), function(k
     a.text = names[locale];
     a.setAttribute("locale", locale);
 
-    $('#lang-box').append(a).append(" ");
+    $('#lang-box').append(a).append("<span>  </span>");
 });
 
 $('.langSwitch').click(function() {
