@@ -14,7 +14,7 @@ learn-more = Erfahren Sie mehr
 
 faq = Häufig gestellte Fragen
 
-financial-instituations = Finanzinstitute
+financial-instituations = Finanz- institute
 
 slogan = Grünes Geld für eine digitale Welt!
 
