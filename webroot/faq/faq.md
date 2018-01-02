@@ -50,7 +50,7 @@ A: No code has been written yet. A bunch of mathematical primitives have been wo
 
 + <b>Q: When can I farm Chia?</b>
 
-A: There will be a public sale Q2 2018, and you'll be able to farm once the network launches.
+A: No hard dates to announce yet. We're still hoping for a public sale in Q2 and a Network launch near year end, but those dates remain subject to change.
 
 
 
@@ -148,6 +148,11 @@ A: We'll release academic papers about the building blocks, and all implementati
 
 A: Instead of just one whitepaper, we're going to have academic papers in journals. So far we have the one which got accepted to Asiacrypt (https://eprint.iacr.org/2017/893). There will be at least two more going over proofs of time and how to hook the whole thing together into a blockchain.
 
+
+
++ <b>Q: Who is in the Chia team?</b>
+
+A: Bram Cohen: @bramcohen, Ryan Singer: @ryan_singer , Richard Kiss: @richardkiss and Alex Wice: @alexwice 
 
 
 + <b>Q: Where can I find out more?</b>
