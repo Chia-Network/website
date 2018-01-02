@@ -19,7 +19,7 @@ $.each($('meta[name=availableLanguages]').attr("content").split(','), function(k
     a.text = names[locale];
     a.setAttribute("locale", locale);
 
-    $('#lang-box').append(a).append("<span>  </span>");
+    $('#lang-box').append(a).append(" ");
 });
 
 $('.langSwitch').click(function() {
