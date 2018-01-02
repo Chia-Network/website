@@ -39,7 +39,7 @@ news-link = Follow the latest articles in the <a href="/news">news</a> section.
 
 faq-link = <a href="faq/">Frequently Asked Questions (FAQ)</a>
 
-sell-plan = 私達は誰もがより良い電子通貨に投資できるよう、来年にChiaを一般公開する予定です。
+sell-plan = 私達は誰もがより良い電子通貨に投資できるよう、来2018にChiaを一般公開する予定です。
 
 subscribe = <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">スライド</a>
     を使用した<a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">最近の講演</a>(20分頃から始まります)。
