@@ -24,9 +24,9 @@ A: "Proof of Space" ist eigentlich gar nicht Speicher. Speicher besteht aus etwa
 
 
 
-+ <b>Q: Was bedeutet das Seeding von Chia?</b>
++ <b>Q: Was ist "Seeden"?</b>
 
-A: Seeding ist ein Vorgang, der jeden Sektor mehr als einmal liest und beschreibt; aber wenn ein Laufwerk geseeded ist, werden Sie solange farmen können, wie die Proofs auf der Festplatte bleiben. Die Laufwerke werden durch low-level APIs mit direktem Zugriff gelesen. Der Client wird eine Unterstützung für mehrere Festplatten beinhalten. Der einzige Grund zum erneuten seeden des Laufwerks besteht, wenn zu viele Proofs schon überschrieben wurden. Normalerweise bringt das Re-Seeden keine Vorteile. Das Seeden eines Laufwerks wird viel Zeit einmal pro Festplatte benötigen.
+A: "Seeden" ist ein Vorgang, der jeden Sektor mehr als einmal liest und beschreibt; aber wenn ein Laufwerk geseeded ist, werden Sie solange farmen können, wie die Proofs auf der Festplatte bleiben. Die Laufwerke werden durch low-level APIs mit direktem Zugriff gelesen. Der Client wird eine Unterstützung für mehrere Festplatten beinhalten. Der einzige Grund zum erneuten seeden des Laufwerks besteht, wenn zu viele Proofs schon überschrieben wurden. Normalerweise bringt das Re-Seeden keine Vorteile. Das Seeden eines Laufwerks wird viel Zeit einmal pro Festplatte benötigen.
 
 
 + <b>Q: Wann wird Chia starten?</b>
