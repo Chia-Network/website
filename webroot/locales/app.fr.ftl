@@ -39,7 +39,7 @@ news-link = Follow the latest articles in the <a href="/news">news</a> section.
 
 faq-link = <a href="faq/">Frequently Asked Questions (FAQ)</a>
 
-sell-plan = We plan to sell Chia to the public next year to allow everyone to invest in a better digital money.
+sell-plan = We plan to sell Chia to the public in Q2 of 2018 to allow everyone to invest in a better digital money.
 
 subscribe = Subscribe to the <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list</a> to learn more.
 
