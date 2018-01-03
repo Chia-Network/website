@@ -36,7 +36,7 @@ news-link = Sigue los últimos artículos en la sección de <a href="/news">noti
 
 faq-link = <a href="faq/">Preguntas frecuentess (FAQ)</a>
 
-sell-plan = Planeamos vender Chia al público el próximo año para permitir a todo el mundo invertir en una moneda digital mejor.
+sell-plan = Planeamos vender Chia al público en 2018 para permitir a todo el mundo invertir en una moneda digital mejor.
 
 subscribe = Subscríbete a la <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">lista de noticias</a> para saber más.
 
