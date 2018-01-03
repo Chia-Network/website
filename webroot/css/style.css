@@ -19,26 +19,26 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: rgb(51,51,51);
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-  font-size: 220%;
+  font-size: 200%;
   line-height: 140%;
   text-align: right;
 }
 
 h2 {
-  font-size: 200%;
+  font-size: 180%;
 }
 
 h3 {
-  font-size: 190%;
+  font-size: 170%;
 }
 
 h4 {
   color: rgb(130,130,130);
-  font-size: 140%;
+  font-size: 130%;
   margin: 8px;
 }
 
@@ -68,7 +68,7 @@ a:hover {
 }
 
 .logo {
-  max-width: 115%;
+  max-width: 105%;
 }
 
 .hero {
@@ -85,7 +85,7 @@ a:hover {
   border: 1px solid rgb(153,153,153);
   border-radius: 4px;
   color: rgb(102,102,102);
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-top: 12px;
   padding: 8px 15px;
   text-decoration: none;
@@ -96,7 +96,6 @@ a:hover {
 
 .header-button a:hover {
   background-color: rgb(230,230,230);
-  color: black;
 }
 
 .info-box {
@@ -151,7 +150,7 @@ ol.info-box {
 }
 
 .community {
-  background-image: url('../images/geo-bg.svg');
+  background-image: url('../images/geo-bg.png');
   background-size: 50%;
 }
 
@@ -186,6 +185,7 @@ ol.info-box {
   color: rgb(64,171,92);
 }*/
 
+
 .page-footer {
   background-color: rgb(80,80,80);
   color: rgb(255,255,255);
@@ -196,7 +196,7 @@ ol.info-box {
 /*Newsfeed start*/
 
 #news-feed-page .newsfeed {
-  background-image: url('../images/geo-bg.svg');
+  background-image: url('../images/geo-bg.png');
   background-size: 50%;
 }
 
@@ -288,14 +288,12 @@ ol.info-box {
 
 #news-feed-page .logo-news {
   max-width: 95%;
-  /*height: 100%;*/
-
+  height: 100%;
   opacity: 0.5;
-  padding-top: 17px;
+  padding-top: 10px;
 }
 
 #news-feed-page .news-box:hover .logo-news {
-	   vertical-align: middle;
   opacity: 1;
 }
 
@@ -303,3 +301,9 @@ ol.info-box {
   margin: 20px;
 }
 /*Newsfeed end*/
+
+/*translation start*/
+.langSwitch {
+  font-size: medium;
+}
+/*translation end*/
