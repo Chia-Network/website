@@ -6,7 +6,8 @@ var names = {
    "ja": "日本語",
    "nl": "Nederlands",
    "de": "Deutsch",
-   "es": "Español"
+   "es": "Español",
+   "sr": "Srpski"
 };
 
 // this creates the list of manual language selection links at the bottom of each page
