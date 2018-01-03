@@ -51,7 +51,6 @@ A: Bisher wurde noch kein Code geschrieben. Etwas primitive Mathematik wurde sch
 A: Es wird einen öffentlich zugänglichen Verkauf im zweiten Quartal von 2018 geben und Sie werden farmen können, wenn das Netzwerk startet.
 
 
-
 + <b>Q: Was bedeutet Proof of Time?</b>
 
 A: Technisch gesehen sind Proofs of Time auch Teil des Farming Prozesses, aber sie werden durch einige Akteure gemacht, die nichts davon direkt haben.

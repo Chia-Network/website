@@ -32,7 +32,7 @@ A: Seeding is a process that requires reading and writing every sector more than
 
 + <b>Q: When will Chia launch?</b>
 
-A: Chia plans to sale in Q2 and launch by end of 2018, but this is not set in stone and is dependant on development.
+A: Chia plans to sale in Q2 and launch by end of 2018, but this is not set in stone and is dependent on development.
 
 
 
@@ -50,7 +50,7 @@ A: No code has been written yet. A bunch of mathematical primitives have been wo
 
 + <b>Q: When can I farm Chia?</b>
 
-A: There will be a public sale next year, and you'll be able to farm once the network launches.
+A: There will be a public sale in Q2 of 2018, and you'll be able to farm once the network launches.
 
 
 
