@@ -5,7 +5,7 @@ var names = {
    "fr": "Français",
    "ja": "日本語",
    "nl": "Nederlands",
-   "de": "Deutsche",
+   "de": "Deutsch",
    "es": "Español"
 };
 
