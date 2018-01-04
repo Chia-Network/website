@@ -1,34 +1,63 @@
-.container{
-  max-width: 1200px;
-}
+
 
 .logo{
   width: 174px;
 }
 
-.greenrow{
+code{
+  font-size: 70%;
+  color: #000;
+}
+
+.med-icon {
+  max-width: 100px;
+  opacity: 0.3;
+}
+
+footer .container-fluid{
+  background-color: rgb(80, 80, 80);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 100px 0;
+}
+
+.container.hero h2{
+  font-size: 200%;
+}
+
+.container-fluid.green{
       background-color: rgb(64, 171, 92);
       padding: 120px 0;
       color: #fff;
 }
 
-.institutions{
-  background-image: url('../images/buildings.jpg');
-        color: #fff;
+.container-fluid.green h2, .container-fluid.institutions h2{
+      color: #fff;
+      font-size: 250%;
+      margin-bottom: 20px;
+}
 
+.container-fluid.green a, .container-fluid.institutions a{
+      color: #fff;
+}
+
+.container-fluid.institutions{
+  background-image: url('../images/buildings.jpg');
+  color: #fff;
+  padding: 120px 0;
 }
 
 .text-primary{
   color: rgb(51, 170, 255);
 }
 
-.communityrow{
+.container-fluid.community{
     background-image: url('../images/geo-bg.png');
     background-size: 50%;
     padding: 120px 0;
 }
 
-.communityrow .card, .communityrow .card .list-group-item{
+.container-fluid.community .card, .communityrow .card .list-group-item{
   background-color: rgba(255, 255, 255, 0.45);
 }
 
@@ -77,6 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   font-size: 180%;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -98,116 +128,12 @@ a:hover {
   opacity: 0.6;
 }
 
-.row {
-}
-
-.wrap {
-  box-sizing: border-box;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding-bottom: 40px;
-  padding-top: 40px;
-}
-
-.header .wrap {
-  padding-bottom: 20px;
-  padding-top: 10px;
-}
-
-.logo {
-  max-width: 95%;
-}
-
-.hero {
-  /* background-color: rgb(225,225,225); */
-}
-
-.header-button {
-  font-size: 90%;
-  padding-top: 12px;
-  text-align: right;
-}
-
-.header-button a {
-  border: 1px solid rgb(153,153,153);
-  border-radius: 4px;
-  color: rgb(102,102,102);
-  font-family: 'Poppins', sans-serif;
-  margin-top: 12px;
-  padding: 8px 15px;
+.navbar a.btn{
   text-decoration: none;
-}
-
-.header-button a:hover {
-  background-color: rgb(230,230,230);
-}
-
-.info-box {
-  border: 1px solid rgb(180,180,180);
-  border-radius: 8px;
-  color: rgb(160,160,160);
-  margin: 0 auto;
-  max-width: 70%;
-  padding: 10px 20px 0 20px;
-}
-
-ol.info-box {
-  background-color: rgba(255,255,255,0.45);
-  font-size: 94%;
-  max-width: 90%;
-  padding-left: 35px;
-}
-
-.info-box p {
-  font-size: 85%;
-}
-
-.get-chia {
-  background-color: rgb(64,171,92);
-  color: rgb(255,255,255);
-}
-
-.get-chia a {
-  color: rgb(255,255,255);
-}
-
-.get-chia a:hover {
-  opacity: 0.7;
-}
-
-.get-chia h2 {
-  color: rgb(255,255,255);
-  font-size: 250%;
 }
 
 .white-leaf {
   filter: brightness(200%) grayscale(100%);
-}
-
-.centered {
-  text-align: center;
-}
-
-.med-icon {
-  max-width: 100px;
-  opacity: 0.3;
-}
-
-.community {
-  background-image: url('../images/geo-bg.png');
-  background-size: 50%;
-}
-
-.fi {
-  background-image: url('../images/buildings.jpg');
-  color: rgb(255,255,255);
-  font-size: 150%;
-  line-height: 140%;
-}
-
-.fi h3 {
-  color: rgb(255,255,255);
-  line-height: 120%;
 }
 
 .grey-fade img {
@@ -228,13 +154,6 @@ ol.info-box {
 /*.grey-fade h2:hover {
   color: rgb(64,171,92);
 }*/
-
-
-.page-footer {
-  background-color: rgb(80,80,80);
-  color: rgb(255,255,255);
-  text-align: center;
-}
 
 
 /*Newsfeed start*/
@@ -314,7 +233,6 @@ ol.info-box {
 #news-feed-page .image-box{
   max-width: 95%;
 }
-
 
 
 #news-feed-page .read-more-link{
