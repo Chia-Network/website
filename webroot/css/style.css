@@ -1,4 +1,65 @@
+.container{
+  max-width: 1200px;
+}
 
+.logo{
+  width: 174px;
+}
+
+.greenrow{
+      background-color: rgb(64, 171, 92);
+      padding: 120px 0;
+      color: #fff;
+}
+
+.institutions{
+  background-image: url('../images/buildings.jpg');
+        color: #fff;
+
+}
+
+.text-primary{
+  color: rgb(51, 170, 255);
+}
+
+.communityrow{
+    background-image: url('../images/geo-bg.png');
+    background-size: 50%;
+    padding: 120px 0;
+}
+
+.communityrow .card, .communityrow .card .list-group-item{
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+.learn-more{
+  margin: 70px 0;
+}
+
+.row.jobs{
+  padding: 100px 0;
+}
+
+.chia-icons img{
+  margin: 30px 0;
+}
+
+.heading{
+  margin: 70px 0;
+}
+
+.slogan { text-align:right; }
+
+@media (max-width: 767px) {
+    .slogan { text-align:left; margin-bottom: 20px;}
+}
+
+@media (max-width: 576px) {
+
+    .navbar .container{
+      display: inline-block;
+      text-align: center;}
+}
 
 body {
   color: rgb(102,102,102);
@@ -6,17 +67,12 @@ body {
   font-size: 140%;
   line-height: 155%;
   margin: 0;
+  min-width: 320px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: rgb(51,51,51);
   font-family: 'Poppins', sans-serif;
-}
-
-h1 {
-  font-size: 200%;
-  line-height: 140%;
-  text-align: right;
 }
 
 h2 {
@@ -35,6 +91,7 @@ h4 {
 
 a {
   color: rgb(51,170,255);
+  text-decoration: underline;
 }
 
 a:hover {
@@ -42,7 +99,6 @@ a:hover {
 }
 
 .row {
-  margin-right: 0;
 }
 
 .wrap {
