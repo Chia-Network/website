@@ -5,3 +5,4 @@ New:
 - Serbian translation
 - New buttons
 - Scroll animations
+- New footer (https://prnt.sc/hvtbak)
