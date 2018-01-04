@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
     <link rel="stylesheet" href="/css/style.css" type="text/css" >
-    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -16,6 +16,24 @@
     <meta name="apple-mobile-web-app-title" content="Chia">
     <meta name="application-name" content="Chia">
     <meta name="theme-color" content="#ffffff">
+
+    <!-- translations -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="//cdn.rawgit.com/showdownjs/showdown/1.6.4/dist/showdown.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+	
+	<!-- .css for footer -->
+	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    
+    <meta name="defaultLanguage" content="en-US">
+    <meta name="availableLanguages" content="en-US, fr, ja, nl, de, es">
+    <link rel="localization" href="/locales/app.{locale}.ftl">
+    <script src="/js/l20n.min.js"></script>
+
+    <script defer src="/js/locales.js?v=4"></script>    
+    <script defer src="/js/locales.faq.js?v=7"></script>
   </head>
   <body class="layout">
     <div class="page js-page">
@@ -25,7 +43,7 @@
             <div class="box">
               <div class="row">
                 <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
-                  <div class="box"><img src="../images/chia-logo.png" class="logo" /></div>
+                  <div class="box"><a href="/"><img src="../images/chia-logo.png" class="logo" /></a></div>
                 </div>
               </div>
             </div>
@@ -36,20 +54,54 @@
       <div class="wrap container-fluid" style="padding-bottom:0;padding-top:10px;">
         <div class="row">
           <div class="col-lg-10 col-lg-offset-1">
-            <div class="doc">
-            </div>
-            </div>
+            <div class="doc"></div>            
           </div>
         </div>
       </div>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="//cdn.rawgit.com/showdownjs/showdown/1.6.4/dist/showdown.min.js"></script>
-    <script>
-        $.get('faq.md', function(md){
-                    $('.doc').html(new showdown.Converter().makeHtml(md));  
-        });
-    </script>
+      <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2 class="logo"><img src="../images/leaf.svg" style="max-width:100px;" /></h2>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="../">Home</a></li>
+                        <li><a href="../#community">Community</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Information</h5>
+                    <ul>
+                        <li><a href="../#jobs">Jobs</a></li>
+                        <li><a href="../news/index.html">News</a></li>
+                        <li><a href="../#about">About us</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="../">Contact us</a></li>
+                        <li><a href="https://eprint.iacr.org/2017/893">Technical paper </a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="https://twitter.com/bramcohen" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/pages/Chia-Network/1764852770489660"><i class="fa fa-facebook"></i></a>
+						<a href="https://github.com/Chia-Network"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© Chia Network 2018 </p> 
+        </div>
+    </footer>
+
     </div>
 </body>
 </html>
