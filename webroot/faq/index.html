@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>chia.network</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">    <link rel="stylesheet" href="../css/style.css" type="text/css" >
     <link rel="stylesheet" href="/css/style.css" type="text/css" >
     <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -30,69 +30,52 @@
     <script defer src="/js/locales.js?v=4"></script>    
     <script defer src="/js/locales.faq.js?v=7"></script>
   </head>
-  <body class="layout">
-    <div class="page js-page">
-      <header class="hero header">
-        <div class="row">
-          <div class="col-lg-12 wrap">
-            <div class="box">
-              <div class="row">
-                <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
-                  <div class="box"><a href="/"><img src="../images/chia-logo.png" class="logo" /></a></div>
-                </div>
+  <body>
+      <header>
+          <nav class="navbar navbar-expand-lg justify-content-between">
+              <div class="container">
+                  <h1><a href="/"><img src="../images/chia-logo.svg" class="logo" alt="Chia"></a></h1>
+                  <a href="/#jobs" class="btn btn-outline-dark btn-lg" role="button" data-l10n-id="hiring">we're hiring!</a>
               </div>
-            </div>
-          </div>
-        </div>
+          </nav>
       </header>
 
-      <div class="wrap container-fluid" style="padding-bottom:0;padding-top:10px;">
+      <div class="container faq">
         <div class="row">
-          <div class="col-lg-10 col-lg-offset-1">
+          <div class="col">
             <div class="doc"></div>            
           </div>
         </div>
       </div>
 
       <footer class="hero page-footer">
-        <div class="row">
-          <div class="col-lg-12 wrap">
-            <div class="box">
-              <div class="wrap container-fluid">
+        <div class="container-fluid">
+            <div class="container">
                 <div class="row">
-                  <div class="col-lg-12">
-                    <div class="box">
-                      <div class="grey-fade">
+                    <div class="col-md text-center grey-fade">
                         <img src="../images/leaf.png" style="max-width:100px;" />
-                        <h2 data-l10n-id="slogan">green money for a digital world</h2><br />
+                        <h2 data-l10n-id="slogan">green money for a digital world</h2>
+                        <br />
                         <p>
-                          <a href="mailto:hello@chia.network">hello@chia.network</a><br />
-                          (650) 924-2785<br />
+                            <a href="mailto:hello@chia.network">hello@chia.network</a>
                         </p>
                         <p>
-                          © Chia Network 2018
+                            (650) 924-2785
                         </p>
                         <p>
-                          <a href="https://github.com/Chia-Network/website"><img src="../images/github.svg" title="GitHub" style="max-width:50px"></a>
+                            © Chia Network 2018
                         </p>
-                        <!--<p>
-                          TODO: social media icons
-                        </p>-->
-                      </div>
+                        <p>
+                            <a href="https://github.com/Chia-Network/website"><img src="../images/github.svg" title="GitHub" style="max-width:50px"></a>
+                        </p>
+                        <div class="box" id="lang-box"></div>
                     </div>
-                  </div>
                 </div>
-                <div class="row">
-                  <div class="col-lg-12 wrap">
-                    <div class="box" id="lang-box"></div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </footer>
+    </footer>
 
-    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,4 +1,26 @@
 
+/*All pages*/
+
+.logo{
+  width: 174px;
+}
+
+code{
+  font-size: 70%;
+  color: #000;
+}
+
+.med-icon {
+  max-width: 100px;
+  opacity: 0.3;
+}
+
+footer .container-fluid{
+  background-color: rgb(80, 80, 80);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 100px 0;
+}
 
 body {
   color: rgb(102,102,102);
@@ -6,6 +28,7 @@ body {
   font-size: 140%;
   line-height: 155%;
   margin: 0;
+  min-width: 320px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,14 +36,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
 }
 
-h1 {
-  font-size: 200%;
-  line-height: 140%;
-  text-align: right;
-}
-
 h2 {
   font-size: 180%;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -35,123 +53,90 @@ h4 {
 
 a {
   color: rgb(51,170,255);
+  text-decoration: underline;
 }
 
 a:hover {
   opacity: 0.6;
 }
 
-.row {
-  margin-right: 0;
-}
-
-.wrap {
-  box-sizing: border-box;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding-bottom: 40px;
-  padding-top: 40px;
-}
-
-.header .wrap {
-  padding-bottom: 20px;
-  padding-top: 10px;
-}
-
-.logo {
-  max-width: 95%;
-}
-
-.hero {
-  /* background-color: rgb(225,225,225); */
-}
-
-.header-button {
-  font-size: 90%;
-  padding-top: 12px;
-  text-align: right;
-}
-
-.header-button a {
-  border: 1px solid rgb(153,153,153);
-  border-radius: 4px;
-  color: rgb(102,102,102);
-  font-family: 'Poppins', sans-serif;
-  margin-top: 12px;
-  padding: 8px 15px;
+.navbar a.btn{
   text-decoration: none;
 }
 
-.header-button a:hover {
-  background-color: rgb(230,230,230);
+/*Home Page*/
+
+.container.hero h2{
+  font-size: 200%;
 }
 
-.info-box {
-  border: 1px solid rgb(180,180,180);
-  border-radius: 8px;
-  color: rgb(160,160,160);
-  margin: 0 auto;
-  max-width: 70%;
-  padding: 10px 20px 0 20px;
+.container-fluid.green{
+  background-color: rgb(64, 171, 92);
+  padding: 120px 0;
+  color: #fff;
 }
 
-ol.info-box {
-  background-color: rgba(255,255,255,0.45);
-  font-size: 94%;
-  max-width: 90%;
-  padding-left: 35px;
-}
-
-.info-box p {
-  font-size: 85%;
-}
-
-.get-chia {
-  background-color: rgb(64,171,92);
-  color: rgb(255,255,255);
-}
-
-.get-chia a {
-  color: rgb(255,255,255);
-}
-
-.get-chia a:hover {
-  opacity: 0.7;
-}
-
-.get-chia h2 {
-  color: rgb(255,255,255);
+.container-fluid.green h2, .container-fluid.institutions h2{
+  color: #fff;
   font-size: 250%;
+  margin-bottom: 20px;
+}
+
+.container-fluid.green a, .container-fluid.institutions a{
+  color: #fff;
+}
+
+.container-fluid.institutions{
+  background-image: url('../images/buildings.jpg');
+  color: #fff;
+  padding: 120px 0;
+}
+
+.text-primary{
+  color: rgb(51, 170, 255);
+}
+
+.container-fluid.community{
+  background-image: url('../images/geo-bg.png');
+  background-size: 50%;
+  padding: 120px 0;
+}
+
+.container-fluid.community .card, .communityrow .card .list-group-item{
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+.learn-more{
+  margin: 70px 0;
+}
+
+.row.jobs{
+  padding: 100px 0;
+}
+
+.chia-icons img{
+  margin: 30px 0;
+}
+
+.heading{
+  margin: 70px 0;
+}
+
+.slogan { text-align:right; }
+
+@media (max-width: 767px) {
+    .slogan { text-align:left; margin-bottom: 20px;}
+}
+
+@media (max-width: 576px) {
+
+    .navbar .container{
+      display: inline-block;
+      text-align: center;}
 }
 
 .white-leaf {
   filter: brightness(200%) grayscale(100%);
-}
-
-.centered {
-  text-align: center;
-}
-
-.med-icon {
-  max-width: 100px;
-  opacity: 0.3;
-}
-
-.community {
-  background-image: url('../images/geo-bg.png');
-  background-size: 50%;
-}
-
-.fi {
-  background-image: url('../images/buildings.jpg');
-  color: rgb(255,255,255);
-  font-size: 150%;
-  line-height: 140%;
-}
-
-.fi h3 {
-  color: rgb(255,255,255);
-  line-height: 120%;
 }
 
 .grey-fade img {
@@ -174,121 +159,50 @@ ol.info-box {
 }*/
 
 
-.page-footer {
-  background-color: rgb(80,80,80);
-  color: rgb(255,255,255);
-  text-align: center;
-}
+/*News Page*/
 
-
-/*Newsfeed start*/
-
-#news-feed-page .newsfeed {
+.container-fluid.news {
   background-image: url('../images/geo-bg.png');
   background-size: 50%;
+  padding: 50px 0;
 }
 
-#news-feed-page .newschain {
-  background-color: rgb(64,171,92);
-  color: rgb(255,255,255);
-  min-height: 100%;
+.container-fluid.news .card {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 70%;
+  line-height: 160%;
 }
 
-#news-feed-page .news-box {
-  border: 1px solid rgb(180,180,180);
-  border-radius: 8px;
-  color: rgb(160,160,160);
-  margin: 0 auto;
-  max-width: 100%;
-  padding: 10px 20px 0 20px;
-  min-height: 120px;
-  background: #ffffff;
+.latest-news{
+  text-align: right;
 }
 
-#news-feed-page .panel-heading {
-
-    /*padding: 10px 15px;*/
-    border-bottom: 1px solid transparent;
-    border-bottom-color: transparent;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-
+@media (max-width: 576px) {
+    .latest-news{
+      text-align: left;
+    }
+    .container-fluid.news .card img{
+      margin-bottom: 30px;
+    }
 }
 
-#news-feed-page .news-heading span {
+/*FAQ page*/
 
-    float: left;
-    color: #178db1;
-    /*font-size: 1.8em;*/
-    /*font-family: 'Roboto';*/
-    font-weight: 300;
-    width: 80%;
-
+.container.faq li{
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 40px;
 }
 
-
-#news-feed-page .news-text-content .description {
-
-    float: left;
-    /*color: #178db1;*/
-    font-size: 60%;
-    line-height: 20px;
-    /*font-family: 'Roboto';*/
-    /*font-weight: 300;*/
-    width: 80%;
-
-
-
-}
-#news-feed-page .news-heading time {
-
-    float: right;
-    color: #666;
-    /*font-family: 'Roboto';*/
-    font-style: italic;
-    /*font-weight: 300;*/
-    /*font-size: 1.4em;*/
-    /*padding-top: 6px;*/
-    font-size: 80%;
-    width: 20%;
-    text-align: right;
-
+.container.faq{
+  margin-bottom: 70px;
 }
 
-#news-feed-page .image-box{
-  max-width: 95%;
+.container.faq h3{
+  margin-top: 70px;
+  margin-bottom: 30px;
 }
-
-
-
-#news-feed-page .read-more-link{
-  cursor: pointer;
-  color:  rgb(51,170,255);
-}
-
-#news-feed-page .read-more-link a {
-  color: rgb(51,170,255)!important;
-}
-
-#news-feed-page .read-more-link a:hover {
-  opacity: 0.6!important;
-}
-
-#news-feed-page .logo-news {
-  max-width: 95%;
-  height: 100%;
-  opacity: 0.5;
-  padding-top: 10px;
-}
-
-#news-feed-page .news-box:hover .logo-news {
-  opacity: 1;
-}
-
-#news-feed-page .news-box{
-  margin: 20px;
-}
-/*Newsfeed end*/
 
 /*translation start*/
 .langSwitch {
