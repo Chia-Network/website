@@ -22,7 +22,7 @@ in-the-news = Chiaに関するニュース
 
 
 // longer content sections
-get-the-latest-news = <br />最新のChiaに関するニュース
+get-the-latest-news = 最新のChiaに関するニュース
 
 mission = 私達はブロックチェーンをproofs of spaceと時間に基いて構築し暗号通貨をより無駄が少ない、より分散化された、より安全なものにします。
 
