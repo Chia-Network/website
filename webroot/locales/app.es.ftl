@@ -22,7 +22,7 @@ in-the-news = Chia en las noticias
 
 
 // longer content sections
-get-the-latest-news = <br />Consigue la lista de noticias más reciente y actualizada sobre Chia
+get-the-latest-news = Consigue la lista de noticias más reciente y actualizada sobre Chia
 
 mission = Estamos construyendo un blockchain basado en pruebas de espacio y tiempo para hacer una criptomoneda que es menos derrochadora, más descentralizada, y más segura. 
 

@@ -22,7 +22,7 @@ in-the-news = Chia in de pers
 
 
 // longer content sections
-get-the-latest-news = <br />Bekijk het laatste nieuws van Chia
+get-the-latest-news = Bekijk het laatste nieuws van Chia
 
 mission = We bouwen een blockchain gebaseerd op "proofs of space" en "proofs of time" voor een minder belastend cryptocurrency, meer gedecentraliseerd en veiliger.
 
