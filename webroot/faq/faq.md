@@ -14,7 +14,7 @@ A: Chia farming is a bit like mining in that it's how blocks are securely create
 
 + <b>Q: Main difference between Chia and Bitcoin?</b>
 
-A: Chia is farmed with storage space like hard drives instead of mining with processing power. This allows broader access to everyday users, and vastly reduces the cost/waste of securing the network in electricity burned or custom hardware consumed. Chia is resistant to farmer centralization. Chia also will include a bunch of basic improvements to the bitcoin protocol: Everything is BLS signatures for better smart transaction support, and it will include a bunch of bug fixes to things like timewarp (https://bitcoin.stackexchange.com/questions/20597/where-exactly-is-the-off-by-one-difficulty-bug) while making those fixes available back to Bitcoin. The goal is to make hard forks effectively impossible, so governance will come from user choice and bitcoin-like decentralized incentives.
+A: Chia is farmed with storage space like hard drives instead of mining with processing power. This allows broader access to everyday users, and vastly reduces the cost/waste of securing the network in electricity burned or custom hardware consumed. Chia is resistant to farmer centralization. Chia also will include a bunch of basic improvements to the bitcoin protocol: Everything is <a href = "https://en.wikipedia.org/wiki/Boneh%E2%80%93Lynn%E2%80%93Shacham">BLS signatures</a> for better smart transaction support, and it will include a bunch of bug fixes to things like <a href = "https://bitcoin.stackexchange.com/questions/20597/where-exactly-is-the-off-by-one-difficulty-bug">timewarp</a> while making those fixes available back to Bitcoin. The goal is to make hard forks effectively impossible, so governance will come from user choice and bitcoin-like decentralized incentives.
 
 
 
@@ -44,7 +44,7 @@ A: Chia plans on doing some kind of sale to the public and we are working with l
 
 + <b>Q: Where is Chia development now?</b>
 
-A: No code has been written yet. A bunch of mathematical primitives have been worked out and are working their way towards publication. We're hiring programmers right now and coding will begin soon. An existing and highly technical white paper regarding proofs of space and avoiding Hellman's time-memory trade-off is available on our homepage.
+A: No code has been written yet. A bunch of mathematical primitives have been worked out and are working their way towards publication. We're hiring programmers right now and coding will begin soon. An existing and highly technical white paper regarding proofs of space and avoiding Hellman's time-memory trade-off is <a href = "https://eprint.iacr.org/2017/893">available</a>.
 
 
 
@@ -140,13 +140,13 @@ A: Chia uses empty storage (like hard disk drives) to farm seeds. As there is so
 
 + <b>Q: Will Chia be open source?</b>
 
-A: Chia will release academic papers about the building blocks of the protocol, and all implementation code will be open source. We're going to use the Apache License (https://www.apache.org/licenses/LICENSE-2.0). There's some chance we'll keep our source code a bit more proprietary when testnet is out but mainnet isn't up yet, but we will definitely license all our source code under the Apache License once mainnet is up.
+A: Chia will release academic papers about the building blocks of the protocol, and all implementation code will be open source. We're going to use the <a href = "https://www.apache.org/licenses/LICENSE-2.0">Apache License</a>. There's some chance we'll keep our source code a bit more proprietary when testnet is out but mainnet isn't up yet, but we will definitely license all our source code under the Apache License once mainnet is up.
 
 
 
 + <b>Q: Do you have white papers where I can read more?</b>
 
-A: Instead of just one white paper like most projects, we're going to have academic papers in journals. So far we have our first one which was accepted by Asiacrypt (https://eprint.iacr.org/2017/893). There will be at least two more white papers going over proofs of time and how to hook the whole thing together into a blockchain.
+A: Instead of just one white paper like most projects, we're going to have academic papers in journals. So far we have <a href = "https://eprint.iacr.org/2017/893">our first paper</a> which was accepted by Asiacrypt. There will be at least two more white papers going over proofs of time and how to hook the whole thing together into a blockchain.
 
 
 
