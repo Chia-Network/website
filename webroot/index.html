@@ -19,7 +19,7 @@
         integrity="sha384-feDrtoSxdkFWH1QlDJi1G3KC3rJXAyjhpjYT6LKtPewPUHURVS4ILd9TvP482j3F sha384-uxDZNlM7c5preG7zFPH9Axvf2wAb7QCPeJ9bs8Ld3VibeQpxTe7lZ7qS3dHZYy7w" crossorigin="anonymous">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"> 
     <meta name="apple-mobile-web-app-title" content="Chia">
@@ -37,7 +37,7 @@
 
     <!-- translation -->
     <meta name="defaultLanguage" content="en-US">
-    <meta name="availableLanguages" content="en-US, fr, ja, nl">
+    <meta name="availableLanguages" content="en-US, fr, ja, nl, de, es">
     <link rel="localization" href="./locales/app.{locale}.ftl">
     <script defer src="./js/l20n.min.js"></script>
     <script defer src="./js/locales.js"></script>
@@ -51,7 +51,7 @@
             <div class="box">
               <div class="row">
                 <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
-                  <div class="box"><img src="images/chia-logo.png" class="logo" /></div>
+                  <div class="box"><img src="images/chia-logo.svg" class="logo" /></div>
                 </div>
                 <div class="col-lg-10 col-md-6 col-sm-6 col-xs-12">
                   <div class="box header-button">
@@ -133,7 +133,7 @@
                   <div class="col-lg-6">
                     <div class="box">
                       <p><br />
-                        <span data-l10n-id="sell-plan">We plan to sell Chia to the public next year to allow everyone to invest in a better digital money.</span>
+                        <span data-l10n-id="sell-plan">We plan to sell Chia to the public in Q2 of 2018 to allow everyone to invest in a better digital money.</span>
                       </p>
                       <p data-l10n-id="subscribe">
                       Subscribe to the <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list</a> to learn more.
@@ -143,7 +143,7 @@
                   <div class="col-lg-4 col-lg-offset-2">
                     <div class="box get-chia"><h2 data-l10n-id="get-chia">Get Chia</h2>
                       <p>
-                        <img class="big-leaf" src="images/leaf.png" class="white-leaf" />
+                        <img src="images/leafv2.png" class="white-leaf" style="max-width:150px;" />
                       </p>
                     </div>
                   </div>
@@ -197,9 +197,6 @@
                     <div class="box"><h2 data-l10n-id="jobs">Jobs</h2>
                       <p data-l10n-id="looking-to-hire">
                         We're looking to hire several technically gifted programmers to work with our team of cryptographers on building our protocol. Must have strong algorithms skills. Cryptography experience is a plus but not required. Remote is okay but being in San Francisco is a plus. To apply please do several HackerRank challenges and send a link to your HackerRank profile plus your resume to <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
-                      </p>
-                      <p data-l10n-id="hiring-detail">
-                        We're hiring an Assistant to the Founders (Executive Assistant/Office manager). Location is in San Francisco. To apply please send your resume to <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
                       </p>
                     </div>
                   </div>
@@ -259,17 +256,17 @@
                   <div class="col-lg-12">
                     <div class="box">
                       <div class="grey-fade">
-                        <img class="leaf" src="images/leaf.png"/>
+                        <img src="images/leafv2.png" style="max-width:100px;" />
                         <h2 data-l10n-id="slogan">green money for a digital world</h2><br />
                         <p>
                           <a href="mailto:hello@chia.network">hello@chia.network</a><br />
                           (650) 924-2785<br />
                         </p>
                         <p>
-                          © Chia Network 2017
+                          © Chia Network 2018
                         </p>
                         <p>
-                          <a href="https://github.com/Chia-Network/website"><img src="images/github.svg" style="max-width:50px">
+                          <a href="https://github.com/Chia-Network/website"><img src="images/github.svg" title="GitHub" style="max-width:50px"></a>
                         </p>
                         <!--<p>
                           TODO: social media icons
@@ -281,6 +278,9 @@
                 <div class="row">
                   <div class="col-lg-12 wrap">
                     <div class="box" id="lang-box"></div>
+                      <p class="grey">
+                         By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author must contain its license header with the original author(s) and source. 
+                      </p>
                   </div>
                 </div>
               </div>

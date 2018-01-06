@@ -4,7 +4,9 @@ var names = {
    "en-US": "English",
    "fr": "Français",
    "ja": "日本語",
-   "nl": "Nederlands"
+   "nl": "Nederlands",
+   "de": "Deutsch",
+   "es": "Español"
 };
 
 // this creates the list of manual language selection links at the bottom of each page
@@ -36,4 +38,6 @@ function changeLocale(locale) {
             Cookies.remove('locale');
         }
     }
+
+    $(window).trigger("languagechange");
 }
