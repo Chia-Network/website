@@ -162,6 +162,9 @@ ol.info-box {
 .grey-fade h2 {
   transition: color 2s;
 }
+.grey-text {
+  color: rgb(102,102,102);
+}
 
 .grey-fade img:hover,
 .grey-fade img:hover+h2 {
@@ -179,7 +182,15 @@ ol.info-box {
   color: rgb(255,255,255);
   text-align: center;
 }
-
+.page-footer .grey {
+  color: rgb(102,102,102);
+  font-size: 20px;
+  padding-top:20px;
+  padding-bottom: 0px;
+}
+.page-footer .wrap {
+  padding-bottom: 20px;
+}
 
 /*Newsfeed start*/
 
