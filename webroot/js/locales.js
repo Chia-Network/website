@@ -38,4 +38,6 @@ function changeLocale(locale) {
             Cookies.remove('locale');
         }
     }
+
+    $(window).trigger("languagechange");
 }

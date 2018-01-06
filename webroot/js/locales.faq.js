@@ -16,10 +16,10 @@ function loadFaq() {
     var locale = Cookies.get("locale") || getBrowserLocale();
     
     // first look for a translated faq
-    $.get('./locales/faq.' + locale + '.md', function(md){
+    $.get('./locales/faq.' + locale + '.md', function(md) {
         $('.doc').html(new showdown.Converter().makeHtml(md));  
-    }).fail(function(md){ // if no translation - fail back
-        $.get('faq.md', function(md){
+    }).fail(function() { // if no translation - fail back
+        $.get('faq.md', function(md) {
             $('.doc').html(new showdown.Converter().makeHtml(md));  
         });
     });
