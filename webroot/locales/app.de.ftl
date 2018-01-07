@@ -38,7 +38,7 @@ news-link = Folge die neusten Artikel in den <a href="/news">Nachrichten</a>.
 
 faq-link = <a href="faq/">Häufig gestellte Fragen (FAQ)</a>
 
-sell-plan = Wir haben vor, Chia 2018 zum Verkauf anzubieten, damit jeder in eine bessere digitale Währung investieren kann.
+sell-plan = Wir haben vor, Chia im zweiten Quartal von 2018 zum Verkauf anzubieten, damit jeder in eine bessere digitale Währung investieren kann.
 
 subscribe = Abonniere die <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">Ankündigungsliste</a>, um mehr zu erfahren.
 
@@ -62,7 +62,7 @@ hiring-detail = Wir suchen einen Assistenten der Gründer (Chefassistent/Bürole
 financial-instituation-value-prop = Digitales Geld gewinnt mehr und mehr Interesse bei Einzelnen und Investoren. 
     Chia kann dabei helfen, dass traditionelle Finanzinstitute dieser Nachfrage nachkommen können. 
 
-contact-us = <a href="mailto:hello@chia.network">Kontaktiere uns</a>, um mehr zu erfahren.
+contact-us = <a href="mailto:hello@chia.network">Kontaktieren Sie uns</a>, um mehr zu erfahren.
 
 about-detail = Chia Network hat seinen Sitz in San Francisco und ist ein Unternehmen, dass darauf zielt, die Infrastruktur von Kryptowährungen zu verbessern. 
     Unser Geschäftsführer, Bram Cohen, ist bekannt für die Entwicklung von BitTorrent: das erste moderne dezentralisierte Netzwerkprotokoll und, neben anderen, 
