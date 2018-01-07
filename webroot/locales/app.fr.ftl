@@ -6,42 +6,42 @@ get-chia = Get Chia
 
 community = Community
 
-about-us = About Us
+about-us = À propos de nous
 
-jobs = Jobs
+jobs = Emplois
 
-learn-more = Learn more
+learn-more = Apprendre encore plus
 
-faq = Frequently Asked Questions
+faq = Questions fréquemment posées
 
-financial-instituations = Financial Institutions
+financial-instituations = Institutions financières
 
 slogan = l'argent vert pour un monde numérique
 
-in-the-news = Chia in the News
+in-the-news = Chia dans les nouvelles
 
 
 // longer content sections
-get-the-latest-news = <br />Get the Latest and Updated Newscast from Chia
+get-the-latest-news = <br />Recevez les dernières nouvelles de Chia
 
 mission = Nous construisons une blockchain basée sur des preuves d'espace et de temps pour
     faire une crypto-monnaie moins gourmande, plus décentralisée et plus sécurisée.
 
-recent-talk = A <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">recent talk</a> (starts about 20:00) with
-    <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">slides</a>.
+recent-talk = Un <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">discours récent</a> (commence à environ 20:00) avec
+    <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">diapositives</a>.
 
-older-talk = An <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">older talk</a> with
-    <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>.
+older-talk = Un <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">vieux discours</a> avec
+    <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">diapositives</a>.
 
-tech-paper-link = A very <a href="https://eprint.iacr.org/2017/893">technical paper</a> on proofs of space.
+tech-paper-link = Un <a href="https://eprint.iacr.org/2017/893">document trés technique</a> sur proofs of space.
 
-news-link = Follow the latest articles in the <a href="/news">news</a> section.
+news-link = Suivez les derniers articles dans la section des <a href="/news">nouvelles</a>.
 
-faq-link = <a href="faq/">Frequently Asked Questions (FAQ)</a>
+faq-link = <a href="faq/">Questions fréquemment posées (FAQ)</a>
 
-sell-plan = We plan to sell Chia to the public in Q2 of 2018 to allow everyone to invest in a better digital money.
+sell-plan = Nous prévoyons de vendre Chia au public au deuxième trimestre de 2018 pour permettre à tout le monde d'investir dans un meilleur argent numérique.
 
-subscribe = Subscribe to the <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list</a> to learn more.
+subscribe = Abonnez-vous à <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">liste des annonces</a> pour apprendre plus.
 
 join-keybase = Join our Keybase group to participate in discussion.
 
