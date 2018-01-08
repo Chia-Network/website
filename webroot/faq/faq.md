@@ -50,13 +50,13 @@ A: No code has been written yet. A bunch of mathematical primitives have been wo
 
 + <b>Q: When can I farm Chia?</b>
 
-A: No hard dates to announce yet. We're still hoping for a public sale in Q2 and a Network launch near year end, but those dates remain subject to change.
+A: No hard dates to announce yet. We're still hoping for a public sale in Q2 and a Network launch near year end, when you'll be able to farm Chia, but those dates remain subject to change.
 
 
 
 + <b>Q: What does proof of time mean?</b>
 
-A: Technically proofs of time are also part of the farming, but those tend to be done by a few actors who don't get anything out of it directly.
+A: Technically proofs of time are also part of the farming, but those tend to be done by a few actors who don't get anything out of it directly. Proof of time prevents a Genesis attack where the blockchain is restored to a time in the past, thereby removing all trace of Chia transactions after this time.
 
 
 
@@ -116,7 +116,10 @@ A: Like Bitcoin, difficulty will dynamically adjust to keep block time regular. 
 
 + <b>Q: How large will a hard drive have to be?</b>
 
-A: There will likely be a minimum allocation size of 100 GB or 1 TB or so. It isn't so much to enforce a minimum as to require a minimum amount of wall clock time to pass before an allocation can be done so attackers can't repeatedly generate and try new allocations instead of doing a single lookup.
+A: There will likely be a minimum allocation size of 100 GB or 1 TB or so. It isn't so much to enforce a minimum as to require a minimum amount of time to pass before a plot allocation can be done so attackers can't repeatedly generate and try new plot allocations instead of doing a single lookup. In other words without a mimimum space, a node could re-plot over and over again and keep getting more chances to win if the time to plot is too short. If the space used for seeding is too small it allows the person partaking in the farming lottery to cheat the system. This is how Chia could break without a minimum space: [START analogy] Chia works by  "Someone spends their money (space) on the lottery tickets (seeded plots) so that they have a chance of winning a payout (reward)". [PAUSE analogy]
+
+This works if the space minimum is enforced. If the farming space is not set at a high enough size [CONTINUE with the analogy]; "it allows the player (farmer) to put their hands back into the cashiers register, taking back the money (space) already spent and buying another set of tickets with the already spent funds (reseeding the same space) to take part in the same lottery game. Using the same money (space) to buy multiple tickets (re-seeding) over and over again" [END of analogy] So larger space takes longer to seed and prevents a farmer from unfairly increasing their chances of reward by reseeding before the next wall clock time (real time).
+ 
 
 
 
