@@ -43,13 +43,13 @@ sell-plan = Nous prévoyons de vendre Chia au public au deuxième trimestre de 2
 
 subscribe = Abonnez-vous à <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">liste des annonces</a> pour apprendre plus.
 
-join-keybase = Join our Keybase group to participate in discussion.
+join-keybase = Rejoignez notre groupe Keybase pour participer à la discussion.
 
-install-keybase = Install and setup <a href="https://keybase.io/download">Keybase</a>
+install-keybase = Installer et configurer <a href="https://keybase.io/download">Keybase</a>
 
-request-keybase-access = Run this in your terminal:
+request-keybase-access = Exécutez ceci dans votre terminal:
 
-join-announcement-list = Join our <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list</a> to keep updated.
+join-announcement-list = Rejoignez notre <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">liste des annonces</a> pour rester informé.
 
 looking-to-hire = We're looking to hire several technically gifted programmers to work with our
     team of cryptographers on building our protocol. Must have strong algorithms skills.
