@@ -6,66 +6,66 @@ get-chia = Get Chia
 
 community = Community
 
-about-us = About Us
+about-us = À propos de nous
 
-jobs = Jobs
+jobs = Emplois
 
-learn-more = Learn more
+learn-more = Apprendre encore plus
 
-faq = Frequently Asked Questions
+faq = Questions fréquemment posées
 
-financial-instituations = Financial Institutions
+financial-instituations = Institutions financières
 
 slogan = l'argent vert pour un monde numérique
 
-in-the-news = Chia in the News
+in-the-news = Chia dans les nouvelles
 
 
 // longer content sections
-get-the-latest-news = <br />Get the Latest and Updated Newscast from Chia
+get-the-latest-news = <br />Recevez les dernières nouvelles de Chia
 
 mission = Nous construisons une blockchain basée sur des preuves d'espace et de temps pour
     faire une crypto-monnaie moins gourmande, plus décentralisée et plus sécurisée.
 
-recent-talk = A <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">recent talk</a> (starts about 20:00) with
-    <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">slides</a>.
+recent-talk = Un <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">discours récent</a> (commence à environ 20:00) avec
+    <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">diapositives</a>.
 
-older-talk = An <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">older talk</a> with
-    <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>.
+older-talk = Un <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">vieux discours</a> avec
+    <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">diapositives</a>.
 
-tech-paper-link = A very <a href="https://eprint.iacr.org/2017/893">technical paper</a> on proofs of space.
+tech-paper-link = Un <a href="https://eprint.iacr.org/2017/893">document trés technique</a> sur proofs of space.
 
-news-link = Follow the latest articles in the <a href="/news">news</a> section.
+news-link = Suivez les derniers articles dans la section des <a href="/news">nouvelles</a>.
 
-faq-link = <a href="faq/">Frequently Asked Questions (FAQ)</a>
+faq-link = <a href="faq/">Questions fréquemment posées (FAQ)</a>
 
-sell-plan = We plan to sell Chia to the public in Q2 of 2018 to allow everyone to invest in a better digital money.
+sell-plan = Nous prévoyons de vendre Chia au public au deuxième trimestre de 2018 pour permettre à tout le monde d'investir dans un meilleur argent numérique.
 
-subscribe = Subscribe to the <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list</a> to learn more.
+subscribe = Abonnez-vous à <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">liste des annonces</a> pour apprendre plus.
 
-join-keybase = Join our Keybase group to participate in discussion.
+join-keybase = Rejoignez notre groupe Keybase pour participer à la discussion.
 
-install-keybase = Install and setup <a href="https://keybase.io/download">Keybase</a>
+install-keybase = Installer et configurer <a href="https://keybase.io/download">Keybase</a>
 
-request-keybase-access = Run this in your terminal:
+request-keybase-access = Exécutez ceci dans votre terminal:
 
-join-announcement-list = Join our <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list</a> to keep updated.
+join-announcement-list = Rejoignez notre <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">liste des annonces</a> pour rester informé.
 
-looking-to-hire = We're looking to hire several technically gifted programmers to work with our
-    team of cryptographers on building our protocol. Must have strong algorithms skills.
-    Cryptography experience is a plus but not required. Remote is okay but being in San
-    Francisco is a plus. To apply please do several HackerRank challenges and send a link to your
-    HackerRank profile plus your resume to <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
+looking-to-hire = Nous cherchons des programmeurs techniquement doués pour travailler avec
+    notre équipe de cryptographes sur la construction de notre protocole. Doit avoir de solides compétences en algorithmique.
+    L'expérience de la cryptographie est un plus mais pas nécessaire. Travailler à distance est possible mais être à San
+    Francisco est un plus. Pour postuler à un emploi, cliquez sur HackerRank et envoyez un lien vers votre profil
+    HackerRank plus votre CV à  <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
 
-hiring-detail = We're hiring an Assistant to the Founders (Executive Assistant/Office manager). Location is in San Francisco.
-    To apply please send your resume to <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
+hiring-detail = Nous recrutons des adjoints aux fondateurs (adjoint exécutif / chef de bureau). L'emplacement est à San Francisco.
+    Pour postuler, envoyez votre CV à <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
 
-financial-instituation-value-prop = Digital Money is being increasingly demanded by individual and institutional investors.
-    Chia can help traditional financial institutions meet that demand.
+financial-instituation-value-prop = L'argent numérique est de plus en plus demandée par les investisseurs individuels et institutionnels.
+    Chia peut aider les institutions financières traditionnelles à répondre à cette demande.
 
-contact-us = <a href="mailto:hello@chia.network">Contact us</a> to find out more.
+contact-us = <a href="mailto:hello@chia.network">Contactez-nous</a> pour en savoir plus.
 
-about-detail = Chia Network is a San Francisco-based company focused on improving crypto-currency infrastructure.
-    Our CEO, Bram Cohen, famously invented BitTorrent: the first modern decentralized network protocol and one of
-    the inspirations for the Bitcoin protocol. Our founding team has experience across the crypto-currency and finance
-    sectors, coming from Tradehill, CryptoCorp and Lightning Labs.
+about-detail = Chia Network est une société basée à San Francisco axée sur l'amélioration de l'infrastructure de crypto-monnaie.
+    Notre PDG, Bram Cohen, a inventé BitTorrent: le premier protocole de réseau décentralisé moderne et l'une
+    des inspirations du protocole Bitcoin. Notre équipe fondatrice a de l'expérience à travers la crypto-monnaie
+    et la financesecteurs,parce que nous venons de Tradehill, de CryptoCorp et de Lightning Labs.
