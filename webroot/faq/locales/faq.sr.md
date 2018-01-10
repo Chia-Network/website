@@ -6,25 +6,25 @@ A: Chia koristi prazan prostor na čvrstim diskovima za "Farm seeds". Proces "Ch
 
 
 
-+ <b>Q: Šta "farming" znači?</b>
++ <b>Q: Šta "Farming" znači?</b>
 
-A: Farmanje (eng. "Chia Farming") je poput rudarednja Bitcoin-a, to je način na koji se prave blokovi. "Farming" koristi dostupan prostor na vašem čvrstom disku i na osnovu prostora za skladištenje, kao procenat, dobićete naknadu. Neće biti razloga za kupovinu čvrstih diskova za farmanje. Ono što "farming" radi je korišćenje slobodnog prostora. Pošto postoji mnogo skladišta u svijetu, šansa da dobijete nagradu je izuzetno niska za prosiječnog korisnika. Uzimajući u obzir da "Chia Farming" koristi zanemarivu energiju, propusni opseg i prostor, nije velika stvar ako je vaša nagrada mala.
+A: Farmanje (eng. "Chia Farming") je poput rudarenja Bitcoin-a, to je način na koji se prave blokovi. "Farming" koristi dostupan prostor na vašem čvrstom disku i na osnovu prostora za skladištenje, kao procenat, dobićete naknadu. Ono što "farming" radi je korišćenje slobodnog prostora. Pošto postoji mnogo skladišta u svijetu, šansa da dobijete nagradu je izuzetno niska za prosiječnog korisnika. Uzimajući u obzir da "Chia Farming" koristi zanemarivu energiju, propusni opseg i prostor, nije velika stvar ako je vaša nagrada mala.
 
 
 
 + <b>Q: Koja je razlika između valuta Chia i Bitcoin?</b>
 
-A: Chia se obrađuje čvrstim diskovima umesto rudarenja sa procesnom snagom, time omogućava lakši pristup korisnicima i znatno smanjivanje troškova / gubitaka obezbeđivanja mreže (sagorevanje električne energije). Chia je otporna na centralizaciju. Chia ima puno osnovnih poboljšanja: koriste se BLS potpisi za bolju podršku pametne transakcije, ispravke grešaka poput timevarp-a. Cilj je da se "hard fork" učiniti nemogućim, tako da će se upravljanje obavljati iz korisničkog izbora i decentralizovanih podsticaja.
+A: Chia se obrađuje čvrstim diskovima umesto rudarenja sa procesnom snagom, time omogućava lakši pristup korisnicima i znatno smanjivanje troškova / gubitaka obezbijeđivanja mreže (sagorevanje električne energije). Chia je otporna na centralizaciju i ima mnogo poboljšanja: koriste se BLS potpisi za bolju podršku pametnih transakcija, ispravke grešaka poput Timevarp-a. Cilj je da se "hard fork" učiniti nemogućim, tako da će se upravljanje obavljati iz korisničkog izbora i decentralizovanih podsticaja.
 
 
 
-+ <b>Q: Šta je "proof of space?"</b>
++ <b>Q: Šta je "Proof of Space?"</b>
 
 A: "Proof of Space" zapravo nije skladište. Skladište je nešto što se direktno koristi i što zahtijeva veliki propusni opseg. "Dokazi" o prostoru su podaci koji su beskorisni za sve osim za stvaranje dokaza o prostoru, čineći ga tako da u suštini ne zahtijeva propusni opseg. "Dokaz" stvarnog prostora zahteva velike količine propusnog opsega, tako da se neće koristiti u Chia mreži.
 
 
 
-+ <b>Q: Šta "seeding" znači?</b>
++ <b>Q: Šta "Seeding" znači?</b>
 
 A: "Seeding" je proces koji zahtijeva čitanje i pisanje svakog sektora na disku više nego jednom; ali kada se "seeding" obavi moći ćete da vršite farmanje dokle god su dokazi na disku. Disk će se čitati pomoću API-ja za direktan Low-level pristup. Klijent će podržavati postavljanje više diskova. Jedini razlog za ponovno pokretanje "Seeding" procesa je ako ima previše istih dokaza na disku. Taj proces će trajati i do nekoliko sati.
 
@@ -53,7 +53,7 @@ A: Chia valutu ćete moći farmati kada se mreža lansira krajem 2018. godine.
 
 
 
-+ <b>Q: Šta "proof of time" znači?</b>
++ <b>Q: Šta "Proof of time" znači?</b>
 
 A: Proces "Proof of time" će izvršavati nekoliko servera koji ne dobijaju ništa od toga.
 
@@ -152,4 +152,3 @@ A: Instead of just one whitepaper, we're going to have academic papers in journa
 + <b>Q: Where can I find out more?</b>
 
 A: You can sign up for the announcements list to get info as it comes out. Also we're available to discuss announcements on Keybase. Check out our homepage for links.
-
