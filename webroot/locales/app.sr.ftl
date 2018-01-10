@@ -38,7 +38,7 @@ news-link = Pročitajte najnovije artikle <a href="/news">na ovoj</a> sekciji.
 
 faq-link = <a href="faq/">Česta pitanja (FAQ)</a>
 
-sell-plan = Chia valutu planiramo prodavati već sljedeće godine kako bismo svima omogućili da ulažu u bolju digitalnu valutu.
+sell-plan = Chia valutu planiramo prodavati krajem 2018. godine kako bismo svima omogućili da ulažu u bolju digitalnu valutu.
 
 subscribe = <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">Pridružite se</a> da saznate više.
 
