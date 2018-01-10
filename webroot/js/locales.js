@@ -7,7 +7,8 @@ var names = {
    "nl": "Nederlands",
    "de": "Deutsch",
    "es": "Español",
-   "sr": "Srpski"
+   "sr": "Srpski",
+   "zh-TW": "正體中文"
 };
 
 // this creates the list of manual language selection links at the bottom of each page
