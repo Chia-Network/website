@@ -73,6 +73,6 @@ about-detail = Chia Network hat seinen Sitz in San Francisco und ist ein Unterne
 
 contribute-question = Bist du ein Entwickler und möchtest zu dem Chia Network beitragen? Hier sind ein paar Möglichkeiten:
 
-contribute-idea-one = <strong>Löse existierende Probleme</strong>: the <a href="https://github.com/Chia-Network/website/issues">issue tracker</a> is the best place to find a useful way to contribute to Chia Network. Before starting to write any patches for issues you find, you may want to comment on the issue to make sure nobody else is already working on it.
+contribute-idea-one = <strong>Löse existierende Probleme</strong>: Der <a href="https://github.com/Chia-Network/website/issues">Issue Tracker</a> ist der beste Ort, um sinnvoll zu dem Chia Network beitragen zu können. Du möchtest vielleicht erst fragen, ob nicht schon jemand anderes an dem Problem arbeitet, bevor du mit dem Patchen beginnst.
  
-contribute-idea-two = <strong>Add Language Translations</strong>:We recommend using Github's tools to make a clone of the web site repo and submit changes through there. Take a look at our site on <a href="https://github.com/Chia-Network/website">github</a> and submit a pull request.
+contribute-idea-two = <strong>Übersetzen</strong>: Wir empfehlen, Github's Tools zu nutzen, um einen Klon unserer Repo zu erstellen und dort die Änderungen vorzunehmen. Schau dir unsere Seite auf <a href="https://github.com/Chia-Network/website">github</a> an und reiche einen Pull Request ein.
