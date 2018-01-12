@@ -8,6 +8,8 @@ community = Community
 
 about-us = À propos de nous
 
+contribute = Contribuer
+
 jobs = Emplois
 
 learn-more = Apprendre encore plus
@@ -69,3 +71,9 @@ about-detail = Chia Network est une société basée à San Francisco axée sur 
     Notre PDG, Bram Cohen, a inventé BitTorrent: le premier protocole de réseau décentralisé moderne et l'une
     des inspirations du protocole Bitcoin. Notre équipe fondatrice a de l'expérience à travers la crypto-monnaie
     et la financesecteurs,parce que nous venons de Tradehill, de CryptoCorp et de Lightning Labs.
+
+contribute-question = Êtes-vous un développeur et souhaitez contribuer au Chia Network? Voici quelques idées:
+
+contribute-idea-one = <strong>Résoudre les problèmes existants</strong>: Le <a href="https://github.com/Chia-Network/website/issues">issue tracker</a>est le meilleur endroit pour trouver un façon utile de contribuer au Chia Network. Avant de commencer à écrire des correctifs pour les problèmes que vous trouvez, vous pouvez commenter le problème pour vous assurer que personne d'autre ne travaille déjà dessus.
+
+contribute-idea-two = <strong>Traduire</strong>: Nous vous recommandons d'utiliser les outils de Github pour créer un clone du dépôt de site Web et soumettre les modifications à cet endroit. Jetez un oeil à notre site sur<a href="https://github.com/Chia-Network/website">github</a> et soumettre une demande de tirage.
