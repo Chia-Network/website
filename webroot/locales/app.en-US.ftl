@@ -71,7 +71,6 @@ about-detail = Chia Network is a San Francisco-based company focused on improvin
     Our CEO, Bram Cohen, famously invented BitTorrent: the first modern decentralized network protocol and one of
     the inspirations for the Bitcoin protocol. Our founding team has experience across the crypto-currency and finance
     sectors, coming from Tradehill, CryptoCorp and Lightning Labs.
-	contribute-question = Are you a developer and want to contribute to the Chia Network? Here are a few ideas:
 
 contribute-question = Are you a developer and want to contribute to the Chia Network? Here are a few ideas:
 	
