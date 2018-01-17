@@ -16,13 +16,19 @@ function loadFaq() {
     var locale = Cookies.get("locale") || getBrowserLocale();
     
     // first look for a translated faq
-    $.get('./locales/faq.' + locale + '.md', function(md) {
-        $('.doc').html(new showdown.Converter().makeHtml(md));  
-    }).fail(function() { // if no translation - fail back
+    if(locale == 'en')  {
         $.get('faq.md', function(md) {
             $('.doc').html(new showdown.Converter().makeHtml(md));  
         });
-    });
+    }   else    {
+        $.get('./locales/faq.' + locale + '.md', function(md) {
+            $('.doc').html(new showdown.Converter().makeHtml(md));  
+        }).fail(function() { // if no translation - fail back
+            $.get('faq.md', function(md) {
+                $('.doc').html(new showdown.Converter().makeHtml(md));  
+            });
+        });
+    }
 }        
 
 function getBrowserLocale()
@@ -30,9 +36,14 @@ function getBrowserLocale()
     if (typeof navigator !== 'undefined' && navigator.languages !== undefined) {
         // the first lanaguage in the list is the user's preference
         var userLang = navigator.languages[0];
-
-        return userLang.split('-')[0];
+        // if(userLang == undefined)   return "en";
+        var lang;
+        try {
+            lang = userLang.split('-')[0];
+        } catch (error) {
+            lang = 'en';
+        }
+        return lang;
     }
-
     return "en";
 }
