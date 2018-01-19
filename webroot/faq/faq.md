@@ -110,7 +110,7 @@ A: We will be going with minimally modified Bitcoin script for starters (but wit
 
 + <b>Q: How will Chia farming difficulty adjust?</b>
 
-A: Like Bitcoin, difficulty will dynamically adjust to keep block time regular. As a result, as farming competition goes up, you can expect rewards from a particular disk to go down. We do not expect farming to have a high enough expected value to be worth purchasing drives in order to farm.
+A: Like Bitcoin, difficulty will dynamically adjust to keep block times regular. Farming difficulty will balance both the difficulty of proofs of space and proofs of time. As a result, as farming competition goes up, you can expect rewards from a particular amount of storage to go down. We do not expect farming to have a high enough expected value to be worth purchasing drives in order to farm.
 
 
 
