@@ -56,7 +56,7 @@ A: There will be a public sale Q2 2018, and you'll be able to farm once the netw
 
 + <b>Q: What does proof of time mean?</b>
 
-A: Technically proofs of time are also part of the farming, but those tend to be done by a few actors who don't get anything out of it directly.
+A: Proofs of time are the second step of farming. Proofs of time depend on a function that takes a certain amount of wall clock time to generate a proof, but that proof is canonically correct for the current block and can be quickly verified as correct by anyone in the network. Chia expects there to be a limited number of proof of time nodes as those nodes are not rewarded for coming up with the current block's proof of time. Only the farmer who had the best proof of space from his farm will be rewarded with Chia coin at each block.
 
 
 
