@@ -1,156 +1,156 @@
-### Chia FAQ JAPANESE TEST
+### Chia FAQ
 
-+ <b>Q: What is Chia?</b>
++ <b>Q: Chiaとは何ですか?</b>
 
-A: Chia Network uses vacant disk space on hard drives to farm seeds. Chia farming uses proof of space (PoSpace), co-ordinated with another consensus algorithm, proof of time (PoT). The goal is to to prevent wasting massive amounts of energy securing the network and prevent ASIC-powered centralisation. A hard disk will have its empty space filled with randomly generated proofs.
+A: Chia Networkはハードドライブの空きディスク領域を使用してシードをファームします。Chiaのファーミングでは、proof of space (PoSpace)と、proof of time (PoT)という二つのアルゴリズムを協調的に使用します。最終目標は、ネットワークを維持するために大量のエネルギー消費、およびASICを使った中央集権化を防ぐことです。ハードディスクの空き領域には、ランダムに生成された証明情報が保存されるでしょう。
 
 
 
-+ <b>Q: What does farming mean?</b>
++ <b>Q: ファーミングとはどういう意味ですか?</b>
 
-A: Chia farming is a bit like mining in that it's how blocks are made. Farming works by carrying out a snapshot (seeding) of the storage available on your hard drive(s). Based on the storage as a percentage you will receive lottery type payouts for the amount you are willing to farm to Chia. The more tickets you buy the more likely you are to win. There will be no incentive to buy hard drives to farm Chia, as Chia works because of the amount of idle space sitting around at the moment not costing owners anything. What it does is make use of this idle space. As there is so much storage existing in the world the chance of winning a reward is extremely low for the average user, but considering it uses insignificant energy, bandwidth and the space is idle anyway, it's not a big deal if your reward is small and infrequent. Pools, miners, ASICs and burning wasted energy are not Chia.
+A: Chiaファーミングは、ブロックがどのように作られてるかという点で、マイニングと少し似ています。ファーミングは、ハードドライブ上で利用可能なストレージのスナップショット（シード）を実行することによって機能します。Chiaをファームするのに提供したストレージ量に対して、宝くじの当選金を受け取ります。あなたが購入するチケットが多いほど、勝つ可能性が高くなります。Chiaをファームするのにハードドライブを購入するインセンティブはありません。なぜなら、動作中所有者にとって何のコストも生じていない、使われていない領域によってChiaが動作するからです。使われていない領域を利用するのが肝要なのです。 世界にはたくさんのストレージが存在するため、報酬を得るチャンスは平均的なユーザーにとっては非常に低いですが、エネルギー、帯域幅、スペースをそれほど使わないことを考えれば、あなたの報酬が小さいことは重要なことではありません。プール、マイナー、ASIC、燃えたぎるような無駄なエネルギーはChiaにはありません。
 
 
 
-+ <b>Q: Main difference between Chia and Bitcoin?</b>
++ <b>Q: ChiaとBitcoinの主な違いは何ですか?</b>
 
-A: Chia is farmed with hard drives instead of mining with processing power, allowing easier access to users, and vastly reducing the cost/waste of securing the network (electricity burned). Chia is resistant to farmer centralization. Chia has a bunch of basic improvements: Everything is BLS signatures for better smart transaction support, and a bunch of bug fixes like timewarp. The goal is to make hard forks effectively impossible, so governance will come from user choice and bitcoin-like decentralized incentives.
+A: Chiaは、処理能力でマイニングする代わりにハードディスクでファームするため、ユーザーが容易に参加できるようになり、ネットワークを安全にするためにかかるコストと浪費を大幅に削減できます。Chiaは中央集権化を防ぎます。 Chiaには次のような基本的な改良がたくさんあります。スマートトランザクションのサポートを強化するためのすべてがBLSシグネチャであり、タイムワープのようなバグ修正が多数あります。Chiaの目標は、ハードフォークを事実上不可能にすることであり、ユーザーの選択とビットコインのような分散型インセンティブによって管理されるでしょう。
 
 
 
-+ <b>Q: What is "proof of space?"</b>
++ <b>Q: "proof of space"とは何ですか?</b>
 
-A: "Proof of space" is not actually storage. Storage is of something directly useful and requires lots of bandwidth. Proofs of space are of data which is useless for anything but generating proofs of space and making it requires essentially no bandwidth. Proof of actual storage requires ridiculous amounts of bandwidth so it will not be used in Chia.
+A: "Proof of space"は実際にはストレージではありません。 ストレージは直接的に有用なものであり、多くの帯域幅を必要とします。Proofs of spaceは、領域の認証を生成することしかできず、本質的に帯域幅を必要としません。実ストレージを認証する方法は、馬鹿げた量の帯域幅が必要ですので、Chiaでは採用されないでしょう。
 
 
 
-+ <b>Q: What does Chia seeding mean?</b>
++ <b>Q:  Chiaのシーディングとはどういう意味ですか?</b>
 
-A: Seeding is a process that requires reading and writing every sector more than once; but once a drive is seeded you will be able to farm it for as long as the proofs remain on disk. Drives will be read using low-level direct access APIs. The client will support seeding multiple drives. The only reason to re-seed a drive is if too many of the existing proofs have been overwritten. Re-seeding gives no advantage normally. Seeding a disk will take significant amounts of time once per drive.
+A: シーディングは、すべてのセクターを複数回読み書きする必要があるプロセスです。ですが、１度ドライブがシードされると、認証がディスク上に残っている限り、ファームすることができます。ドライブは、低レベルの直接アクセスAPIを使用して読み取られます。クライアントは、複数のドライブのシードをサポートします。ドライブを再シードする唯一の理由は、既存の認証があまりにも多く上書きされた場合です。 再シーディングは通常なんの優位性もありません。 ディスクへのシード処理には、ドライブ1つにつきかなりの時間がかかります。
 
 
 
-+ <b>Q: When will Chia launch?</b>
++ <b>Q: Chiaはいつローンチされますか?</b>
 
-A: Chia plans to sale in Q2 and launch by end of 2018, but this is not set in stone and is dependent on development.
+A: Chiaは第2四半期に販売を計画しており、2018年末までにローンチ予定ですが、これは確定ではなく、開発の進捗により変更になる可能性があります。
 
 
 
-+ <b>Q: How will I be able to buy Chia?</b>
++ <b>Q: Chiaをどのように購入することができますか？</b>
 
-A: We're planning on doing some kind of sale to the public, working over that with lawyers at the moment. We need to do some amount of fund-raising because there's quite a bit of work still to be done. We're just getting the thing up and running and it would be nice to fund ongoing development and enhancements in the future (many of which will be shared with Bitcoin). There will be a pre-farm of currency whose allocation will be split between being earmarked to fund future development and going to the team. The funding mechanism will be transparent and available publicly before sales commence.
+A: 現時点では、弁護士と協働して、何らかの形で一般販売を行うことを計画中です。未完了の作業がかなり残っているので、幾分かの資金調達が必要です。私たちはただやるべきことを実行しており、今後の開発と拡張に資金を提供することはありがたいです（資金の多くはBitcoinで共有されるでしょう）。 通貨のプレファームが実施される予定で、プレファームされた資産は将来の開発およびチームに割り当てられます。この資金調達の仕組みは、販売開始前に一般に公開されます。
 
 
 
-+ <b>Q: Where is Chia development now?</b>
++ <b>Q: Chiaはどこで開発中ですか?</b>
 
-A: No code has been written yet. A bunch of mathematical primitives have been worked out and are working their way towards publication. I'm hiring programmers right now and coding will begin soon.
+A: まだコードは書かれていません。 数学的な理論が完成し、論文発表を準備中です。 今プログラマーを雇っており、まもなくコーディングが始まります。
 
 
 
-+ <b>Q: When can I farm Chia?</b>
++ <b>Q: Chiaはいつファーム可能になりますか?</b>
 
-A: There will be a public sale in Q2 of 2018, and you'll be able to farm once the network launches.
+A: 一般販売が2018年第2四半期にあります。ネットワークの立ち上げが完了すると、ファームを開始することができます。
 
 
 
-+ <b>Q: What does proof of time mean?</b>
++ <b>Q: proof of time とはどういう意味ですか?</b>
 
-A: Technically proofs of time are also part of the farming, but those tend to be done by a few actors who don't get anything out of it directly.
+A: 技術的には時間による認証(proofs of time)はファームの一部でもありますが、それは直接何も得られない少数の担当者によって行われる傾向があります。
 
 
 
-+ <b>Q: Why the name Chia?</b>
++ <b>Q: なぜChiaという名前なのですか?</b>
 
-A: "Chia" is the name of a grain. It goes with the "farming" theme.
+A: 「Chia」は穀物の名前です。 それは "農業(farming)"のテーマになります。
 
 
 
-+ <b>Q: Does more hard disk space mean more Chia?</b>
++ <b>Q: ディスクスペースがあればあるほど、多くのChiaが手に入りますか?</b>
 
-A: Your chances of farming the next block are directly proportional to your amount of disk space.
+A: 次のブロックをファームする可能性は、ディスク容量に正比例します。
 
 
 
-+ <b>Q: Is it worth buying hard drives to farm Chia?</b>
++ <b>Q: Chiaをファームするためにハードディスクを購入する価値はありますか?</b>
 
-A: The likely outcome is that it rapidly becomes unprofitable to buy hard drives just for the purposes of farming, so you'll always be able to get rewards off your unused storage. They'll likely be small, but it isn't costing you anything extra if you already have the storage for some other reason. People have already paid for a lot of unused storage capacity, there's ridiculous excess resources available, so it will be unprofitable to buy storage just for the sake of farming. This is directly related to storage being useful for other things, although it isn't "useful" farming in the sense that the calculation itself isn't productive, but it is leveraging a useful resource.
+A: ファーム目的のためにハードドライブを購入することは急速に不採算になる可能性が高いでしょう。したがって、あなたは未使用のストレージから常に報酬を得ることができます。報酬はおそらく小さくなるでしょうが、何か他の理由で既にストレージを持っていれば余分な費用はかかりません。人々はすでに未使用のストレージ容量をたくさん支払ってしまっており、利用可能な余計なリソースが大量にありますので、ファームのためだけにストレージを購入するのは採算がとれないでしょう。以上のことは他のものよりストレージが有用であることに直接関係しています。確かに 計算自体は生産的ではないという点で、「有用な(useful)」農業(farming)ではありませんが、リソースを有効活用しています。
 
 
 
-+ <b>Q: How is Chia any different from other storage coins such as Burst?</b>
++ <b>Q: ChiaはBurstのような他のストレージ型のコインとどう違いますか?</b>
 
-A: Because burstcoin doesn't have the proof of time component, there are some attacks that make it unsuitable as a mining algorithm.
+A: Burstcoinには時間認証(proof of time)コンポーネントがないため、マイニングアルゴリズムとして不適切にする攻撃手法が存在します。
 
 
 
-+ <b>Q: How is Chia going to be funded?</b>
++ <b>Q: Chiaはどのように資金調達する予定ですか?</b>
 
-A: We have enough development work to do that raising funds is necessary to make it happen. We're going to try to do so in a way which is as transparent and open to the public as possible.
+A: 私たちは開発すべきことがたくさんあり、実現させるために資金調達が必要です。 私たちは、できるだけ透明で一般に開放された方法で資金調達しようとしています。
 
 
 
-+ <b>Q: How fast will Chia be?</b>
++ <b>Q: Chiaはどのくらい高速ですか?</b>
 
-A: Chia will support lightning Network out of the box, so payment speed will depend on whether there is an available lightning path. Lightning transactions take less than a few seconds on reasonable Network latencies. Our block times for on-chain transactions will be similar to Bitcoin.
+A: Chiaはライトニングネットワークをサポートしますので、支払い速度は利用可能なライトニングパスがあるかによって決まります。 ライトニングトランザクションは、妥当なネットワーク待ち時間では数秒もかかりません。オンチェーントランザクションのブロック時間は、Bitcoinと同等です。
 
 
 
-+ <b>Q: Any other Chia developments in the works?</b>
++ <b>Q: Chia以外に開発中のものはありますか?</b>
 
-A: After the initial release focus will be on supporting lightning as it is today, adding in off-chain channels, supporting MAST and probably simplicity and covenants to support vaults. Chia is going to support atomic swaps out of the gate. We're starting with Bitcoin script using BLS signatures instead of DSA. The plan is to roll releases out in conjunction with Bitcoin rollouts because it's based on the same codebase.
+A: 最初のリリース後は、現行のライトニング、オフチェーンチャネルの追加、MAST、おそらくは簡潔さをサポートし、そしてボールト(vaults)のサポートを約束します。Chiaは、ゲートからのアトミックスワップ(atomic swaps)をサポートするつもりです。 DSAではなくBLSシグネチャを使用したBitcoinスクリプトから始めています。 Bitcoinと同じコードベースに基づいているため、Bitcoinと同時期にロールリリースする予定です。
 
 
 
-+ <b>Q: What scripting language will Chia use?</b>
++ <b>Q: Chiaが使用するスクリプト言語は何ですか?</b>
 
-A: We will be going with minimally modified Bitcoin script for starters (switch to BLS signatures) and longer term probably going with Simplicity. We're building on the Bitcoin codebase, so C/C++.
+A: 私たちは、わずかに修正した（BLSシグネチャへ切り替えた）Bitcoinスクリプトを起点としており、簡潔にするためにおそらく長期間修正します、私たちはBitcoinコードベースを構築しているので、使用言語はC/C++です。
 
 
 
-+ <b>Q: How will Chia farming difficulty adjust?</b>
++ <b>Q: Chiaファーミングの難易度はどのように調整されますか?</b>
 
-A: Like Bitcoin, difficulty will dynamically adjust to keep block time regular. As a result, as farming competition goes up, you can expect rewards from a particular disk to go down. We do not expect farming to have a high enough expected value to be worth purchasing drives in order to farm.
+A: Bitcoinのように、ブロック時間を定期的に保つために難易度が動的に調整されます。結果として、ファーミング競争率が上がるにつれて、特定のディスクからの報酬が下がることが予想されます。 私たちは、ファーミングのためにドライブを購入する価値があるほど報酬が高いとは考えていません。
 
 
 
-+ <b>Q: How large will a hard drive have to be?</b>
++ <b>Q: どれくらいのハードディスクが必要ですか?</b>
 
-A: There will likely be a minimum allocation size of 100 GB or 1 TB or so. It isn't so much to enforce a minimum as to require a minimum amount of wall clock time to pass before an allocation can be done so attackers can't repeatedly generate and try new allocations instead of doing a single lookup.
+A: 最小割り当てサイズは100 GB,1 TBなどにする可能性があります。最小割り当てを強制するのではなく、割り当てを行う前に最低限の経過時間が必要があるので、攻撃者は単一のルックアップを行う代わりに、新しい割り当てを繰り返し生成して試すことはできません。
 
 
 
-+ <b>Q: Would I be able to farm Chia on my desktop?</b>
++ <b>Q: Chiaをデスクトップでファームすることはできますか?</b>
 
-A: There will still be some rewards for desktop farmers and the cost will still be effectively zero for some nonzero rewards. It isn't like Bitcoin mining where a desktop loses money mining because of the electricity it's burning.
+A: デスクトップファーマーにはもちろんいくらかの報酬があり、非ゼロ報酬に対してコストは実質的にゼロになります。Bitcoinのマイニングのように電力消費のためにお金を失うことはありません。
 
 
 
-+ <b>Q: Will Chia have a similar supply to that of Bitcoin?</b>
++ <b>Q: ChiaにはBitcoinと同等の供給量がありますか?</b>
 
-A: There will be farming rewards but they won't have halving so the amount in circulation increases without bound but the proportion of coins (grains?) minted (grown?) each year goes down as a fraction of the total so far.
+A: ファーミング報酬はありますが、半減することはないので、流通量は無制限に増加します。毎年発行されるコインはその時点の発行量に合わせて減少していきます。
 
 
 
-+ <b>Q: How is chia resistant to miner centralization?</b>
++ <b>Q: Chiaはマイナーの中央集権化にどう対処しますか?</b>
 
-A: Chia Network uses vacant hard disk drive (HDD) space to farm seeds. As there is so much HDD space available and anyone with HDD space will be able to farm, this makes farming decentralized. A Bitcoin Asic centralized mining system makes the formation of blocks a centralized process because ASIC mining and electricity costs are beyond many people's affordability. Manufacturers of HDD could optimize to farm faster, but the cost of doing so is not worth the reward. Thus Chia will be the most decentralized cryptocurrency on the market.
+A: Chia Networkは、空いているハードディスクドライブ（HDD）領域を使用してシードをファームします。使用可能なHDD領域が非常に多く、HDDスペースを持つ人がファームできるようになるため、ファーミングは分散化されます。 Bitcoin ASICのマイニングシステムは、ASICマイニングや電力コストが多くの人々の手頃な価格を超えているため、ブロックの形成を中央集権化します。HDDのメーカーは、より早くファームに最適化することができますが、そのコストは報酬に値するものではありません。したがって、Chiaは市場で最も分散された暗号通貨になります。
 
 
 
-+ <b>Q: Will Chia be open source?</b>
++ <b>Q: Chiaはオープンソースですか?</b>
 
-A: We'll release academic papers about the building blocks, and all implementation code will be open source. We're going to use the Apache license. There's some chance we'll keep it a bit more proprietary when testnet is out but mainnet isn't up yet, but definitely Apache once mainnet is up.
+A: ブロック形成に関する学術論文を発表し、すべての実装コードはオープンソースになります。 私たちはApacheライセンスを使用します。テストネットだけがあってメインネットがまだない時には、コードがプロプライエタリである場合がありますが、メインネットが稼働を始まったら、確実にAppachライセンスで公開します。
 
 
 
-+ <b>Q: Do you have whitepapers where I can read more?</b>
++ <b>Q: さらに追加でホワイトペーパーはありますか?</b>
 
-A: Instead of just one whitepaper, we're going to have academic papers in journals. So far we have the one which got accepted to Asiacrypt (https://eprint.iacr.org/2017/893). There will be at least two more going over proofs of time and how to hook the whole thing together into a blockchain.
+A: たった一つのホワイトペーパーの代わりに、私たちは複数の学術論文を発表する予定です。現在までに1つの論文がAsiacryptoで発表されています(https://eprint.iacr.org/2017/893) さらに少なくともproofs of timeとすべてをブロックチェーンにどのように統合するかについての2報を発表する予定です。
 
 
 
-+ <b>Q: Where can I find out more?</b>
++ <b>Q: さらに知りたい場合はどこを見ればいいですか?</b>
 
-A: You can sign up for the announcements list to get info as it comes out. Also we're available to discuss announcements on Keybase. Check out our homepage for links.
+A: お知らせリストに登録して、最新情報を入手することができます。 また、Keybase上で発表について議論することもできます。私たちのホームページでリンクを確認してください。
 
