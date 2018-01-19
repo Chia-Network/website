@@ -32,7 +32,7 @@ A: Seeding is a process that requires reading and writing every sector of the al
 
 + <b>Q: When will Chia launch?</b>
 
-A: Chia plans to sale in Q2 and launch by end of 2018, but this is not set in stone and is dependent on development.
+A: Chia plans a coin sale in Q2 and a network launch by the end of 2018, but this is not set in stone and is dependent on further development.
 
 
 
