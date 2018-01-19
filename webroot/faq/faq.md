@@ -74,7 +74,7 @@ A: Your chances of farming the next block are directly proportional to the amoun
 
 + <b>Q: Is it worth buying hard drives to farm Chia?</b>
 
-A: The likely outcome is that it rapidly becomes unprofitable to buy hard drives just for the purposes of farming, so you'll always be able to get rewards off your unused storage. They'll likely be small, but it isn't costing you anything extra if you already have the storage for some other reason. People have already paid for a lot of unused storage capacity, there's ridiculous excess resources available, so it will be unprofitable to buy storage just for the sake of farming. This is directly related to storage being useful for other things, although it isn't "useful" farming in the sense that the calculation itself isn't productive, but it is leveraging a useful resource.
+A: Chia believes that it will be unprofitable to buy hard drives just for the purposes of farming, as everyone will be able to get rewards from unused storage - which there is a lot of. Farming rewards will likely be small, but it isn't costing a farmer anything extra if you already have the storage for some other reason. People have already paid for a lot of unused storage capacity - there's ridiculous excess resources available - so it will be unprofitable to buy storage just for the sake of farming. This is directly related to storage being useful for other things, although it isn't "useful" farming in the sense that the calculation itself isn't productive, but it is leveraging a useful resource. To the extent that Chia unexpectedly drives developments that decrease the cost of storage, we think that's a benefit for society - especially when compared to wasting electricity on custom ASIC mining hardware.
 
 
 
