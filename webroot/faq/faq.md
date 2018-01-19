@@ -116,13 +116,13 @@ A: Like Bitcoin, difficulty will dynamically adjust to keep block time regular. 
 
 + <b>Q: How large will a hard drive have to be?</b>
 
-A: There will likely be a minimum allocation size of 100 GB or 1 TB or so. It isn't so much to enforce a minimum as to require a minimum amount of wall clock time to pass before an allocation can be done so attackers can't repeatedly generate and try new allocations instead of doing a single lookup.
+A: There will likely be a minimum allocation size of 100 GB or 1 TB. It isn't so much to enforce a minimum as to require a minimum amount of wall clock time to pass before an allocation can be done so attackers can't repeatedly generate and try new allocations instead of doing a single lookup.
 
 
 
 + <b>Q: Would I be able to farm Chia on my desktop?</b>
 
-A: There will still be some rewards for desktop farmers and the cost will still be effectively zero for some nonzero rewards. It isn't like Bitcoin mining where a desktop loses money mining because of the electricity it's burning.
+A: There will still be some rewards for desktop farmers and the cost will still be effectively zero for some nonzero rewards. It isn't like Bitcoin mining where a desktop loses money mining because of the electricity it's burning and the fact that it's not competitive with ASIC miners. Bandwidth requirements are also expected to be very low.
 
 
 
