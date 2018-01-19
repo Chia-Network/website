@@ -38,7 +38,7 @@ A: Chia plans a coin sale in Q2 and a network launch by the end of 2018, but thi
 
 + <b>Q: How will I be able to buy Chia?</b>
 
-A: We're planning on doing some kind of sale to the public, working over that with lawyers at the moment. We need to do some amount of fund-raising because there's quite a bit of work still to be done. We're just getting the thing up and running and it would be nice to fund ongoing development and enhancements in the future (many of which will be shared with Bitcoin). There will be a pre-farm of currency whose allocation will be split between being earmarked to fund future development and going to the team. The funding mechanism will be transparent and available publicly before sales commence.
+A: Chia plans on doing some kind of sale to the public and we are working with our lawyers at the moment. The goal of our sale is to be as widely available to investors as possible. We need to do some amount of additional fundraising as we're just getting Chia up and running and it would be nice to fund ongoing development and enhancements in the future. There will be a pre-farm of currency whose allocation will be split between being earmarked to fund future development and the team. The funding mechanism and pre-farm amounts will be transparent and available publicly before coin sales commence.
 
 
 
