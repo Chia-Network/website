@@ -80,7 +80,7 @@ A: Chia believes that it will be unprofitable to buy hard drives just for the pu
 
 + <b>Q: How is Chia any different from other storage coins such as Burst?</b>
 
-A: Because burstcoin doesn't have the proof of time component, there are some attacks that make it unsuitable as a mining algorithm.
+A: Burstcoin doesn't have the proof of time component therefore there are attacks that make it unsuitable as a mining algorithm. Additionally, Chia simplifies the math used for proofs of space. Chia also inherits the real world deployment experience of the Bitcoin protocol.
 
 
 
