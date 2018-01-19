@@ -104,7 +104,7 @@ A: After the initial release our focus will be on supporting Lightning as it is 
 
 + <b>Q: What scripting language will Chia use?</b>
 
-A: We will be going with minimally modified Bitcoin script for starters (switch to BLS signatures) and longer term probably going with Simplicity. We're building on the Bitcoin codebase, so C/C++.
+A: We will be going with minimally modified Bitcoin script for starters (but with a switch to BLS signatures) and longer term probably going with Simplicity. We're building on the Bitcoin codebase, so core development will be in C/C++.
 
 
 
