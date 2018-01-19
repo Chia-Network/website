@@ -50,7 +50,7 @@ A: No code has been written yet. A bunch of mathematical primitives have been wo
 
 + <b>Q: When can I farm Chia?</b>
 
-A: There will be a public sale Q2 2018, and you'll be able to farm once the network launches.
+A: We hope to have a public sale in Q2 2018, and you'll be able to farm once the network launches which we hope will be before the end of 2018. All dates remain subject to change based on ongoing development.
 
 
 
