@@ -44,7 +44,7 @@ A: We're planning on doing some kind of sale to the public, working over that wi
 
 + <b>Q: Where is Chia development now?</b>
 
-A: No code has been written yet. A bunch of mathematical primitives have been worked out and are working their way towards publication. I'm hiring programmers right now and coding will begin soon.
+A: No code has been written yet. A bunch of mathematical primitives have been worked out and are working their way towards publication. We're hiring programmers right now and coding will begin soon. An existing and highly technical paper regarding proofs of space and avoiding Hellman's time-memory trade-off is <a href = "https://eprint.iacr.org/2017/893">available</a>.
 
 
 
