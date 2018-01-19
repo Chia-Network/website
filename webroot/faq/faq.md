@@ -86,7 +86,7 @@ A: Burstcoin doesn't have the proof of time component therefore there are attack
 
 + <b>Q: How is Chia going to be funded?</b>
 
-A: We have enough development work to do that raising funds is necessary to make it happen. We're going to try to do so in a way which is as transparent and open to the public as possible.
+A: Chia has raised a seed round of funding but we have enough development work to do that raising funds in the future is necessary to make it happen. We're going to try to do so in a way which is as transparent and open to the public as possible.
 
 
 
