@@ -14,7 +14,7 @@ A: Chia farming is a bit like mining in that it's how blocks are securely create
 
 + <b>Q: Main difference between Chia and Bitcoin?</b>
 
-A: Chia is farmed with hard drives instead of mining with processing power, allowing easier access to users, and vastly reducing the cost/waste of securing the network (electricity burned). Chia is resistant to farmer centralization. Chia has a bunch of basic improvements: Everything is BLS signatures for better smart transaction support, and a bunch of bug fixes like timewarp. The goal is to make hard forks effectively impossible, so governance will come from user choice and bitcoin-like decentralized incentives.
+A: Chia is farmed with storage space like hard drives instead of mining with processing power. This allows broader access to everyday users, and vastly reduces the cost/waste of securing the network in electricity burned or custom hardware consumed. Chia is resistant to farmer centralization. Chia also will include a bunch of basic improvements to the bitcoin protocol: Everything is <a href = "https://en.wikipedia.org/wiki/Boneh%E2%80%93Lynn%E2%80%93Shacham">BLS signatures</a> for better smart transaction support, and it will include a bunch of bug fixes to things like <a href = "https://bitcoin.stackexchange.com/questions/20597/where-exactly-is-the-off-by-one-difficulty-bug">timewarp</a> while making those fixes available back to Bitcoin. The goal is to make hard forks effectively impossible, so governance will come from user choice and bitcoin-like decentralized incentives.
 
 
 
