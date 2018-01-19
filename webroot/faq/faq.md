@@ -62,7 +62,7 @@ A: Proofs of time are the second step of farming. Proofs of time depend on a fun
 
 + <b>Q: Why the name Chia?</b>
 
-A: "Chia" is the name of a grain. It goes with the "farming" theme.
+A: "Chia" is the name of a grain you might have heard of before. It's green. It goes with the "farming" theme.
 
 
 
