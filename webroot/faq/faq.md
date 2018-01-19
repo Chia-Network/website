@@ -26,7 +26,7 @@ A: Chia is farmed with storage space like hard drives instead of mining with pro
 
 + <b>Q: What does Chia seeding mean?</b>
 
-A: Seeding is a process that requires reading and writing every sector more than once; but once a drive is seeded you will be able to farm it for as long as the proofs remain on disk. Drives will be read using low-level direct access APIs. The client will support seeding multiple drives. The only reason to re-seed a drive is if too many of the existing proofs have been overwritten. Re-seeding gives no advantage normally. Seeding a disk will take significant amounts of time once per drive.
+A: Seeding is a process that requires reading and writing every sector of the allocated farming space more than once; but once a drive is seeded you will be able to farm it for as long as the proofs remain on disk. The initial seeding process fills the farmed space with proofs from random inputs and then runs a sort to make looking up those resulting proofs fast. Drives will be read using low-level direct access APIs. The client will support seeding multiple drives. Re-seeding storage gives no advantage normally. The only reason to reseed a drive is if too many of the existing proofs have been overwritten. Seeding a disk will take significant amounts of time once per drive but the goal is that an average farmer can seed their farmed space in 24 to 48 hours for initial set up.
 
 
 
