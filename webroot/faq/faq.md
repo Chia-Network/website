@@ -68,7 +68,7 @@ A: "Chia" is the name of a grain you might have heard of before. It's green. It 
 
 + <b>Q: Does more hard disk space mean more Chia?</b>
 
-A: Your chances of farming the next block are directly proportional to your amount of disk space.
+A: Your chances of farming the next block are directly proportional to the amount of storage space you allocate to Chia farming.
 
 
 
