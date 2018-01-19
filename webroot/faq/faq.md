@@ -20,55 +20,55 @@ A: Chia is farmed with storage space like hard drives instead of mining with pro
 
 + <b>Q: What is "proof of space?"</b>
 
-A: "Proof of space" is not actually storage. Storage is of something directly useful and requires lots of bandwidth. Proofs of space are of data which is useless for anything but generating proofs of space and making it requires essentially no bandwidth. Proof of actual storage requires ridiculous amounts of bandwidth so it will not be used in Chia.
+"Proof of space" should not be confused with storage. Storage via a blockchain protocol is storage of some data that is directly useful. Proof of storage protocols like Filecoin, MaidSafe, Sia, or Storj require ridiculous amounts of bandwidth and those concepts will not be used in the Chia protocol. Proofs of space are data which is useless for anything but generating proofs of space. Making a proof of space or providing a proof to the network requires essentially no bandwidth. A proof of space can be thought of as a precommitment to keeping some storage unused. Client software will make managing farmed storage easy for farmers as they will have options to incrementally shrink the size of their farm to make room for their useful files as needed.
 
 
 
 + <b>Q: What does Chia seeding mean?</b>
 
-A: Seeding is a process that requires reading and writing every sector more than once; but once a drive is seeded you will be able to farm it for as long as the proofs remain on disk. Drives will be read using low-level direct access APIs. The client will support seeding multiple drives. The only reason to re-seed a drive is if too many of the existing proofs have been overwritten. Re-seeding gives no advantage normally. Seeding a disk will take significant amounts of time once per drive.
+A: Seeding is a process that requires reading and writing every sector of the allocated farming space more than once; but once a drive is seeded you will be able to farm it for as long as the proofs remain on disk. The initial seeding process fills the farmed space with proofs from random inputs and then runs a sort to make looking up those resulting proofs fast. Drives will be read using low-level direct access APIs. The client will support seeding multiple drives. Re-seeding storage gives no advantage normally. The only reason to reseed a drive is if too many of the existing proofs have been overwritten. Seeding a disk will take significant amounts of time once per drive but the goal is that an average farmer can seed their farmed space in 24 to 48 hours for initial set up.
 
 
 
 + <b>Q: When will Chia launch?</b>
 
-A: Chia plans to sale in Q2 and launch by end of 2018, but this is not set in stone and is dependent on development.
+A: Chia plans a coin sale in Q2 and a network launch by the end of 2018, but this is not set in stone and is dependent on further development.
 
 
 
 + <b>Q: How will I be able to buy Chia?</b>
 
-A: We're planning on doing some kind of sale to the public, working over that with lawyers at the moment. We need to do some amount of fund-raising because there's quite a bit of work still to be done. We're just getting the thing up and running and it would be nice to fund ongoing development and enhancements in the future (many of which will be shared with Bitcoin). There will be a pre-farm of currency whose allocation will be split between being earmarked to fund future development and going to the team. The funding mechanism will be transparent and available publicly before sales commence.
+A: Chia plans on doing some kind of sale to the public and we are working with our lawyers at the moment. The goal of our sale is to be as widely available to investors as possible. We need to do some amount of additional fundraising as we're just getting Chia up and running and it would be nice to fund ongoing development and enhancements in the future. There will be a pre-farm of currency whose allocation will be split between being earmarked to fund future development and the team. The funding mechanism and pre-farm amounts will be transparent and available publicly before coin sales commence.
 
 
 
 + <b>Q: Where is Chia development now?</b>
 
-A: No code has been written yet. A bunch of mathematical primitives have been worked out and are working their way towards publication. I'm hiring programmers right now and coding will begin soon.
+A: No code has been written yet. A bunch of mathematical primitives have been worked out and are working their way towards publication. We're hiring programmers right now and coding will begin soon. An existing and highly technical paper regarding proofs of space and avoiding Hellman's time-memory trade-off is <a href = "https://eprint.iacr.org/2017/893">available</a>.
 
 
 
 + <b>Q: When can I farm Chia?</b>
 
-A: There will be a public sale Q2 2018, and you'll be able to farm once the network launches.
+A: We hope to have a public sale in Q2 2018, and you'll be able to farm once the network launches which we hope will be before the end of 2018. All dates remain subject to change based on ongoing development.
 
 
 
 + <b>Q: What does proof of time mean?</b>
 
-A: Technically proofs of time are also part of the farming, but those tend to be done by a few actors who don't get anything out of it directly.
+A: Proofs of time are the second step of farming. Proofs of time depend on a function that takes a certain amount of wall clock time to generate a proof, but that proof is canonically correct for the current block and can be quickly verified as correct by anyone in the network. Chia expects there to be a limited number of proof of time nodes as those nodes are not rewarded for coming up with the current block's proof of time. Only the farmer who had the best proof of space from his farm will be rewarded with Chia coin at each block.
 
 
 
 + <b>Q: Why the name Chia?</b>
 
-A: "Chia" is the name of a grain. It goes with the "farming" theme.
+A: "Chia" is the name of a grain you might have heard of before. It's green. It goes with the "farming" theme.
 
 
 
 + <b>Q: Does more hard disk space mean more Chia?</b>
 
-A: Your chances of farming the next block are directly proportional to your amount of disk space.
+A: Your chances of farming the next block are directly proportional to the amount of storage space you allocate to Chia farming.
 
 
 
