@@ -20,7 +20,7 @@ A: Chia is farmed with storage space like hard drives instead of mining with pro
 
 + <b>Q: What is "proof of space?"</b>
 
-A: "Proof of space" is not actually storage. Storage is of something directly useful and requires lots of bandwidth. Proofs of space are of data which is useless for anything but generating proofs of space and making it requires essentially no bandwidth. Proof of actual storage requires ridiculous amounts of bandwidth so it will not be used in Chia.
+A: "Proof of space" is not storage. Storage is of something directly useful and requires lots of bandwidth. Proofs of space are of data which is useless for anything but generating proofs of space and making it requires essentially no bandwidth. Proof of actual storage like Filecoin, MaidSafe, Sia, or Storj require ridiculous amounts of bandwidth and will not be used in the Chia protocol. A proof of space can be thought of as a precommitment to keeping storage unused. However, client software is likely to make this process easy for farmers as they will likely have options to automatically shrink the size of their farm to make room for their own files as needed and implement their farm at different levels of storage from the file level to the unused space on a storage device below a filesystem.
 
 
 
