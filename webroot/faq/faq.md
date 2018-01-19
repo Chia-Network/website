@@ -62,7 +62,7 @@ A: Technically proofs of time are also part of the farming, but those tend to be
 
 + <b>Q: Why the name Chia?</b>
 
-A: "Chia" is the name of a grain. It goes with the "farming" theme.
+A: "Chia" is the name of a grain you might have heard of before. It's green. It goes with the "farming" theme.
 
 
 
