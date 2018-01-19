@@ -98,7 +98,7 @@ A: Chia will support lightning Network out of the box in addition to its blockch
 
 + <b>Q: Any other Chia developments in the works?</b>
 
-A: After the initial release focus will be on supporting lightning as it is today, adding in off-chain channels, supporting MAST and probably simplicity and covenants to support vaults. Chia is going to support atomic swaps out of the gate. We're starting with Bitcoin script using BLS signatures instead of DSA. The plan is to roll releases out in conjunction with Bitcoin rollouts because it's based on the same codebase.
+A: After the initial release our focus will be on supporting Lightning as it is today, adding in off-chain channels, supporting MAST and probably <a href = "https://blockstream.com/simplicity.pdf">Simplicity</a> and covenants to support vaults. Chia is going to support atomic swaps out of the gate. We're starting with Bitcoin script using BLS signatures instead of DSA. The plan is to roll releases out in conjunction with Bitcoin rollouts because it's based on the same codebase.
 
 
 
