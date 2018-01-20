@@ -116,7 +116,7 @@ A: Like Bitcoin, difficulty will dynamically adjust to keep block times regular.
 
 + <b>Q: How large will a hard drive have to be?</b>
 
-A:  There will likely be a minimum allocation size of 100 GB or 1 TB. It isn't so much to enforce a minimum as to require a minimum amount of wall clock time to pass before an allocation can be done so attackers can't repeatedly generate and try new allocations instead of doing a single lookup.
+A: There will likely be a minimum allocation size of 100 GB or 1 TB. It isn't so much to enforce a minimum as to require a minimum amount of wall clock time to pass before an allocation can be done so attackers can't repeatedly generate and try new allocations instead of doing a single lookup.
 
 
 
@@ -132,7 +132,7 @@ A: There will be fixed farming rewards and they won't have halving so the amount
 
 
 
-+ <b>Q: How is chia resistant to miner centralization?</b>
++ <b>Q: How is Chia resistant to miner centralization?</b>
 
 A: Chia Network uses vacant hard disk drive (HDD) space to farm seeds. As there is so much HDD space available and anyone with HDD space will be able to farm, this makes farming decentralized. A Bitcoin Asic centralized mining system makes the formation of blocks a centralized process because ASIC mining and electricity costs are beyond many people's affordability. Manufacturers of HDD could optimize to farm faster, but the cost of doing so is not worth the reward. Thus Chia will be the most decentralized cryptocurrency on the market.
 
