@@ -122,13 +122,13 @@ A:  There will likely be a minimum allocation size of 100 GB or 1 TB. It isn't s
 
 + <b>Q: Would I be able to farm Chia on my desktop?</b>
 
-A: There will still be some rewards for desktop farmers and the cost will still be effectively zero for some nonzero rewards. It isn't like Bitcoin mining where a desktop loses money mining because of the electricity it's burning.
+A: There will still be some rewards for desktop farmers and the cost will still be effectively zero for some nonzero rewards. It isn't like Bitcoin mining where a desktop loses money mining because of the electricity it's burning and the fact that it's not competitive with ASIC miners. Bandwidth requirements are also expected to be very low.
 
 
 
 + <b>Q: Will Chia have a similar supply to that of Bitcoin?</b>
 
-A: There will be farming rewards but they won't have halving so the amount in circulation increases without bound but the proportion of coins (grains?) minted (grown?) each year goes down as a fraction of the total so far.
+A: There will be fixed farming rewards and they won't have halving so the amount of coins in circulation increases without bound at the fixed rate of annual mining but the proportion of coins (grains?) minted (grown?) each year perpetually goes down as a percentage of the total coins in existence.
 
 
 
