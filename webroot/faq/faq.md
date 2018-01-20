@@ -146,7 +146,7 @@ A: Chia will release academic papers about the building blocks of the protocol, 
 
 + <b>Q: Do you have whitepapers where I can read more?</b>
 
-A: Instead of just one whitepaper, we're going to have academic papers in journals. So far we have the one which got accepted to Asiacrypt (https://eprint.iacr.org/2017/893). There will be at least two more going over proofs of time and how to hook the whole thing together into a blockchain.
+A: Instead of just one white paper like most projects, we're going to have academic papers in journals. So far we have <a href = "https://eprint.iacr.org/2017/893">our first paper</a> which was accepted by Asiacrypt. There will be at least two more papers going over proofs of time and how to hook the whole thing together into a blockchain.
 
 
 
