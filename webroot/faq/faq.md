@@ -116,7 +116,7 @@ A: Like Bitcoin, difficulty will dynamically adjust to keep block times regular.
 
 + <b>Q: How large will a hard drive have to be?</b>
 
-A:  There will likely be a minimum allocation size of 100 GB or 1 TB. It isn't so much to enforce a minimum as to require a minimum amount of wall clock time to pass before an allocation can be done so attackers can't repeatedly generate and try new allocations instead of doing a single lookup.
+A: There will likely be a minimum allocation size of 100 GB or 1 TB. It isn't so much to enforce a minimum as to require a minimum amount of wall clock time to pass before an allocation can be done so attackers can't repeatedly generate and try new allocations instead of doing a single lookup.
 
 
 
@@ -132,21 +132,21 @@ A: There will be fixed farming rewards and they won't have halving so the amount
 
 
 
-+ <b>Q: How is chia resistant to miner centralization?</b>
++ <b>Q: How is Chia resistant to miner centralization?</b>
 
-A: Chia Network uses vacant hard disk drive (HDD) space to farm seeds. As there is so much HDD space available and anyone with HDD space will be able to farm, this makes farming decentralized. A Bitcoin Asic centralized mining system makes the formation of blocks a centralized process because ASIC mining and electricity costs are beyond many people's affordability. Manufacturers of HDD could optimize to farm faster, but the cost of doing so is not worth the reward. Thus Chia will be the most decentralized cryptocurrency on the market.
+A: Chia uses empty storage (like hard disk drives) to farm seeds. As there is so much empty storage space available and anyone with unused storage space will be able to farm, this should lead to farming decentralization. Bitcoin's proof of work mining system drives the formation of blocks toward a limited number of miners because aquiring specialized ASIC mining equipment and locating them near cheap electricity is beyond most people's ability to invest. Manufacturers of storage could optimize storage hardware to farm faster or cheaper, but the cost of doing so is probably not worth the reward and that would otherwise have the benefit of generally decreasing the cost of storage for everyone. Chia should become the most decentralized cryptocurrency on the market.
 
 
 
 + <b>Q: Will Chia be open source?</b>
 
-A: We'll release academic papers about the building blocks, and all implementation code will be open source. We're going to use the Apache license. There's some chance we'll keep it a bit more proprietary when testnet is out but mainnet isn't up yet, but definitely Apache once mainnet is up.
+A: Chia will release academic papers about the building blocks of the protocol, and all implementation code will be open source. We're going to use the <a href = "https://www.apache.org/licenses/LICENSE-2.0">Apache License</a>. There's some chance we'll keep our source code a bit more proprietary when testnet is out but mainnet isn't up yet, but we will definitely license all our source code under the Apache License once mainnet is generally available.
 
 
 
 + <b>Q: Do you have whitepapers where I can read more?</b>
 
-A: Instead of just one whitepaper, we're going to have academic papers in journals. So far we have the one which got accepted to Asiacrypt (https://eprint.iacr.org/2017/893). There will be at least two more going over proofs of time and how to hook the whole thing together into a blockchain.
+A: Instead of just one white paper like most projects, we're going to have academic papers in journals. So far we have <a href = "https://eprint.iacr.org/2017/893">our first paper</a> which was accepted by Asiacrypt. There will be at least two more papers going over proofs of time and how to hook the whole thing together into a blockchain.
 
 
 
