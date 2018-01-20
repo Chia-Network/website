@@ -92,7 +92,7 @@ A: Chia has raised a seed round of funding but we have enough development work t
 
 + <b>Q: How fast will Chia transactions be?</b>
 
-A: Chia will support lightning Network out of the box in addition to its blockchain, so payment speed will depend on whether there is an available lightning path. Lightning transactions take less than a few seconds on reasonable network latencies. Our block times for on-chain transactions will be similar to Bitcoin.
+A: Chia will support Lightning Network out of the box in addition to its blockchain, so payment speed will depend on whether there is an available lightning path. Lightning transactions take less than a few seconds on reasonable network latencies. Our block times for on-chain transactions will be similar to Bitcoin.
 
 
 
