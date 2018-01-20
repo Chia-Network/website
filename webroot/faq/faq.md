@@ -128,7 +128,7 @@ A: There will still be some rewards for desktop farmers and the cost will still 
 
 + <b>Q: Will Chia have a similar supply to that of Bitcoin?</b>
 
-A: There will be farming rewards but they won't have halving so the amount in circulation increases without bound but the proportion of coins (grains?) minted (grown?) each year goes down as a fraction of the total so far.
+A: There will be fixed farming rewards and they won't have halving so the amount of coins in circulation increases without bound at the fixed rate of annual mining but the proportion of coins (grains?) minted (grown?) each year perpetually goes down as a percentage of the total coins in existence.
 
 
 
