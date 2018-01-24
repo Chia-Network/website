@@ -1,7 +1,5 @@
-
-
 body {
-  color: rgb(102,102,102);
+  color: rgb(102, 102, 102);
   font-family: 'Roboto', sans-serif;
   font-size: 140%;
   line-height: 155%;
@@ -9,32 +7,47 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: rgb(51,51,51);
+  color: rgb(51, 51, 51);
   font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-  font-size: 200%;
+  font-size: 150%;
   line-height: 140%;
-  text-align: right;
+  text-align: center;
 }
 
 h2 {
   font-size: 180%;
+  margin-top: 0;
 }
 
 h3 {
   font-size: 170%;
+  margin-top: 0;
 }
 
 h4 {
-  color: rgb(130,130,130);
+  color: rgb(130, 130, 130);
   font-size: 130%;
   margin: 8px;
 }
 
+@media screen and (min-width: 768px) {
+  h1 {
+    margin-top: 0;
+    font-size: 200%;
+    line-height: 140%;
+    text-align: right;
+  }
+}
+
 a {
-  color: rgb(51,170,255);
+  color: rgb(51, 170, 255);
+}
+
+p {
+  margin-top: 0;
 }
 
 a:hover {
@@ -42,6 +55,7 @@ a:hover {
 }
 
 .row {
+  margin-left: 0;
   margin-right: 0;
 }
 
@@ -49,8 +63,30 @@ a:hover {
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 1200px;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.container-fluid {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container-fluid {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .wrap {
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+
+  .wrap.smaller {
+    padding-bottom: 40px;
+    padding-top: 20px;
+  }
 }
 
 .header .wrap {
@@ -59,7 +95,7 @@ a:hover {
 }
 
 .logo {
-  max-width: 95%;
+  max-width: 100%;
 }
 
 .hero {
@@ -73,9 +109,9 @@ a:hover {
 }
 
 .header-button a {
-  border: 1px solid rgb(153,153,153);
+  border: 1px solid rgb(153, 153, 153);
   border-radius: 4px;
-  color: rgb(102,102,102);
+  color: rgb(102, 102, 102);
   font-family: 'Poppins', sans-serif;
   margin-top: 12px;
   padding: 8px 15px;
@@ -83,24 +119,36 @@ a:hover {
 }
 
 .header-button a:hover {
-  background-color: rgb(230,230,230);
+  background-color: rgb(230, 230, 230);
 }
 
 .info-box {
-  border: 1px solid rgb(180,180,180);
+  border: 1px solid rgb(180, 180, 180);
   border-radius: 8px;
-  color: rgb(160,160,160);
+  color: rgb(160, 160, 160);
   margin: 0 auto;
-  max-width: 70%;
   padding: 10px 20px 0 20px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 768px) {
+  .info-box {
+    font-size: 1.4rem;
+    max-width: 70%;
+  }
 }
 
 ol.info-box {
-  background-color: rgba(255,255,255,0.45);
+  background-color: rgba(255, 255, 255, 0.45);
   font-size: 94%;
   max-width: 90%;
-  padding-left: 35px;
-  margin-top:10px;
+  padding: 20px 20px 20px 40px;
+  margin: 20px 0;
+}
+
+ol li {
+  margin-bottom: 10px;
 }
 
 .info-box p {
@@ -108,12 +156,12 @@ ol.info-box {
 }
 
 .get-chia {
-  background-color: rgb(64,171,92);
-  color: rgb(255,255,255);
+  background-color: rgb(64, 171, 92);
+  color: rgb(255, 255, 255);
 }
 
 .get-chia a {
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
 }
 
 .get-chia a:hover {
@@ -121,7 +169,7 @@ ol.info-box {
 }
 
 .get-chia h2 {
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
   font-size: 250%;
 }
 
@@ -131,6 +179,10 @@ ol.info-box {
 
 .centered {
   text-align: center;
+}
+
+.margin-top {
+  margin-top: 35px;
 }
 
 .med-icon {
@@ -150,31 +202,43 @@ ol.info-box {
 
 .fi {
   background-image: url('../images/buildings.jpg');
-  color: rgb(255,255,255);
-  font-size: 150%;
+  color: rgb(255, 255, 255);
+  font-size: 120%;
   line-height: 140%;
 }
 
 .fi h3 {
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
   line-height: 120%;
 }
 
+
+@media screen and (min-width: 768px) {
+  .fi {
+    font-size: 150%;
+    line-height: 140%;
+  }
+
+  .fi h3 {
+    line-height: 120%;
+  }
+}
+
 .grey-fade img {
-  filter: grayscale(100%) brightness(35%);
   transition: filter 2s;
 }
 
 .grey-fade h2 {
   transition: color 2s;
 }
+
 .grey-text {
-  color: rgb(102,102,102);
+  color: rgb(102, 102, 102);
 }
 
 .grey-fade img:hover,
 .grey-fade img:hover+h2 {
-  color: rgb(64,171,92);
+  color: rgb(64, 171, 92);
   filter: grayscale(0%) brightness(100%);
 }
 
@@ -182,19 +246,24 @@ ol.info-box {
   color: rgb(64,171,92);
 }*/
 
-
 .page-footer {
-  background-color: rgb(80,80,80);
-  color: rgb(255,255,255);
+  background-color: rgb(80, 80, 80);
+  color: white;
   text-align: center;
 }
+
+.page-footer h2 {
+  color: white;
+}
+
 .page-footer .grey {
-  color: rgb(102,102,102);
+  color: rgb(102, 102, 102);
   font-size: 16px;
-  padding-top:20px;
+  padding-top: 20px;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
+
 .page-footer .wrap {
   padding-bottom: 20px;
 }
@@ -207,15 +276,15 @@ ol.info-box {
 }
 
 #news-feed-page .newschain {
-  background-color: rgb(64,171,92);
-  color: rgb(255,255,255);
+  background-color: rgb(64, 171, 92);
+  color: rgb(255, 255, 255);
   min-height: 100%;
 }
 
 #news-feed-page .news-box {
-  border: 1px solid rgb(180,180,180);
+  border: 1px solid rgb(180, 180, 180);
   border-radius: 8px;
-  color: rgb(160,160,160);
+  color: rgb(160, 160, 160);
   margin: 0 auto;
   max-width: 100%;
   padding: 10px 20px 0 20px;
@@ -224,72 +293,60 @@ ol.info-box {
 }
 
 #news-feed-page .panel-heading {
-
-    /*padding: 10px 15px;*/
-    border-bottom: 1px solid transparent;
-    border-bottom-color: transparent;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-
+  /*padding: 10px 15px;*/
+  border-bottom: 1px solid transparent;
+  border-bottom-color: transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 #news-feed-page .news-heading span {
-
-    float: left;
-    color: #178db1;
-    /*font-size: 1.8em;*/
-    /*font-family: 'Roboto';*/
-    font-weight: 300;
-    width: 80%;
-
+  float: left;
+  color: #178db1;
+  /*font-size: 1.8em;*/
+  /*font-family: 'Roboto';*/
+  font-weight: 300;
+  width: 80%;
 }
-
 
 #news-feed-page .news-text-content .description {
-
-    float: left;
-    /*color: #178db1;*/
-    font-size: 60%;
-    line-height: 20px;
-    /*font-family: 'Roboto';*/
-    /*font-weight: 300;*/
-    width: 80%;
-
-
-
+  float: left;
+  /*color: #178db1;*/
+  font-size: 60%;
+  line-height: 20px;
+  /*font-family: 'Roboto';*/
+  /*font-weight: 300;*/
+  width: 80%;
 }
+
 #news-feed-page .news-heading time {
-
-    float: right;
-    color: #666;
-    /*font-family: 'Roboto';*/
-    font-style: italic;
-    /*font-weight: 300;*/
-    /*font-size: 1.4em;*/
-    /*padding-top: 6px;*/
-    font-size: 80%;
-    width: 20%;
-    text-align: right;
-
+  float: right;
+  color: #666;
+  /*font-family: 'Roboto';*/
+  font-style: italic;
+  /*font-weight: 300;*/
+  /*font-size: 1.4em;*/
+  /*padding-top: 6px;*/
+  font-size: 80%;
+  width: 20%;
+  text-align: right;
 }
 
-#news-feed-page .image-box{
+#news-feed-page .image-box {
   max-width: 95%;
 }
 
-
-
-#news-feed-page .read-more-link{
+#news-feed-page .read-more-link {
   cursor: pointer;
-  color:  rgb(51,170,255);
+  color: rgb(51, 170, 255);
 }
 
 #news-feed-page .read-more-link a {
-  color: rgb(51,170,255)!important;
+  color: rgb(51, 170, 255) !important;
 }
 
 #news-feed-page .read-more-link a:hover {
-  opacity: 0.6!important;
+  opacity: 0.6 !important;
 }
 
 #news-feed-page .logo-news {
@@ -303,13 +360,16 @@ ol.info-box {
   opacity: 1;
 }
 
-#news-feed-page .news-box{
+#news-feed-page .news-box {
   margin: 20px;
 }
+
 /*Newsfeed end*/
 
 /*translation start*/
+
 .langSwitch {
   font-size: medium;
 }
+
 /*translation end*/
