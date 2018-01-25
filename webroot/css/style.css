@@ -226,6 +226,7 @@ ol li {
 
 .grey-fade img {
   transition: filter 2s;
+  padding-bottom:30px;
 }
 
 .grey-fade h2 {
