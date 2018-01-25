@@ -1,6 +1,6 @@
 // for ease of re-use put short headings, section titles and keywords up here
 
-hiring = we're hiring!
+hiring = We're hiring!
 
 get-chia = Get Chia
 
