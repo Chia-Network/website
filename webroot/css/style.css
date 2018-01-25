@@ -109,17 +109,21 @@ a:hover {
 }
 
 .header-button a {
-  border: 1px solid rgb(153, 153, 153);
-  border-radius: 4px;
-  color: rgb(102, 102, 102);
-  font-family: 'Poppins', sans-serif;
-  margin-top: 12px;
-  padding: 8px 15px;
-  text-decoration: none;
+  /*border: 1px solid rgb(153, 153, 153); */
+    border-radius: 25px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 12px;
+    /* padding: 10px 20px; */
+    text-decoration: none;
+    background-color: #3aac59;
+    width: 140px;
+    padding: 10px 25px;
 }
 
 .header-button a:hover {
-  background-color: rgb(230, 230, 230);
+  /*background-color: rgb(230, 230, 230);*/
+  background-color: #3aac59;
 }
 
 .info-box {
