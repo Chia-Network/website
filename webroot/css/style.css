@@ -25,6 +25,7 @@ h2 {
 h3 {
   font-size: 170%;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 h4 {
@@ -252,23 +253,43 @@ ol li {
 }*/
 
 .page-footer {
-  background-color: rgb(80, 80, 80);
+  background-color: #374641;
   color: white;
-  text-align: center;
+  text-align: left;
+  font-size: 14px;
 }
-
+.page-footer ul {
+  list-style: none;
+  margin-top:0px;
+}
 .page-footer h2 {
   color: white;
 }
+.page-footer .header {
+  font-size: 18px;
+}
+.page-footer .social_footer {
+display: inline-block;
+padding-right:20px;
+height:20px;
+width:20px;
+}
 
 .page-footer .grey {
-  color: rgb(102, 102, 102);
-  font-size: 16px;
-  padding-top: 20px;
+  color: #ffffff;
+  opacity: .3;
+  font-size: 12px;
+  line-height: 20px;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-
+.page-footer a {
+  color:white;
+  font-size:14px;
+}
+.page-footer .logo {
+  max-width: 30%;
+}
 .page-footer .wrap {
   padding-bottom: 20px;
 }
@@ -356,7 +377,6 @@ ol li {
 
 #news-feed-page .logo-news {
   max-width: 95%;
-  height: 100%;
   opacity: 0.5;
   padding-top: 10px;
 }
