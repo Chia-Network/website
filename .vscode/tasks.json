@@ -13,7 +13,14 @@
             "isBackground": true,
             "options": {
                 "cwd": "${workspaceFolder}/webroot"
-            }
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new"
+            },
+            "problemMatcher": []
         }
     ]
 }
