@@ -68,3 +68,9 @@ contribute-question = Želite doprinijeti Chia mreži? Evo nekoliko zadataka:
 contribute-idea-one = <strong>Popravite postojeće probleme</strong> <a href="https://github.com/Chia-Network/website/issues">spisak problema</a> je najbolje mjesto na kojem možete vidjeti kako da doprinesete Chia mreži. Prije nego što počnete pisati ispravke grešaka ostavite komentar kako niko drugi osim vas nebi radio na ispravci iste greške.
 
 contribute-idea-two = <strong>Dodajte nove prevode</strong>: preporučujemo da Web-sajt klonirate na vaš Github nalog i da sa njega podnesete ispravke grešaka. Pogledajte našu <a href="https://github.com/Chia-Network/website"> Github </a>web lokaciju i pošaljite zahtev za povlačenje.
+
+footer-language = Jezik
+
+footer-contact = Kontakt
+
+footer-find-us = Pronađite nas
