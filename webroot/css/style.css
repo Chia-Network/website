@@ -118,16 +118,17 @@ a:hover {
 
 .header-button a {
   /*border: 1px solid rgb(153, 153, 153); */
-    border-radius: 25px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 12px;
-    /* padding: 10px 20px; */
-    text-decoration: none;
-    background-color: #3aac59;
-    width: 140px;
-    padding: 10px 25px;
-    float:right;
+  border-radius: 25px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 12px;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #3aac59;
+  /* width: 140px; */
+  padding: 10px 25px;
+  float:right;
+  text-align:  center;
 }
 
 .header-button a:hover {
