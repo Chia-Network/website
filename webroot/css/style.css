@@ -52,7 +52,7 @@ p {
 }
 
 a:hover {
-  opacity: 0.6;
+  opacity: 0.6!important;
 }
 
 .row {
@@ -277,7 +277,7 @@ ol li {
   font-size: 18px;
 }
 .page-footer .social_footer {
-display: inline;
+display: inline-block;
 padding-right:20px;
 height:20px;
 width:20px;
@@ -311,7 +311,9 @@ width:20px;
 #news-feed-page .newsfeed {
   background-color:#fafafa;
 }
-
+#news-feed-page .page-footer .social_footer {
+display: inline!important;
+}
 #news-feed-page .newschain {
   background-color: rgb(64, 171, 92);
   color: rgb(255, 255, 255);
