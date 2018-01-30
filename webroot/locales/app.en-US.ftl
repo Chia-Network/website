@@ -1,12 +1,14 @@
 // for ease of re-use put short headings, section titles and keywords up here
 
-hiring = we're hiring!
+hiring = We're hiring!
 
 get-chia = Get Chia
 
 community = Community
 
 about-us = About Us
+
+contribute = Contribute
 
 jobs = Jobs
 
@@ -69,3 +71,10 @@ about-detail = Chia Network is a San Francisco-based company focused on improvin
     Our CEO, Bram Cohen, famously invented BitTorrent: the first modern decentralized network protocol and one of
     the inspirations for the Bitcoin protocol. Our founding team has experience across the crypto-currency and finance
     sectors, coming from Tradehill, CryptoCorp and Lightning Labs.
+
+contribute-question = Are you a developer and want to contribute to the Chia Network? Here are a few ideas:
+	
+contribute-idea-one = <strong>Fix existing issues</strong>: the <a href="https://github.com/Chia-Network/website/issues">issue tracker</a> is the best place to find a useful way to contribute to Chia Network. Before starting to write any patches for issues you find, you may want to comment on the issue to make sure nobody else is already working on it.
+
+contribute-idea-two = <strong>Add Language Translations</strong>: We recommend using Github's tools to make a clone of the web site repo and submit changes through there. Take a look at our site on <a href="https://github.com/Chia-Network/website">github</a> and submit a pull request.
+	
