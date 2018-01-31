@@ -12,13 +12,13 @@ contribute = Contribuer
 
 jobs = Emplois
 
-learn-more = Apprendre encore plus
+learn-more = En Apprendre plus
 
-faq = Questions fréquemment posées
+faq = Foire Aux Questions
 
 financial-instituations = Institutions financières
 
-slogan = l'argent vert pour un monde numérique
+slogan = De l'argent vert, pour un monde numérique.
 
 in-the-news = Chia dans les nouvelles
 
@@ -26,7 +26,7 @@ in-the-news = Chia dans les nouvelles
 // longer content sections
 get-the-latest-news = <br />Recevez les dernières nouvelles de Chia
 
-mission = Nous construisons une blockchain basée sur des preuves d'espace et de temps pour
+mission = Nous construisons une blockchain basée sur des Preuves d'Espace et de Temps pour
     faire une crypto-monnaie moins gourmande, plus décentralisée et plus sécurisée.
 
 recent-talk = Un <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">discours récent</a> (commence à environ 20:00) avec
@@ -35,23 +35,23 @@ recent-talk = Un <a href="https://www.facebook.com/BerkeleyBlockchain/videos/200
 older-talk = Un <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">vieux discours</a> avec
     <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">diapositives</a>.
 
-tech-paper-link = Un <a href="https://eprint.iacr.org/2017/893">document trés technique</a> sur proofs of space.
+tech-paper-link = Un <a href="https://eprint.iacr.org/2017/893">document très technique</a> sur les Preuves d'Espace.
 
 news-link = Suivez les derniers articles dans la section des <a href="/news">nouvelles</a>.
 
-faq-link = <a href="faq/">Questions fréquemment posées (FAQ)</a>
+faq-link = <a href="faq/">Foire Aux Questions (FAQ)</a>
 
-sell-plan = Nous prévoyons de vendre Chia au public au deuxième trimestre de 2018 pour permettre à tout le monde d'investir dans un meilleur argent numérique.
+sell-plan = Nous prévoyons de vendre Chia publiquement au deuxième trimestre de 2018 pour permettre à tous d'investir dans un meilleur argent numérique.
 
-subscribe = Abonnez-vous à <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">liste des annonces</a> pour apprendre plus.
+subscribe = Abonnez-vous à la <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">liste des annonces</a> pour en apprendre plus.
 
-join-keybase = Rejoignez notre groupe Keybase pour participer à la discussion.
+join-keybase = Rejoignez notre groupe Keybase afin de participer à la discussion.
 
 install-keybase = Installer et configurer <a href="https://keybase.io/download">Keybase</a>
 
 request-keybase-access = Exécutez ceci dans votre terminal:
 
-join-announcement-list = Rejoignez notre <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">liste des annonces</a> pour rester informé.
+join-announcement-list = Rejoignez notre <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">liste d'annonces</a> pour rester informé.
 
 looking-to-hire = Nous cherchons des programmeurs techniquement doués pour travailler avec
     notre équipe de cryptographes sur la construction de notre protocole. Doit avoir de solides compétences en algorithmique.
