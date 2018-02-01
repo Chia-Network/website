@@ -181,6 +181,7 @@ ol li {
 .white-leaf {
   filter: brightness(200%) grayscale(100%);
   padding-bottom: 30px;
+  max-width:150px;
 }
 
 .centered {
@@ -398,3 +399,12 @@ width:20px;
 }
 
 /*translation end*/
+
+.thick-top {
+  padding-bottom:60px;
+  padding-top:10px;
+}
+
+.githup-svg {
+  max-width:18px;
+}

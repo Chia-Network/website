@@ -1,25 +1,18 @@
-<!DOCTYPE HTML>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; 
-      script-src 'self' cdn.jsdelivr.net ajax.googleapis.com; 
-      style-src 'self' 'unsafe-inline' cdnjs.cloudflare.com fonts.googleapis.com; 
-      img-src 'self'; 
-      connect-src 'self'; 
+      script-src 'self' cdn.jsdelivr.net ajax.googleapis.com www.googletagmanager.com www.google-analytics.com; 
+      style-src 'self' cdnjs.cloudflare.com fonts.googleapis.com; 
+      img-src 'self' https://www.google-analytics.com www.google-analytics.com https://stats.g.doubleclick.net;; 
+      connect-src 'self' https://www.google-analytics.com www.google-analytics.com https://stats.g.doubleclick.net; 
       font-src 'self' fonts.gstatic.com">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112182430-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'UA-112182430-1');
-    </script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>    
+    <script src="https://www.googletagmanager.com/gtag/js?id=UA-112182430-1" 
+      integrity="sha384-LIR6j42hPUUTN/JSAvBtbex1IOF+zWSsuTIvXTjRqUvXC5ELsGD3SSgZAtKzvzY2" crossorigin="anonymous"></script>
+    <script src="/js/gtag.js"></script>
     <!--/GoogleAnalytics-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -91,7 +84,7 @@
           </div>
         </div>
       </div>
-      <div class="wrap container-fluid" style="padding-bottom:60px;padding-top:10px;">
+      <div class="wrap container-fluid thick-top">
         <div class="row">
           <div class="col-lg-12">
             <div class="info-box">
@@ -128,7 +121,7 @@
             <div class="col-lg-4 col-lg-offset-2">
               <div class="centered">
                 <h2 data-l10n-id="get-chia">Get Chia</h2>
-                <p> <img src="images/leafv2.png" class="white-leaf" style="max-width:150px;" /> </p>
+                <p> <img src="images/leafv2.png" class="white-leaf"/> </p>
               </div>
             </div>
           </div>
@@ -267,7 +260,7 @@
                   </li>
                    <li class="social_footer">
                     <a href="https://github.com/Chia-Network/website" target="blank">
-                        <img src="/images/github.svg" title="GitHub" style="max-width:18px">
+                        <img src="/images/github.svg" title="GitHub" class="github-svg">
                     </a>
                   </li>
                 </ul>

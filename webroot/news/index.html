@@ -1,24 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; 
-      script-src 'self' cdn.jsdelivr.net ajax.googleapis.com; 
-      style-src 'self' 'unsafe-inline' cdnjs.cloudflare.com fonts.googleapis.com; 
-      img-src 'self'; 
-      connect-src 'self'; 
+      script-src 'self' cdn.jsdelivr.net ajax.googleapis.com www.googletagmanager.com www.google-analytics.com; 
+      style-src 'self' cdnjs.cloudflare.com fonts.googleapis.com; 
+      img-src 'self' https://www.google-analytics.com www.google-analytics.com https://stats.g.doubleclick.net;; 
+      connect-src 'self' https://www.google-analytics.com www.google-analytics.com https://stats.g.doubleclick.net; 
       font-src 'self' fonts.gstatic.com">
-<html lang="en-US" langs="en-US" dir="ltr"><head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-112182430-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
 
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'UA-112182430-1');
-    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script src="https://www.googletagmanager.com/gtag/js?id=UA-112182430-1" 
+      integrity="sha384-LIR6j42hPUUTN/JSAvBtbex1IOF+zWSsuTIvXTjRqUvXC5ELsGD3SSgZAtKzvzY2" crossorigin="anonymous"></script>
+    <script src="/js/gtag.js"></script>
     <!--/GoogleAnalytics-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,7 +23,7 @@
     <link rel="stylesheet" href="../css/style.css" type="text/css" >
     <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="faviconv2.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/faviconv2.ico">
     <link rel="manifest" href="/manifest.json">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="apple-mobile-web-app-title" content="Chia">
@@ -275,7 +269,7 @@
                   </li>
                    <li class="social_footer">
                     <a href="https://github.com/Chia-Network/website" target="blank">
-                        <img src="/images/github.svg" title="GitHub" style="max-width:18px">
+                        <img src="/images/github.svg" title="GitHub" class="github-svg">
                     </a>
                   </li>
                 </ul>
