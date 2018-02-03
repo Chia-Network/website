@@ -7,7 +7,9 @@ var names = {
    "nl": "Nederlands",
    "de": "Deutsch",
    "es": "Español",
-   "sr": "Srpski"
+   "sr": "Srpski",
+   "tr": "Türk",
+   "pt-BR": "Portugues (do Brasil)"
 };
 
 // this creates the list of manual language selection links at the bottom of each page
