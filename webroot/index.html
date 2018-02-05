@@ -3,15 +3,13 @@
 
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112182430-1"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-112182430-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'UA-112182430-1');
+    gtag('config', 'UA-112182430-1');
     </script>
     <!--/GoogleAnalytics-->
     <meta charset="utf-8">
@@ -198,7 +196,7 @@
             <div class="col-lg-3">
                 <ul>
                   <li>
-                    <p class="header"> Language </p>
+                    <p class="header" data-l10n-id="footer-language"> Language </p>
                   </li>
                   <li>
                     <div id="lang-box"></div>
@@ -209,7 +207,7 @@
             <div class="col-lg-3">
                 <ul>
                   <li>
-                    <p class="header"> Contact </p>
+                    <p class="header" data-l10n-id="footer-contact"> Contact </p>
                   </li>
                   
                   <li>
@@ -223,7 +221,7 @@
             <div class="col-lg-3">
                <ul >
                   <li>
-                    <p class="header"> Find us </p>
+                    <p class="header" data-l10n-id="footer-find-us"> Find us </p>
                   </li>
                   <li class="social_footer">
                     <a href="https://www.facebook.com/Chia-Net-324129071326652/" target="blank">

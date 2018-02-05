@@ -78,3 +78,8 @@ contribute-idea-one = <strong>Fix existing issues</strong>: the <a href="https:/
 
 contribute-idea-two = <strong>Add Language Translations</strong>: We recommend using Github's tools to make a clone of the web site repo and submit changes through there. Take a look at our site on <a href="https://github.com/Chia-Network/website">github</a> and submit a pull request.
 	
+footer-language = Language
+
+footer-contact = Contact
+
+footer-find-us = Find us
