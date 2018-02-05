@@ -117,23 +117,25 @@ a:hover {
 }
 
 .header-button a {
-  /*border: 1px solid rgb(153, 153, 153); */
-  border-radius: 25px;
-  color: white;
+  border-radius: 30px;
+  color: #3aac59;
   font-family: 'Poppins', sans-serif;
-  margin-top: 12px;
-  padding: 10px 20px;
+  margin-top: 20px;
   text-decoration: none;
   background-color: #3aac59;
-  /* width: 140px; */
-  padding: 10px 25px;
-  float:right;
-  text-align:  center;
+  padding: 0px 25px;
+  float: right;
+  line-height: 40px;
+  text-align: center;
+  background:white;
+  border:2.5px solid #3aac59;
+  font-size:18px
 }
 
 .header-button a:hover {
-  /*background-color: rgb(230, 230, 230);*/
+  opacity:1 !important;
   background-color: #3aac59;
+  color:white;
 }
 
 .info-box {
