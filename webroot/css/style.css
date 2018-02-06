@@ -12,9 +12,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 150%;
-  line-height: 140%;
+  margin-top: 0;
+  font-size: 40px;
   text-align: center;
+  text-transform: capitalize;
+  max-width: 400px;
+  margin: 0px auto 45px;
+  line-height: 50px;
 }
 
 h2 {
@@ -36,10 +40,6 @@ h4 {
 
 @media screen and (min-width: 768px) {
   h1 {
-    margin-top: 0;
-    font-size: 200%;
-    line-height: 140%;
-    text-align: right;
   }
 }
 
@@ -51,6 +51,30 @@ p {
   margin-top: 0;
 }
 
+p.mission {
+  width: 610px;
+  margin: 0px auto;
+  text-align: center;
+  font-size:18px;
+  margin-bottom: 45px
+}
+
+p.mission a {
+  color:#3aac59;
+  text-decoration: underline;
+}
+p.mission a:hover {
+  text-decoration: none;
+  cursor:pointer;
+  opacity: 1 !important
+}
+
+img.earth {
+  margin:0px auto;
+  width:50px;
+  display: block;
+}
+
 a:hover {
   opacity: 0.6!important;
 }
@@ -58,6 +82,11 @@ a:hover {
 .row {
   margin-left: 0;
   margin-right: 0;
+}
+
+div.row.head {
+  border-bottom: 2.5px solid #3aac59;
+  padding-bottom: 45px
 }
 
 .wrap {
@@ -117,48 +146,37 @@ a:hover {
 }
 
 .header-button a {
-  /*border: 1px solid rgb(153, 153, 153); */
-  border-radius: 25px;
-  color: white;
+  border-radius: 30px;
+  color: #3aac59;
   font-family: 'Poppins', sans-serif;
-  margin-top: 12px;
-  padding: 10px 20px;
+  margin-top: 20px;
   text-decoration: none;
   background-color: #3aac59;
-  /* width: 140px; */
-  padding: 10px 25px;
-  float:right;
-  text-align:  center;
+  padding: 0px 25px;
+  float: right;
+  line-height: 40px;
+  text-align: center;
+  background:white;
+  border:2.5px solid #3aac59;
+  font-size:18px
 }
 
 .header-button a:hover {
-  /*background-color: rgb(230, 230, 230);*/
+  opacity:1 !important;
   background-color: #3aac59;
+  color:white;
 }
 
 .info-box {
-  border: 1px solid rgb(180, 180, 180);
-  border-radius: 8px;
-  color: rgb(160, 160, 160);
-  margin: 0 auto;
-  padding: 10px 20px 0 20px;
-  font-size: 1.2rem;
+  margin: 0px auto;
   line-height: 1.6;
+  font-size: 16px;
+  display: block;
+  width:400px
 }
 
-@media screen and (min-width: 768px) {
-  .info-box {
-    font-size: 1.4rem;
-    max-width: 70%;
-  }
-}
-
-ol.info-box {
-  background-color: rgba(255, 255, 255, 0.45);
-  font-size: 94%;
-  max-width: 90%;
-  padding: 20px 20px 20px 40px;
-  margin: 20px 0;
+.info-box a {
+  color:#3aac59;
 }
 
 ol li {
