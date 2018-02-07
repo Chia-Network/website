@@ -8,7 +8,7 @@ var names = {
    "de": "Deutsch",
    "es": "Español",
    "sr": "Srpski",
-   "pt-BR": "Portugues",
+   "pt-BR": "Português",
    "tr": "Türk"
 };
 
