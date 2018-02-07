@@ -343,6 +343,7 @@ display: inline!important;
 }
 #news-feed-page .logo {
   max-width: 28%;
+  padding-bottom: 10px;
 }
 #news-feed-page .page-footer .wrap {
   padding-bottom: 20px!important;

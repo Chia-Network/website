@@ -8,14 +8,14 @@ var names = {
    "de": "Deutsch",
    "es": "Español",
    "sr": "Srpski",
-   "tr": "Türk",
-   "pt-BR": "Portugues (do Brasil)"
+   "pt-BR": "Portugues",
+   "tr": "Türk"
 };
 
 // this creates the list of manual language selection links at the bottom of each page
 $.each($('meta[name=availableLanguages]').attr("content").split(','), function(key, value) {
     var locale = value.trim();
-
+    
     var a = document.createElement("a");
     a.classList.add("langSwitch");
     a.href = "#";
