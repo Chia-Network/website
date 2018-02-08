@@ -6,19 +6,19 @@ get-chia = Get Chia
 
 community = Community
 
-about-us = About Us
+About Chia = About Chia
 
 contribute = Contribute
 
-jobs = Jobs
+jobs = Work at Chia
 
-learn-more = Learn more
+learn-more = Learn More about Chia
 
 faq = Frequently Asked Questions
 
 financial-instituations = Financial Institutions
 
-slogan = green money for a digital world
+slogan = Green money for a digital world
 
 in-the-news = Chia in the News
 
@@ -41,17 +41,19 @@ news-link = Follow the latest articles in the <a href="/news">news</a> section.
 
 faq-link = <a href="faq/">Frequently Asked Questions (FAQ)</a>
 
-sell-plan = We plan to sell Chia to the public in Q2 of 2018 to allow everyone to invest in a better digital money.
+sell-plan = Chia will be available to the public in the summer of 2018
+
+Ready to invest? = Ready to invest?
 
 subscribe = Subscribe to the <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list</a> to learn more.
 
 join-keybase = Join our Keybase group to participate in discussion.
 
-install-keybase = Install and setup <a href="https://keybase.io/download">Keybase</a>
+install-keybase = <p>Install and setup <a href="https://keybase.io/download">Keybase</a></p>
 
-request-keybase-access = Run this in your terminal:
+request-keybase-access = <p >Run this in your terminal:<br> <code>keybase team request-access chia_network.public</code></p>
 
-join-announcement-list = Join our <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list</a> to keep updated.
+join-announcement-list = <a class="sub_link" href="https://groups.google.com/a/chia.network/forum/#!forum/announce">Join our announcements list to keep updated</a>
 
 looking-to-hire = We're looking to hire several technically gifted programmers to work with our
     team of cryptographers on building our protocol. Must have strong algorithms skills.
@@ -65,7 +67,7 @@ hiring-detail = We're hiring an Assistant to the Founders (Executive Assistant/O
 financial-instituation-value-prop = Digital Money is being increasingly demanded by individual and institutional investors.
     Chia can help traditional financial institutions meet that demand.
 
-contact-us = <a href="mailto:hello@chia.network">Contact us</a> to find out more.
+contact-us = <a class="sub_link" href="mailto:hello@chia.network">Contact us to find out more</a>
 
 about-detail = Chia Network is a San Francisco-based company focused on improving crypto-currency infrastructure.
     Our CEO, Bram Cohen, famously invented BitTorrent: the first modern decentralized network protocol and one of
