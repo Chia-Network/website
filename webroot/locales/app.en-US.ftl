@@ -39,7 +39,7 @@ tech-paper-link = A very <a href="https://eprint.iacr.org/2017/893">technical pa
 
 news-link = Follow the latest articles in the <a href="/news">news</a> section.
 
-faq-link = <a href="faq/">Frequently Asked Questions (FAQ)</a>
+faq-link = Visit our <a href="faq/">Frequently Asked Questions (FAQ)</a> to learn more!
 
 sell-plan = Chia will be available to the public in the summer of 2018
 
