@@ -1,6 +1,6 @@
 body {
   color: rgb(102, 102, 102);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif!important;
   font-size: 140%;
   line-height: 155%;
   margin: 0;
@@ -8,7 +8,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: rgb(51, 51, 51);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 h1 {
@@ -47,6 +47,7 @@ h4 {
 p {
   margin-top: 0;
   color: #939896!important;
+  line-height: 28px;
 }
 
 
@@ -148,7 +149,7 @@ p {
   /*border: 1px solid rgb(153, 153, 153); */
   border-radius: 25px;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   margin-top: 12px;
   padding: 10px 20px;
   text-decoration: none;
@@ -170,8 +171,11 @@ p {
   border-radius: 3px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.02);
   height:100%;
+  padding:10px 20px;
 }
-
+.info-box li {
+  padding-bottom:8px;
+}
 
 
 ol.info-box {
@@ -318,6 +322,7 @@ position: absolute;
 }
 #main-hero p {
   font-size: 22px;
+  line-height: 34px;
 }
 #main-hero .container-fluid:first-child {
   padding-top:0px;
