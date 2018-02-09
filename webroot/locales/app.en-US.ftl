@@ -29,10 +29,10 @@ get-the-latest-news = <br />Get the Latest and Updated Newscast from Chia
 mission = We're building a blockchain based on proofs of space and time to make a cryptocurrency
     which is less wasteful, more decentralized, and more secure.
 
-recent-talk = A <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">recent talk</a> (starts about 20:00) with
+recent-talk = Bram's <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">talk</a> (starts about 20:00) with
     <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">slides</a>.
 
-older-talk = An <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">older talk</a> with
+older-talk = Bram's <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">older talk</a> with
     <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>.
 
 tech-paper-link = A very <a href="https://eprint.iacr.org/2017/893">technical paper</a> on proofs of space.
