@@ -319,7 +319,7 @@ position: absolute;
     right: 0;
     height: 100%;
     width: 130%;
-    background: linear-gradient(180deg, #B5E2C1 0%, rgba(228,255,237,0.2) 100%);
+    background: linear-gradient(180deg, #B5E2C1 0%, rgba(228,255,237,0.17) 100%);
     transform: skew(0deg,29deg);
     z-index: -1;
 }
