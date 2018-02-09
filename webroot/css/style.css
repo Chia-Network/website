@@ -176,7 +176,9 @@ p {
 .info-box li {
   padding-bottom:8px;
 }
-
+.info-box li:last-child {
+  padding-bottom: 0px;
+}
 
 ol.info-box {
   background-color: rgba(255, 255, 255, 0.45);
