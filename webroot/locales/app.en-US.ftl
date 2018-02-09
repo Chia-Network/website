@@ -37,7 +37,7 @@ older-talk = An <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">older talk
 
 tech-paper-link = A very <a href="https://eprint.iacr.org/2017/893">technical paper</a> on proofs of space.
 
-news-link = Follow the latest articles in the <a href="/news">news</a> section.
+news-link = Follow the latest articles on the <a href="/news">news</a> page.
 
 faq-link = Visit our <a href="faq/">Frequently Asked Questions (FAQ)</a> to learn more!
 
