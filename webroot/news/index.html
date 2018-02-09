@@ -16,8 +16,9 @@
     <title>chia.network</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
-    <link rel="stylesheet" href="../css/style.css" type="text/css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css?v2" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css?v1" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Roboto" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="faviconv2.ico">
@@ -30,7 +31,7 @@
     <script src="//cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <!-- translation -->
     <meta name="defaultLanguage" content="en-US">
-    <meta name="availableLanguages" content="en-US, fr, ja, nl, de, es, sr">
+    <meta name="availableLanguages" content="en-US, fr, ja, nl, de, es, sr, pt-BR, tr">
     <link rel="localization" href="/locales/app.{locale}.ftl">
     <script defer="" src="/js/l20n.min.js"></script>
     <script defer="" src="/js/locales.js"></script>
@@ -39,10 +40,21 @@
 
   <body id="news-feed-page">
     <nav class="navbar navbar-light bg-faded">
-    <a class="navbar-brand" href="/">
-      <img src="../images/chia-logo.svg" class="logo">
-    </a>
-  </nav>
+        <a class="navbar-brand" href="/">
+          <img src="../images/chia-logo.svg" class="logo">
+        </a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" href="/news/index.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="/faq/index.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-primary btn-lg" ><a class="jobs_link" href="mailto:hello@chia.network">We're hiring!</a></button>
+          </li>
+        </ul>
+      </nav>
 
     <!--header class="hero header">
       <div class="row">

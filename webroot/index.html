@@ -17,7 +17,10 @@
     <title>chia.network</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css?v2" type="text/css">
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css?v1" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="faviconv2.ico">
@@ -35,157 +38,189 @@
     <script src="//cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <!-- translation -->
     <meta name="defaultLanguage" content="en-US">
-    <meta name="availableLanguages" content="en-US, fr, ja, nl, de, es, sr">
+    <meta name="availableLanguages" content="en-US, fr, ja, nl, de, es, sr, pt-BR, tr">
     <link rel="localization" href="./locales/app.{locale}.ftl">
     <script defer src="./js/l20n.min.js"></script>
     <script defer src="./js/locales.js"></script>
+    <script defer="" src="/js/bootstrap.min.js"></script>
   </head>
 
   <body class="layout">
     <div class="page js-page">
-      <header class="hero header wrap container-fluid smaller">
+      <nav id="navbar_homepage" class="navbar navbar-light bg-faded ">
+              <a class="navbar-brand" href="/">
+                <img src="../images/chia-logo.svg" class="logo">
+              </a>
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="/news/index.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="/faq/index.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="btn btn-primary btn-lg" ><a class="jobs_link" href="#jobs">We're hiring!</a></button>
+                  
+                </li>
+              </ul>
+            </nav>
+      <div class="container-fluid" id="main-hero">
+        
+        <div class="container-fluid wrap" >
+         
         <div class="row">
-          <div class="col-lg-2 col-sm-6">
-            <div class="box"><img src="images/chia-logo.svg" class="logo" /></div>
-          </div>
-          <div class="col-lg-10 col-sm-6 col-xs-12">
-            <div class="header-button">
-              <a data-l10n-id="hiring" href="#jobs">We're hiring!</a>
-            </div>
-          </div>
-        </div>
-      </header>
-      <div class="wrap container-fluid smaller">
-        <div class="row">
-          <div class="col-lg-4">
-            <h1 data-l10n-id="slogan">green money for a digital world</h1>
-          </div>
-          <div class="col-lg-7 col-lg-offset-1">
+          <div class="col">
+            <h1 data-l10n-id="slogan">Green money for a digital world</h1>
             <p data-l10n-id="mission" class="margin-top"> We're building a blockchain based on proofs of space and time to make a cryptocurrency that is less wasteful, more decentralized, and more secure. </p>
+           
+          </div>
+          <div class="col-7">
+            <img src="../images/main_illo.png" alt="chia image">
+          </div>
           </div>
         </div>
-      </div>
-      <div class="wrap container-fluid smaller">
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="centered"> <img src="images/earth.png" class="med-icon" /> </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="centered"> <img src="images/network.png" class="med-icon" /> </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="centered"> <img src="images/lock.png" class="med-icon" /> </div>
-          </div>
-        </div>
-      </div>
-      <div class="wrap container-fluid" style="padding-bottom:60px;padding-top:10px;">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="info-box">
-              <h4 data-l10n-id="learn-more">Learn more</h4>
-              <p>
-                <ul>
-                  <li data-l10n-id="recent-talk">A
-                    <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">recent talk</a> (starts about 20:00) with
-                    <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">slides</a>.</li>
-                  <li data-l10n-id="older-talk">An
-                    <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">older talk</a> with
-                    <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>.</li>
-                  <li data-l10n-id="tech-paper-link">A very
-                    <a href="https://eprint.iacr.org/2017/893">technical paper</a> on proofs of space.</li>
-                  <li data-l10n-id="news-link">Follow the latest articles in the
-                    <a href="/news">news</a> section.</li>
-                  <li data-l10n-id="faq-link">
-                    <a href="faq/">Frequently Asked Questions (FAQ)</a>
-                  </li>
-                </ul>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="hero get-chia">
-        <div class="wrap container-fluid">
+      </div><!--/main-hero-->
+
+<div class="page_wrapper">
+      
+        <div class="wrap container-fluid" id="announcements">
           <div class="row">
-            <div class="col-lg-6">
-              <p> <span data-l10n-id="sell-plan">We plan to sell Chia to the public in Q2 of 2018 to allow everyone to invest in a better digital money.</span> </p>
-              <p data-l10n-id="subscribe"> Subscribe to the
-                <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list</a> to learn more. </p>
+            <div class="col">
+              <h4 data-l10n-id="Ready to invest?">Ready to invest?</h4>
+              <h2 data-l10n-id="sell-plan">Chia will be available to the public in the summer of 2018</h2>
             </div>
-            <div class="col-lg-4 col-lg-offset-2">
+            <div class="col">
               <div class="centered">
-                <h2 data-l10n-id="get-chia">Get Chia</h2>
-                <p> <img src="images/leafv2.png" class="white-leaf" style="max-width:150px;" /> </p>
+                <button type="button" class="btn btn-primary btn-lg" ><a class="button-link" target="blank" href="https://groups.google.com/a/chia.network/forum/#!forum/announce">Sign up for annoucements</a></button>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="hero community">
-        <div class="wrap container-fluid">
+
+
+      <div class="wrap container-fluid" id="learn">
+            <div class="row centered">
+              <div class="col ">
+                <img src="../images/icon_learn.png">
+              </div>
+              <div class="w-100"></div>
+              <div class="col ">
+                <h2 data-l10n-id="learn-more">Learn More about Chia</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2"></div>
+              <div class="col">
+                <div class="info-box">
+                  <p>
+                    <ul>
+                      <li><h4>Talks and Papers</h4></li>
+                       <li>A
+                        <a href="https://www.youtube.com/watch?v=iqxkO7C-cyk&feature=youtu.be">talk</a> at BPASE on Proofs of Space and Verifiable Delay Functions.</li>
+
+                      <li data-l10n-id="recent-talk">A
+                        <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">recent talk</a> (starts about 20:00) with
+                        <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">slides</a>.</li>
+                      <li data-l10n-id="older-talk">An
+                        <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">older talk</a> with
+                        <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>.</li>
+                        <li data-l10n-id="tech-paper-link">A very
+                        <a href="https://eprint.iacr.org/2017/893">technical paper</a> on proofs of space.</li>
+                      
+                    </ul>
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="info-box">
+                  <p>
+                    <ul>
+                      <li><h4>News and Information</h4></li>
+                      
+                       <li data-l10n-id="news-link">Follow the latest articles on the <a href="news/">News</a>page.</li>
+                       <li data-l10n-id="faq-link">Visit our <a href="faq/">Frequently Asked Questions (FAQ)</a>to learn more!</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+              <div class="col-2"></div>
+            </div>
+          </div>
+
+        <div class="container-fluid" id="social-proof">
+            <div class="row centered">
+              
+              <div class="col">
+
+                  <img src="../images/news-logos.png">
+              </div>
+            </div>
+        </div>
+      
+        <div class="wrap container-fluid" id="about">
           <div class="row">
-            <div class="col-lg-6">
-              <h3 data-l10n-id="community">Community</h3> </div>
-            <div class="col-lg-6"> <span data-l10n-id="join-keybase">Join our Keybase group to participate in discussion.</span>
-              <ol class="info-box">
-                <li data-l10n-id="install-keybase"> Install and setup
-                  <a href="https://keybase.io/download">Keybase</a>
-                </li>
-                <li> <span data-l10n-id="request-keybase-access">Run this in your terminal: </span><br /><code>keybase team request-access chia_network.public</code> </li>
-              </ol>
-              <p data-l10n-id="join-announcement-list"> Join our
-                <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list</a> to keep updated. </p>
+            <div class="col centered">
+                <img src="../images/second_illo.png">
+            </div>
+            <div class="col-7">
+                 <img src="../images/icon_about.png">
+                <h2 data-l10n-id="About Chia">About Chia</h2>
+                <p data-l10n-id="about-detail"> Chia Network is a San Francisco-based company focused on improving crypto-currency infrastructure. Our CEO, Bram Cohen, famously invented BitTorrent: the first modern decentralized network protocol and one of the inspirations for the Bitcoin
+                  protocol. Our founding team has experience across the crypto-currency and finance sectors, coming from Tradehill, CryptoCorp and Lightning Labs. </p>
+             
             </div>
           </div>
         </div>
-      </div>
-      <a name="jobs"></a>
-      <div class="hero jobs">
-        <div class="wrap container-fluid">
+
+        <div class="container-fluid" id="community">
           <div class="row">
-            <div class="col-lg-4">
-              
-              <h2 data-l10n-id="jobs">Jobs</h2>
+            <div class="special">
+              <div class="col-6">
+                <div class="content">
+                  <img src="../images/icon_finance.png">
+                  <h2 data-l10n-id="financial-instituations">Financial Institutions</h2>
+                  <p data-l10n-id="financial-instituation-value-prop"> Digital Money is being increasingly demanded by individual and institutional investors. Chia can help traditional financial institutions meet that demand. </p>
+                  <p class="sub_link_p" data-l10n-id="contact-us">
+                    <a class="sub_link" href="mailto:hello@chia.network">Contact us to find out more<div class="arrow-right"></div></a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="content2">
+                  <img src="../images/icon_community.png">
+                  <h2 data-l10n-id="community">Community</h2> 
+                  <p data-l10n-id="join-keybase">Join our Keybase group to participate in discussion.</p>
+                  <ul >
+                      <li data-l10n-id="install-keybase"> 
+                          <p>Install and setup<a href="https://keybase.io/download">Keybase</a></p>
+                      </li>
+                      <li data-l10n-id="request-keybase-access"> <p >Run this in your terminal:<br> keybase team request-access chia_network.public</p>
+                      </li>
+                  </ul>
+                  <p class="sub_link_p" data-l10n-id="join-announcement-list"> Join our
+                  <a class="sub_link" href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list to keep updated <div class="arrow-right"></div></a></p>
+              </div>
             </div>
-            <div class="col-lg-8">
+             </div>
+            </div>
+          </div>
+
+      
+      <a name="jobs"></a>
+        <div class="wrap container-fluid" id="jobs" >
+          <div class="row">
+            <div class="col">
+              <img src="../images/icon_jobs.png">
+              <h2 data-l10n-id="jobs">Work at Chia</h2>
+            </div>
+            <div class="col-8">
               <p data-l10n-id="looking-to-hire"> We're looking to hire several technically gifted programmers to work with our team of cryptographers on building our protocol. Must have strong algorithms skills. Cryptography experience is a plus but not required. Remote is okay but being
                 in San Francisco is a plus. To apply, please complete several HackerRank challenges and send a link to your HackerRank profile along with your resume to
                 <a href="mailto:jobs@chia.network">jobs@chia.network</a>. </p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="hero fi">
-        <div class="wrap container-fluid">
-          <div class="row">
-            <div class="col-lg-4">
-              <h3 data-l10n-id="financial-instituations">Financial Institutions</h3>
-            </div>
-            <div class="col-lg-8">
-                <p data-l10n-id="financial-instituation-value-prop"> Digital Money is being increasingly demanded by individual and institutional investors. Chia can help traditional financial institutions meet that demand. </p>
-                <p data-l10n-id="contact-us">
-                  <a href="mailto:hello@chia.network">Contact us</a> to find out more.
-                </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="wrap container-fluid">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="box">
-              <h3 data-l10n-id="about-us">About Us</h3>
-              
-            </div>
-          </div>
-          <div class="col-lg-8">
-            <div class="box">
-              <p data-l10n-id="about-detail"> Chia Network is a San Francisco-based company focused on improving crypto-currency infrastructure. Our CEO, Bram Cohen, famously invented BitTorrent: the first modern decentralized network protocol and one of the inspirations for the Bitcoin
-                protocol. Our founding team has experience across the crypto-currency and finance sectors, coming from Tradehill, CryptoCorp and Lightning Labs. </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      
       <!--div class="hero community">
         <div class="wrap container-fluid">
           <div class="row">
@@ -205,6 +240,7 @@
           </div>
         </div>
       </div-->
+    </div><!--/end of page wrapper-->
       <footer class="hero page-footer">
         <div class="wrap container-fluid">
           <div class="row">
