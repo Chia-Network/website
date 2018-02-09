@@ -292,6 +292,10 @@ ol li {
   color:white;
 }
 .jobs_link:hover {
+  color:white;
+  text-decoration: none;
+}
+.jobs_link:hover {
   text-decoration: none;
 }
 /*Start of Main Hero*/
