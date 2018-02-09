@@ -594,6 +594,7 @@ display: inline!important;
 #news-feed-page .read-more-link {
   cursor: pointer;
   color: #3AAC59;
+  text-decoration: underline!important;
 }
 
 #news-feed-page .read-more-link a {
