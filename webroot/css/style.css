@@ -73,6 +73,7 @@ p {
 }
 .button-link:hover {
   text-decoration: none!important;
+  color:#fff!important;
 }
 .row {
   margin-left: 0;
