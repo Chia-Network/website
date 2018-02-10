@@ -6,7 +6,7 @@ get-chia = Get Chia
 
 community = Community
 
-About Chia = About Chia
+about-chia = About Chia
 
 contribute = Contribute
 
@@ -43,7 +43,7 @@ faq-link = Visit our <a href="faq/">Frequently Asked Questions (FAQ)</a> to lear
 
 sell-plan = Chia will be available to the public in the summer of 2018
 
-Ready to invest? = Ready to invest?
+ready-to-invest = Ready to invest?
 
 subscribe = Subscribe to the <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list</a> to learn more.
 
@@ -85,3 +85,15 @@ footer-language = Language
 footer-contact = Contact
 
 footer-find-us = Find us
+
+news-and-info = <h4>News and Information</h4>
+
+talks-and-papers = <h4>Talks and Papers</h4>
+
+bpase-2018-first = Bram Cohen giving a <a href="https://www.youtube.com/watch?v=iqxkO7C-cyk&feature=youtu.be">talk</a> at BPASE 2018 based on this very <a href="https://eprint.iacr.org/2017/893">technical paper</a> about Proofs of Space. </li>
+
+bpase-2018-second = Ben Fisch giving a <a href="https://www.youtube.com/watch?v=qUoagL7OZ1k&feature=youtu.be">talk</a> at BPASE 2018 on Verifiable Delay Functions.
+
+sign-up = Sign up for annoucements
+
+news = News
