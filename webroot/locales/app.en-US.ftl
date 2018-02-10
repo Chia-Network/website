@@ -59,7 +59,7 @@ looking-to-hire = We're looking to hire several technically gifted programmers t
     team of cryptographers on building our protocol. Must have strong algorithms skills.
     Cryptography experience is a plus but not required. Remote is okay but being in San
     Francisco is a plus. To apply please do several HackerRank challenges and send a link to your
-    HackerRank profile plus your resume to <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
+    HackerRank profile plus your resume to <a href="mailto:jobs@chia.net">jobs@chia.net</a>.
 
 hiring-detail = We're hiring an Assistant to the Founders (Executive Assistant/Office manager). Location is in San Francisco.
     To apply please send your resume to <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
