@@ -8,7 +8,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'UA-112182430-1');
     </script>
     <!--/GoogleAnalytics-->
@@ -61,19 +60,19 @@
                 </li>
                 <li class="nav-item">
                   <button type="button" class="btn btn-primary btn-lg" ><a class="jobs_link" href="#jobs">We're hiring!</a></button>
-                  
+
                 </li>
               </ul>
             </nav>
       <div class="container-fluid" id="main-hero">
-        
+
         <div class="container-fluid wrap" >
-         
+
         <div class="row">
           <div class="col">
             <h1 data-l10n-id="slogan">Green money for a digital world</h1>
             <p data-l10n-id="mission" class="margin-top"> We're building a blockchain based on proofs of space and time to make a cryptocurrency that is less wasteful, more decentralized, and more secure. </p>
-           
+
           </div>
           <div class="col-7">
             <img src="../images/main_illo.svg" alt="chia image">
@@ -83,7 +82,7 @@
       </div><!--/main-hero-->
 </div><!--/end of main wrapper-->
 <div class="page_wrapper">
-      
+
         <div class="wrap container-fluid" id="announcements">
           <div class="row">
             <div class="col">
@@ -126,7 +125,7 @@
                       <li data-l10n-id="older-talk">Bram Cohen's
                         <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">talk at BPASE 2017</a> with
                         <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>.</li>
-                      
+
                     </ul>
                   </p>
                 </div>
@@ -136,7 +135,7 @@
                   <p>
                     <ul>
                       <li><h4>News and Information</h4></li>
-                      
+
                        <li data-l10n-id="news-link">Follow the latest articles on the <a href="news/">News</a>page.</li>
                        <li data-l10n-id="faq-link">Visit our <a href="faq/">Frequently Asked Questions (FAQ)</a>to learn more!</li>
                     </ul>
@@ -147,16 +146,22 @@
             </div>
           </div>
 
-        <div class="container-fluid" id="social-proof">
-            <div class="row centered">
-              
-              <div class="col">
-
-                  <img src="../images/news-logos.png">
+          <div class="container-fluid" id="social-proof">
+              <div class="row centered">
+                <div class="col">
+                  <!-- Added area to make news logos as hyperlink -->
+                  <img src="../images/news-logos.png" usemap="#news_logs_map">
+                  <map name="news_logs_map">
+                    <area shape="rect" coords="0,0,55,50" href="./news/index.html#techcrunch" alt="Test">
+                    <area shape="rect" coords="110,0,240,50" href="./news/index.html#fossybytes" alt="Test">
+                    <area shape="rect" coords="290,0,410,50" href="./news/index.html#bitcoinmagazine" alt="Test">
+                    <area shape="rect" coords="470,0,550,50" href="./news/index.html#IBTlogo" alt="Test">
+                    <area shape="rect" coords="610,0,750,50" href="./news/index.html#bitcoinexchange" alt="Test">
+                  </map>
+                </div>
               </div>
-            </div>
-        </div>
-      
+          </div>
+
         <div class="wrap container-fluid" id="about">
           <div class="row">
             <div class="col centered">
@@ -167,7 +172,7 @@
                 <h2 data-l10n-id="About Chia">About Chia</h2>
                 <p data-l10n-id="about-detail"> Chia Network is a San Francisco-based company focused on improving crypto-currency infrastructure. Our CEO, Bram Cohen, famously invented BitTorrent: the first modern decentralized network protocol and one of the inspirations for the Bitcoin
                   protocol. Our founding team has experience across the crypto-currency and finance sectors, coming from Tradehill, CryptoCorp and Lightning Labs. </p>
-             
+
             </div>
           </div>
         </div>
@@ -188,10 +193,10 @@
               <div class="col-6">
                 <div class="content2">
                   <img src="../images/icon_community.png">
-                  <h2 data-l10n-id="community">Community</h2> 
+                  <h2 data-l10n-id="community">Community</h2>
                   <p data-l10n-id="join-keybase">Join our Keybase group to participate in discussion.</p>
                   <ul >
-                      <li data-l10n-id="install-keybase"> 
+                      <li data-l10n-id="install-keybase">
                           <p>Install and setup<a href="https://keybase.io/download">Keybase</a></p>
                       </li>
                       <li data-l10n-id="request-keybase-access"> <p >Run this in your terminal:<br> keybase team request-access chia_network.public</p>
@@ -205,7 +210,7 @@
             </div>
           </div>
 
-      
+
       <a name="jobs"></a>
         <div class="wrap container-fluid" id="jobs" >
           <div class="row">
@@ -220,7 +225,7 @@
             </div>
           </div>
         </div>
-      
+
       <!--div class="hero community">
         <div class="wrap container-fluid">
           <div class="row">
@@ -257,14 +262,14 @@
                     <div id="lang-box"></div>
                   </li>
                 </ul>
-                
+
             </div>
             <div class="col-lg-3">
                 <ul>
                   <li>
                     <p class="header" data-l10n-id="footer-contact"> Contact </p>
                   </li>
-                  
+
                   <li>
                     <a href="mailto:hello@chia.net">hello@chia.net</a>
                   </li>
