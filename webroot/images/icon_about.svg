@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_about</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Chia_landingpage_v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-436.000000, -1355.000000)">
+        <g id="icon_about" transform="translate(436.000000, 1355.000000)">
+            <circle id="Oval-4" fill="#BAECBC" cx="25" cy="25" r="25"></circle>
+            <path d="M18.9508509,23.915827 C19.473209,20.746233 21.453623,18.5883577 24.8920929,17.4422011 C28.3305629,16.2960444 33.8703201,17.6332272 41.5113644,21.4537494 C37.7727913,27.5170342 33.4201653,31.0262419 28.4534865,31.9813725 C22.9352509,33.0425716 19.8719812,30.2063916 18.9508509,28.3842401 C18.9017845,28.2871784 15.9418373,28.7712297 12.9204117,29.8222452 C9.34548178,31.0657994 5.53885266,33.0459286 5.68595007,32.9503201 C13.7548771,27.7057776 26.281093,23.322623 31.4736115,22.2628935 C32.1109198,22.1328267 32.7109516,21.9466332 32.5312688,21.9542661 C27.6877591,22.1600177 23.1609531,22.8138713 18.9508509,23.915827 Z" id="Path-7" fill="#1BB978" opacity="0.8"></path>
+        </g>
+    </g>
+</svg>
