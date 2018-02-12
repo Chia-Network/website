@@ -32,7 +32,7 @@ mission = We're building a blockchain based on proofs of space and time to make 
 recent-talk = Bram Cohen giving a <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">talk</a> (starts about 20:00) at Blockchain at Berkeley with
     <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">slides</a>.
 
-older-talk = Bram Cohen giving an <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">older talk</a> at BPASE 2017 with
+older-talk = Bram Cohen giving an older <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">talk</a> at BPASE 2017 with
     <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>.
 
 james-talk = James Prestwich giving a <a href="https://www.youtube.com/watch?v=xe5d-Fn1yoo&feature=youtu.be">talk </a> at SF Cryptocurrency Devs Seminar about Chia Script and BLS Signatures with <a href="https://drive.google.com/file/d/16DFxhEF9VeQvtURmkPtOHZyhOAHyAMCW/view">slides</a>.
