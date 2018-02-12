@@ -76,3 +76,9 @@ contribute-question = Bist du ein Entwickler und möchtest zu dem Chia Network b
 contribute-idea-one = <strong>Löse existierende Probleme</strong>: Der <a href="https://github.com/Chia-Network/website/issues">Issue Tracker</a> ist der beste Ort, um sinnvoll zu dem Chia Network beitragen zu können. Du möchtest vielleicht erst fragen, ob nicht schon jemand anderes an dem Problem arbeitet, bevor du mit dem Patchen beginnst.
  
 contribute-idea-two = <strong>Übersetzen</strong>: Wir empfehlen, Github's Tools zu nutzen, um einen Klon unserer Repo zu erstellen und dort die Änderungen vorzunehmen. Schau dir unsere Seite auf <a href="https://github.com/Chia-Network/website">github</a> an und reiche einen Pull-Anfrage ein.
+
+footer-language = Sprache
+
+footer-contact = Kontakt
+
+footer-find-us = Besuche uns auf
