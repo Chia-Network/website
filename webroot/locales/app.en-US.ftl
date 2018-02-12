@@ -30,15 +30,15 @@ mission = We're building a blockchain based on proofs of space and time to make 
     which is less wasteful, more decentralized, and more secure.
 
 recent-talk = Bram Cohen giving a <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">talk</a> (starts about 20:00) at Blockchain at Berkeley with
-    <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">slides</a>.
+    <a href="https://view.publitas.com/chia-network/chia-1/">slides</a>.
 
 older-talk = Bram Cohen giving an older <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">talk</a> at BPASE 2017 with
     <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>.
 
-james-talk = James Prestwich giving a <a href="https://www.youtube.com/watch?v=xe5d-Fn1yoo&feature=youtu.be">talk </a> at SF Cryptocurrency Devs Seminar about Chia Script and BLS Signatures with <a href="https://drive.google.com/file/d/16DFxhEF9VeQvtURmkPtOHZyhOAHyAMCW/view">slides</a>.
+james-talk = James Prestwich giving a <a href="https://www.youtube.com/watch?v=xe5d-Fn1yoo&feature=youtu.be">talk </a> at SF Cryptocurrency Devs Seminar about Chia Script and BLS Signatures with <a href="https://view.publitas.com/chia-network/chia-script/">slides</a>.
 
 
- scaling-bitcoin = Bram Cohen giving a <a target="blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about data structures for scalling Bitcoin with <a target="blank" href="https://drive.google.com/file/d/0BwQpYqkQqA9cc0N4SlN2M05MS1RRRy1vZV9tZEE2VC1ZdUh3/view">slides</a>.
+ scaling-bitcoin = Bram Cohen giving a <a target="blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about data structures for scalling Bitcoin with <a target="blank" href="https://view.publitas.com/chia-network/bitcoin_data_structures/">slides</a>.
 
  waste-talk = Bram Cohen giving a <a target="blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about removing waste from cryptocurrencies.
 
