@@ -35,6 +35,13 @@ recent-talk = Bram Cohen giving a <a href="https://www.facebook.com/BerkeleyBloc
 older-talk = Bram Cohen giving an <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">older talk</a> at BPASE 2017 with
     <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>.
 
+james-talk = James Prestwich giving a <a href="https://www.youtube.com/watch?v=xe5d-Fn1yoo&feature=youtu.be">talk </a> at SF Cryptocurrency Devs Seminar about Chia Script and BLS Signatures with <a href="https://drive.google.com/file/d/16DFxhEF9VeQvtURmkPtOHZyhOAHyAMCW/view">slides</a>.
+
+
+ scaling-bitcoin = Bram Cohen giving a <a target="blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about data structures for scalling Bitcoin with <a target="blank" href="https://drive.google.com/file/d/0BwQpYqkQqA9cc0N4SlN2M05MS1RRRy1vZV9tZEE2VC1ZdUh3/view">slides</a>.
+
+ waste-talk = Bram Cohen giving a <a target="blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about removing waste from cryptocurrencies.
+
 tech-paper-link = A very <a href="https://eprint.iacr.org/2017/893">technical paper</a> on proofs of space.
 
 news-link = Follow the latest articles on the <a href="/news">news</a> page.
