@@ -26,7 +26,7 @@ in-the-news = Chia 新闻报道
 // longer content sections
 get-the-latest-news = <br />获得更多关于 Chia 的最新新闻
 
-mission = 我们正在建立基于容量（proofs of space）的区块链以便让加密货币更环保，更去中心化和更安全。
+mission = 我们正在建立基于容量（Proofs of Space）的区块链以便让加密货币更环保，更去中心化和更安全。
 
 recent-talk = Bram Cohen giving a <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">talk</a> (starts about 20:00) at Blockchain at Berkeley with
     <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">slides</a>.
@@ -76,3 +76,15 @@ footer-language = 语言
 footer-contact = 联系
 
 footer-find-us = 找到我们
+
+news-and-info = <h4>新闻信息</h4>
+
+talks-and-papers = <h4>演讲和论文</h4>
+
+bpase-2018-first = Bram Cohen giving a <a href="https://www.youtube.com/watch?v=iqxkO7C-cyk&feature=youtu.be">talk</a> at BPASE 2018 based on this very <a href="https://eprint.iacr.org/2017/893">technical paper</a> about Proofs of Space. </li>
+
+bpase-2018-second = Ben Fisch giving a <a href="https://www.youtube.com/watch?v=qUoagL7OZ1k&feature=youtu.be">talk</a> at BPASE 2018 on Verifiable Delay Functions.
+
+sign-up = 注册获取通知
+
+news = 新闻
