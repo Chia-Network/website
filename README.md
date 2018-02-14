@@ -43,7 +43,7 @@ with its rules and syntax before adding content or translations.
 
 ````html
     <meta name="defaultLanguage" content="en-US">
-    <meta name="availableLanguages" content="en-US, fr, ja, nl, de, es, sr">
+    <meta name="availableLanguages" content="en-US, fr, ja, nl, de, es, sr, pt-BR, tr">
     <link rel="localization" href="./locales/app.{locale}.ftl">
     <script defer src="./js/l20n.min.js"></script>
 ````
@@ -55,7 +55,7 @@ with its rules and syntax before adding content or translations.
 - Add the two character locale code to the following meta element in all existing html files
 
 ````html
-    <meta name="availableLanguages" content="en-US, fr, ja, nl, de, es, sr">
+    <meta name="availableLanguages" content="en-US, fr, ja, nl, de, es, sr, pt-BR, tr">
 ````
 
 - Add the translated name of the langauge to the dictionary at the top of `locales.js`
@@ -68,7 +68,9 @@ var names = {
    "nl": "Nederlands",
    "de": "Deutsch",
    "es": "Español",
-   "sr": "Srpski"
+   "sr": "Srpski",
+   "pt-BR": "Português",
+   "tr": "Türk"
 };
 ````
 
