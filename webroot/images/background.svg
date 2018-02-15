@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="596px" viewBox="0 0 1024 596" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>background</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="58.0055237%" y1="0%" x2="58.0055237%" y2="101.036467%" id="linearGradient-1">
+            <stop stop-color="#B5E2C1" offset="0%"></stop>
+            <stop stop-color="#E4FFED" stop-opacity="0.111356431" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="17.9889797%" y1="2.81955012%" x2="81.5716498%" y2="25.5085159%" id="linearGradient-2">
+            <stop stop-color="#B5E2C1" offset="0%"></stop>
+            <stop stop-color="#E4FFED" stop-opacity="0.150588768" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Chia_landingpage_v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="background" transform="translate(-14.000000, -6.000000)">
+            <rect id="Rectangle-3" fill="url(#linearGradient-1)" opacity="0.174422554" x="0" y="2" width="1040" height="600"></rect>
+            <polygon id="Path-4" fill="url(#linearGradient-2)" opacity="0.337296196" points="177 2.14289231 1045 547 1045 0"></polygon>
+        </g>
+    </g>
+</svg>

@@ -6,7 +6,7 @@ get-chia = Get Chia
 
 community = Zajednica
 
-about-us = O nama
+about-chia = O nama
 
 contribute = Doprinesi
 
@@ -21,7 +21,6 @@ financial-instituations = Finansijske institucije
 slogan = Ekološki novac za digitalni svijet
 
 in-the-news = Novosti
-
 
 // longer content sections
 get-the-latest-news = <br />Pročitajte najnovije vijesti
@@ -68,3 +67,23 @@ contribute-question = Želite doprinijeti Chia mreži? Evo nekoliko zadataka:
 contribute-idea-one = <strong>Popravite postojeće probleme</strong> <a href="https://github.com/Chia-Network/website/issues">spisak problema</a> je najbolje mjesto na kojem možete vidjeti kako da doprinesete Chia mreži. Prije nego što počnete pisati ispravke grešaka ostavite komentar kako niko drugi osim vas nebi radio na ispravci iste greške.
 
 contribute-idea-two = <strong>Dodajte nove prevode</strong>: preporučujemo da Web-sajt klonirate na vaš Github nalog i da sa njega podnesete ispravke grešaka. Pogledajte našu <a href="https://github.com/Chia-Network/website"> Github </a>web lokaciju i pošaljite zahtev za povlačenje.
+
+footer-language = Jezik
+
+footer-contact = Kontakt
+
+footer-find-us = Pronađite nas
+
+news-and-info = <h4>Vijesti i informacije</h4>
+
+talks-and-papers = <h4>Razgovori i radovi</h4>
+
+bpase-2018-first = Bram Cohen daje <a href="https://www.youtube.com/watch?v=iqxkO7C-cyk&feature=youtu.be">govor</a> na BPASE 2018 konferenciji baziran na <a href="https://eprint.iacr.org/2017/893">ovom radu</a></li>
+
+bpase-2018-second = Ben Fisch daje <a href="https://www.youtube.com/watch?v=qUoagL7OZ1k&feature=youtu.be">govor</a> na BPASE 2018 konferenciji.
+
+ready-to-invest = Spremni da uložite?
+
+sign-up = Prijavite se za novosti
+
+news = Vijesti

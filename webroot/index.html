@@ -1,22 +1,25 @@
 <!DOCTYPE HTML>
 <html>
+
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112182430-1"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-112182430-1"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'UA-112182430-1');
     </script>
     <!--/GoogleAnalytics-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>chia.network</title>
+    <title>Chia.net</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
-    <link rel="stylesheet" href="css/style.css" type="text/css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css?v4" type="text/css">
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css?v2" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="faviconv2.ico">
@@ -32,293 +35,322 @@
     <meta property="og:description" content="We're building a blockchain based on proofs of space and time to make a cryptocurrency which is less wasteful, more decentralized, and more secure." />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-
     <!-- translation -->
     <meta name="defaultLanguage" content="en-US">
-    <meta name="availableLanguages" content="en-US, fr, ja, nl, de, es, sr">
+    <meta name="availableLanguages" content="en-US, fr, ja, nl, de, es, sr, pt-BR, tr">
     <link rel="localization" href="./locales/app.{locale}.ftl">
     <script defer src="./js/l20n.min.js"></script>
     <script defer src="./js/locales.js"></script>
+    <script defer="" src="/js/bootstrap.min.js"></script>
   </head>
+
   <body class="layout">
     <div class="page js-page">
+      <div id="main-wrapper">
+      
+<nav id="navbar_homepage" class="navbar navbar-light bg-faded">
+        <a class="navbar-brand" href="/">
+          <img src="../images/chia-logo.svg" class="logo">
+        </a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+           <a class="nav-link disabled" href="/news/index.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="/faq/index.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-primary btn-lg" ><a class="jobs_link" href="mailto:hello@chia.net">We're hiring!</a></button>
+          </li>
+        </ul>
+      </nav>
+      <!--nav id="navbar_homepage" class="navbar navbar-toggleable-md navbar-light bg-faded ">
+        <collapsebutton>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        </collapsebutton>
+              
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand" href="/">
+                <img src="../images/chia-logo.svg" class="logo">
+              </a>
+              <ul class="nav navbar-nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="/news/index.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="/faq/index.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="btn btn-primary btn-lg" ><a class="jobs_link" href="#jobs">We're hiring!</a></button>
 
-      <header class="hero header">
+                </li>
+              </ul>
+            </div>
+            </nav-->
+
+
+      <div class="container-fluid" id="main-hero">
+
+        <div class="container-fluid wrap" >
+
         <div class="row">
-          <div class="col-lg-12 wrap">
-            <div class="box">
-              <div class="row">
-                <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
-                  <div class="box"><img src="images/chia-logo.svg" class="logo" /></div>
-                </div>
-                <div class="col-lg-10 col-md-6 col-sm-6 col-xs-12">
-                  <div class="box header-button">
-                    <a data-l10n-id="hiring" href="#jobs">We're hiring!</a>
-                  </div>
-                </div>
+          <div class="col">
+            <h1 data-l10n-id="slogan">Green money for a digital world</h1>
+            <p data-l10n-id="mission" class="margin-top"> We're building a blockchain based on proofs of space and time to make a cryptocurrency that is less wasteful, more decentralized, and more secure. </p>
+
+          </div>
+          <div class="col-7">
+            <img src="../images/main_illo.svg" alt="chia image">
+          </div>
+          </div>
+        </div>
+      </div><!--/main-hero-->
+</div><!--/end of main wrapper-->
+<div class="page_wrapper">
+
+        <div class="wrap container-fluid" id="announcements">
+          <div class="row">
+            <div class="col">
+              <h4 data-l10n-id="Ready to invest?">Ready to invest?</h4>
+              <h2 data-l10n-id="sell-plan">Chia will be available to the public in the summer of 2018</h2>
+            </div>
+            <div class="col">
+              <div class="centered">
+                <button type="button" class="btn btn-primary btn-lg" ><a class="button-link" target="blank" href="https://groups.google.com/a/chia.network/forum/#!forum/announce">Sign up for announcements</a></button>
               </div>
             </div>
           </div>
         </div>
-      </header>
 
-      <div class="wrap container-fluid" style="padding-bottom:0;padding-top:10px;">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="box">
-              <h1 data-l10n-id="slogan">green money for a digital world</h1>
+
+      <div class="wrap container-fluid" id="learn">
+            <div class="row centered">
+              <div class="col ">
+                <img src="../images/icon_learn.svg">
+              </div>
+              <div class="w-100"></div>
+              <div class="col ">
+                <h2 data-l10n-id="learn-more">Learn More about Chia</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="info-box">
+                  <p>
+                    <ul>
+                      <li><h4>Talks and Papers</h4></li>
+                       <li>Bram Cohen giving a
+                        <a target="blank" href="https://www.youtube.com/watch?v=iqxkO7C-cyk&feature=youtu.be">talk</a> at BPASE 2018 based on this very <a href="https://eprint.iacr.org/2017/893">technical paper</a> about Proofs of Space with <a href="https://view.publitas.com/chia-network/pbase18slides/" target="blank">slides</a> by Hamza Abusalah. </li>
+                        <!--li data-l10n-id="james-talk">James Prestwich giving a 
+                        <a target="blank" href="https://www.youtube.com/watch?v=xe5d-Fn1yoo&feature=youtu.be">talk </a> at SF Cryptocurrency Devs Seminar about Chia Script and BLS Signatures with
+                        <a target="blank" href="https://view.publitas.com/chia-network/chia-script/">slides</a>.</li-->
+                        <li>Ben Fisch giving a
+                        <a target="blank" href="https://www.youtube.com/watch?v=qUoagL7OZ1k&feature=youtu.be">talk</a> at BPASE 2018 on Verifiable Delay Functions.</li>
+                      <li data-l10n-id="recent-talk">Bram Cohen's
+                        <a target="blank" href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">talk at Blockchain at Berkeley</a> (starts about 20:00) with
+                        <a target="blank" href="https://view.publitas.com/chia-network/chia-1/">slides</a>.</li>
+                      <li data-l10n-id="older-talk">Bram Cohen's
+                        
+                        <!-- Updated for conflict "#115: #112 : Link to articles for news logo on homepage" -->
+                        <!-- 
+                        <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">talk at BPASE 2017</a> with
+                        <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>.</li>
+                        -->
+                        
+                        <a target="blank" href="https://www.youtube.com/watch?v=aYG0NxoG7yw">talk at BPASE 2017</a> with
+                        <a target="blank" href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>.</li>
+
+                         <li >Bram Cohen giving a
+                        <a target="blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about data structures for scalling Bitcoin with <a target="blank" href="https://view.publitas.com/chia-network/bitcoin_data_structures/">slides </a>and<a target="blank" href="https://github.com/bramcohen/MerkleSet"> code</a>.</li>
+
+                        <li >Bram Cohen giving a
+                        <a target="blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk </a>at SF Bitcoin Devs Seminar about removing waste from cryptocurrencies.</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="info-box">
+                  <p>
+                    <ul>
+                      <li><h4>News and Information</h4></li>
+
+                       <li data-l10n-id="news-link">Follow the latest articles on the <a href="news/">News</a>page.</li>
+                       <li data-l10n-id="faq-link">Visit our <a href="faq/">Frequently Asked Questions (FAQ)</a>to learn more!</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-7 col-lg-offset-1">
-            <div class="box">
-              <br/>
-              <p data-l10n-id="mission">
-              We're building a blockchain based on proofs of space and time to make a cryptocurrency that is less wasteful, more decentralized, and more secure.
-              </p>
-            </div>
+          <div class="container-fluid" id="social-proof">
+              <div class="row centered">
+                <div class="col">
+                  <!-- Added area to make news logos as hyperlink -->
+                  <img src="../images/news-logos.png" usemap="#news_logs_map">
+                  <map name="news_logs_map">
+                    <area shape="rect" coords="0,0,55,50" href="./news/index.html#techcrunch" alt="Test">
+                    <area shape="rect" coords="110,0,240,50" href="./news/index.html#fossybytes" alt="Test">
+                    <area shape="rect" coords="290,0,410,50" href="./news/index.html#bitcoinmagazine" alt="Test">
+                    <area shape="rect" coords="470,0,550,50" href="./news/index.html#IBTlogo" alt="Test">
+                    <area shape="rect" coords="610,0,750,50" href="./news/index.html#bitcoinexchange" alt="Test">
+                  </map>
+                </div>
+              </div>
           </div>
-        </div>        
-      </div>
 
-      <div class="wrap container-fluid" style="padding-bottom:60px;padding-top:10px;">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="box centered">
-              <img src="images/earth.png" class="med-icon" />
+        <div class="wrap container-fluid" id="about">
+          <div class="row">
+            <div class="col centered">
+                <img src="../images/second_illo.svg">
             </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="box centered">
-              <img src="images/network.png" class="med-icon" />
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="box centered">
-              <img src="images/lock.png" class="med-icon" />
+            <div class="col-7">
+                 <img src="../images/icon_about.svg">
+                <h2 data-l10n-id="About Chia">About Chia</h2>
+                <p data-l10n-id="about-detail"> Chia Network is a San Francisco-based company focused on improving crypto-currency infrastructure. Our CEO, Bram Cohen, famously invented BitTorrent: the first modern decentralized network protocol and one of the inspirations for the Bitcoin
+                  protocol. Our founding team has experience across the crypto-currency and finance sectors, coming from Tradehill, CryptoCorp and Lightning Labs. </p>
+
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="wrap container-fluid" style="padding-bottom:60px;padding-top:10px;">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="box">
-              <div class="info-box">
-                <h4 data-l10n-id="learn-more">Learn more</h4>
-                <p>
-                  <ul>
-                    <li data-l10n-id="recent-talk">A <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">recent talk</a> (starts about 20:00) with <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">slides</a>.</li>
-                    <li data-l10n-id="older-talk">An <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">older talk</a> with <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>.</li>
-                    <li data-l10n-id="tech-paper-link">A very <a href="https://eprint.iacr.org/2017/893">technical paper</a> on proofs of space.</li>
-                    <li data-l10n-id="news-link">Follow the latest articles in the <a href="/news">news</a> section.</li>
-                    <li data-l10n-id="faq-link"><a href="faq/">Frequently Asked Questions (FAQ)</a></li>
+        <div class="container-fluid" id="community">
+          <div class="row">
+            <div class="special">
+              <div class="col-6">
+                <div class="content">
+                  <img src="../images/icon_finance.svg">
+                  <h2 data-l10n-id="financial-instituations">Financial Institutions</h2>
+                  <p data-l10n-id="financial-instituation-value-prop"> Digital Money is being increasingly demanded by individual and institutional investors. Chia can help traditional financial institutions meet that demand. </p>
+                  <p class="sub_link_p" data-l10n-id="contact-us">
+                    <a class="sub_link" href="mailto:hello@chia.net">Contact us to find out more<div class="arrow-right"></div></a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="content2">
+                  <img src="../images/icon_community.png">
+                  <h2 data-l10n-id="community">Community</h2>
+                  <p data-l10n-id="join-keybase">Join our Keybase group to participate in discussion.</p>
+                  <ul >
+                      <li data-l10n-id="install-keybase">
+                          <p>Install and setup<a href="https://keybase.io/download">Keybase</a></p>
+                      </li>
+                      <li data-l10n-id="request-keybase-access"> <p >Run this in your terminal:<br> keybase team request-access chia_network.public</p>
+                      </li>
                   </ul>
-                </p>
+                  <p class="sub_link_p" data-l10n-id="join-announcement-list"> Join our
+                  <a class="sub_link" href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list to keep updated <div class="arrow-right"></div></a></p>
               </div>
             </div>
+             </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="hero get-chia">
-        <div class="row">
-          <div class="col-lg-12 wrap">
-            <div class="box">
-              <div class="wrap container-fluid">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <div class="box">
-                      <p><br />
-                        <span data-l10n-id="sell-plan">We plan to sell Chia to the public in Q2 of 2018 to allow everyone to invest in a better digital money.</span>
-                      </p>
-                      <p data-l10n-id="subscribe">
-                      Subscribe to the <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list</a> to learn more.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-lg-offset-2">
-                    <div class="box" style="text-align:center;"><h2 data-l10n-id="get-chia">Get Chia</h2>
-                      <p>
-                        <img src="images/leafv2.png" class="white-leaf" style="max-width:150px;" />
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero community">
-        <div class="row">
-          <div class="col-lg-12 wrap">
-            <div class="box">
-              <div class="wrap container-fluid">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <div class="box"><h3 data-l10n-id="community">Community</h3></div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="box"><br />
-                      <span data-l10n-id="join-keybase">Join our Keybase group to participate in discussion.</span>
-                      <ol class="info-box">
-                        <li data-l10n-id="install-keybase">
-                          Install and setup <a href="https://keybase.io/download">Keybase</a>
-                        </li>
-                        <li>
-                          <span data-l10n-id="request-keybase-access">Run this in your terminal: </span><br /><code>keybase team request-access chia_network.public</code>
-                        </li>
-                      </ol>
-                      <p data-l10n-id="join-announcement-list">
-                        Join our <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list</a> to keep updated.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <a name="jobs"></a>
-      <div class="hero jobs">
-        <div class="row">
-          <div class="col-lg-12 wrap">
-            <div class="box">
-              <div class="wrap container-fluid">
-                <div class="row">
-                  <div class="col-lg-12">
-                    <div class="box"><h2 data-l10n-id="jobs">Jobs</h2>
-                      <p data-l10n-id="looking-to-hire">
-                        We're looking to hire several technically gifted programmers to work with our team of cryptographers on building our protocol. Must have strong algorithms skills. Cryptography experience is a plus but not required. Remote is okay but being in San Francisco is a plus. To apply, please complete several HackerRank challenges and send a link to your HackerRank profile along with your resume to <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <div class="wrap container-fluid" id="jobs" >
+          <div class="row">
+            <div class="col">
+              <img src="../images/icon_work.svg">
+              <h2 data-l10n-id="jobs">Work at Chia</h2>
+            </div>
+            <div class="col-8">
+              <p data-l10n-id="looking-to-hire"> We're looking to hire several technically gifted programmers to work with our team of cryptographers on building our protocol. Must have strong algorithms skills. Cryptography experience is a plus but not required. Remote is okay but being
+                in San Francisco is a plus. To apply, please complete several <a target="blank" href="https://leetcode.com/contest/">LeetCode</a> Contests and send a link to your LeetCode profile along with your resume to
+                <a href="mailto:jobs@chia.net">jobs@chia.net</a>. </p>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="hero fi">
-        <div class="row">
-          <div class="col-lg-12 wrap">
-            <div class="box">
-              <div class="wrap container-fluid">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <div class="box">
-                      <h3 data-l10n-id="financial-instituations">Financial Institutions</h3>
-                    </div>
-                  </div>
-                  <div class="col-lg-8">
-                    <div class="box">
-                      <p data-l10n-id="financial-instituation-value-prop">
-                      Digital Money is being increasingly demanded by individual and institutional investors. Chia can help traditional financial institutions meet that demand.
-                      </p>
-                      <p data-l10n-id="contact-us">
-                        <a href="mailto:hello@chia.network">Contact us</a> to find out more.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      <!--div class="hero community">
+        <div class="wrap container-fluid">
+          <div class="row">
+            <div class="col-lg-6">
+              <h3 data-l10n-id="contribute">Contribute</h3>
+            </div>
+            <div class="col-lg-6">
+              <span data-l10n-id="contribute-question">Are you a developer and want to contribute to the Chia Network? Here are a few ideas:</span>
+              <ol class="info-box">
+                <li data-l10n-id="contribute-idea-one"> Fix existing issues: the
+                  <a href="https://github.com/Chia-Network/website/issues">issue tracker</a> is the best place to find a useful way to contribute to Chia Network. Before starting to write any patches for issues you find, you may want to comment on the issue to make sure nobody else is already working
+                  on it. </li>
+                <li data-l10n-id="contribute-idea-two"> Add Language Translations: We recommend using Github's tools to make a clone of the web site repo and submit changes through there. Take a look at our site on
+                  <a href="https://github.com/Chia-Network/website">github</a> and submit a pull request. </li>
+              </ol>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="wrap container-fluid">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="box"><h3 data-l10n-id="about-us">About Us</h3>
-              <p data-l10n-id="about-detail">
-                Chia Network is a San Francisco-based company focused on improving crypto-currency infrastructure. Our CEO, Bram Cohen, famously invented BitTorrent: the first modern decentralized network protocol and one of the inspirations for the Bitcoin protocol. Our founding team has experience across the crypto-currency and finance sectors, coming from Tradehill, CryptoCorp and Lightning Labs.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero community">
-        <div class="row">
-          <div class="col-lg-12 wrap">
-            <div class="box">
-              <div class="wrap container-fluid">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <div class="box"><h3 data-l10n-id="contribute">Contribute</h3></div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="box"><br />
-                      <span data-l10n-id="contribute-question">Are you a developer and want to contribute to the Chia Network? Here are a few ideas:</span>
-
-                      <ol class="info-box">
-                        <li data-l10n-id="contribute-idea-one"> 
-                          Fix existing issues: the <a href="https://github.com/Chia-Network/website/issues">issue tracker</a> is the best place to find a useful way to contribute to Chia Network. Before starting to write any patches for issues you find, you may want to comment on the issue to make sure nobody else is already working on it.
-						</li >
-						
-                        <li data-l10n-id="contribute-idea-two">
-                          Add Language Translations: We recommend using Github's tools to make a clone of the web site repo and submit changes through there. Take a look at our site on <a href="https://github.com/Chia-Network/website">github</a> and submit a pull request.
-                        </li>
-                      </ol>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      </div-->
+    </div><!--/end of page wrapper-->
       <footer class="hero page-footer">
-        <div class="row">
-          <div class="col-lg-12 wrap">
-            <div class="box">
-              <div class="wrap container-fluid">
-                <div class="row">
-                  <div class="col-lg-12">
-                    <div class="box">
-                      <div class="grey-fade">
-                        <img src="images/leafv2.png" style="max-width:100px;" />
-                        <h2 data-l10n-id="slogan">green money for a digital world</h2><br />
-                        <p>
-                          <a href="mailto:hello@chia.network">hello@chia.network</a><br />
-                          1-844-257-8433<br />
-                        </p>
-                        <p>
-                          © Chia Network 2018
-                        </p>
-                        <p>
-                          <a href="https://github.com/Chia-Network/website"><img src="images/github.svg" title="GitHub" style="max-width:50px"></a>
-                        </p>
-                        <!--<p>
-                          TODO: social media icons
-                        </p>-->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-12 wrap">
-                    <div class="box" id="lang-box"></div>
-                      <p class="grey">
-                         By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author must contain its license header with the original author(s) and source. 
-                      </p>
-                  </div>
-                </div>
-              </div>
+        <div class="wrap container-fluid">
+          <div class="row">
+            <div class="col-lg-3">
+                <img src="images/chia-logo-white.svg" class="logo" />
+                <p> ©Chia Network 2018 </p>
+            </div>
+            <div class="col-lg-3">
+                <ul>
+                  <li>
+                    <p class="header" data-l10n-id="footer-language"> Language </p>
+                  </li>
+                  <li>
+                    <div id="lang-box"></div>
+                  </li>
+                </ul>
+
+            </div>
+            <div class="col-lg-3">
+                <ul>
+                  <li>
+                    <p class="header" data-l10n-id="footer-contact"> Contact </p>
+                  </li>
+
+                  <li>
+                    <a href="mailto:hello@chia.net">hello@chia.net</a>
+                  </li>
+                  <li>
+                    <p>1-844-257-8433</p>
+                  </li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+               <ul >
+                  <li>
+                    <p class="header" data-l10n-id="footer-find-us"> Find us </p>
+                  </li>
+                  <li class="social_footer">
+                    <a href="https://www.facebook.com/Chia-Net-324129071326652/" target="blank">
+                        <img src="/images/soc_fb.svg" title="Facebook" >
+                    </a>
+                  </li>
+                   <li class="social_footer">
+                    <a href="https://twitter.com/ChiaNetworkInc" target="blank">
+                        <img src="/images/soc_tw.svg" title="Twitter" >
+                    </a>
+                  </li>
+                   <li class="social_footer">
+                    <a href="https://github.com/Chia-Network/website" target="blank">
+                        <img src="/images/github.svg" title="GitHub" style="max-width:18px">
+                    </a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 wrap">
+              <div id="lang-box"></div>
+              <p class="grey"> By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author
+                must contain its license header with the original author(s) and source. </p>
             </div>
           </div>
         </div>
       </footer>
-
     </div>
-
   </body>
+
 </html>
