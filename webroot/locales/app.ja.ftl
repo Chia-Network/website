@@ -24,7 +24,7 @@ in-the-news = Chiaに関するニュース
 // longer content sections
 get-the-latest-news = <br />最新のChiaに関するニュース
 
-mission = 私達はブロックチェーンをproofs of spaceと時間に基いて構築し暗号通貨をより無駄が少ない、より分散化された、より安全なものにします。
+mission = 私達はブロックチェーンをproofs of spaceとproofs of timeに基いて構築し暗号通貨をより無駄が少ない、より分散化された、より安全なものにします。
 
 recent-talk = <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">スライド</a>を使用した
     <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">最近の講演</a>(20分頃から始まります)。
@@ -32,6 +32,18 @@ recent-talk = <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpx
 older-talk =  <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">スライド</a>を使用した
     <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">以前の講演</a>。
     <br />
+
+
+scaling-bitcoin = Bram CohenがSF Bitcoin Devs Seminarで<a target="blank" href="https://view.publitas.com/chia-network/bitcoin_data_structures/">スライド</a>を使用して、Bitcoinをスケールするためのデータ構造に関して<a target="blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">講演</a>しました。
+
+waste-talk = Seminarで暗号通貨における無駄を削減する方法について <a target="blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">講演</a> しました。
+
+bpase-2018-first = Bram Cohen givingがBPASE 2018でproofs of spaceに関する<a href="https://eprint.iacr.org/2017/893">学術論文</a>を基に<a href="https://www.youtube.com/watch?v=iqxkO7C-cyk&feature=youtu.be">講演</a>しました。
+<a herf=https://view.publitas.com/chia-network/pbase18slides/page/1>スライド</a>はHamza Abusalahが作成しました。
+
+bpase-2018-second = Ben FischがBPASE 2018で検証可能な遅延関数について<a href="https://www.youtube.com/watch?v=qUoagL7OZ1k&feature=youtu.be">講演</a>しました。
+
+Ben Fisch givingが<a href="https://www.youtube.com/watch?v=qUoagL7OZ1k&feature=youtu.be">talk</a> at BPASE 2018 on Verifiable Delay Functions.
 
 tech-paper-link = proofs of spaceについての非常に<a href="https://eprint.iacr.org/2017/893">技術的な論文</a>
 
@@ -53,7 +65,7 @@ join-announcement-list = <a href="https://groups.google.com/a/chia.network/forum
 
 looking-to-hire = 私達は暗号研究者と協力してプロトコルの構築が出来るよう技術的才能があるプログラマを探しています。
     アルゴリズムに関する高いスキルが必要です。暗号研究の経験は必須ではありませんが、プラスになります。リモートも可能ですが、サンフランシスコで働けることはプラスになります。
-    応募するには幾つかのHackerRankチャレンジを行い、HackerRankプロフィールのリンクと履歴書を<a href="mailto:jobs@chia.network">jobs@chia.network</a>に送って下さい。
+    応募するには幾つかの<a target="blank" href="https://leetcode.com/contest/">LeetCode</a> チャレンジを行い、LeetCodeプロフィールのリンクと履歴書を<a href="mailto:jobs@chia.network">jobs@chia.network</a>に送って下さい。
 
 hiring-detail = 私達は創業者(エグゼクティブアシスタント/オフィスマネージャー)のアシスタントを探しています。勤務地はサンフランシスコにあります。応募するには履歴書を
     <a href="mailto:jobs@chia.network">jobs@chia.network</a>に送って下さい。
