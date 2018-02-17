@@ -1,6 +1,8 @@
-<html langs="en-US" lang="en-US" dir="ltr"><head>
+<html langs="en-US" lang="en-US" dir="ltr">
+  <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-112182430-1"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js">
+    </script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-112182430-1"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -58,21 +60,11 @@
         </ul>
       </nav>
 
-      <!--header class="hero header">
-        <div class="row">
-          <div class="col-lg-12 wrap">
-            <div class="box">
-              <div class="row">
-                <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
-                  <div class="box"><a href="/"><img src="../images/chia-logo.svg" class="logo"></a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header-->
-
-      <div id="markdown-container" class="wrap container-fluid" >        
+      <!-- 
+        NOTE - all of the innerHtml of this node will be replaced by the markdown version of the FAQ (locales.faq.js)
+        The content below will never be shown unless there is an error or the client has javascript disabled
+      -->
+      <div id="markdown-container" class="wrap container-fluid" >                
          <div class="row">
             <div class="col">
               <h3 class="chiafaq">Frequently Asked Questions</h3>
@@ -208,31 +200,6 @@
                <p class="answer">You can sign up for the announcements list to get info as it comes out. Also we're available to discuss announcements on Keybase. Check out our homepage for links.</p>
             </div>
           </div>
-
-
-
-        <!--
-
-<ul>
-
-<ul>
-<li><b>Q: How is Chia resistant to miner centralization?</b></li>
-</ul>
-<p>A: Chia uses empty storage (like hard disk drives) to farm seeds. As there is so much empty storage space available and anyone with unused storage space will be able to farm, this should lead to farming decentralization. Bitcoin's proof of work mining system drives the formation of blocks toward a limited number of miners because aquiring specialized ASIC mining equipment and locating them near cheap electricity is beyond most people's ability to invest. Manufacturers of storage could optimize storage hardware to farm faster or cheaper, but the cost of doing so is probably not worth the reward and that would otherwise have the benefit of generally decreasing the cost of storage for everyone. Chia should become the most decentralized cryptocurrency on the market.</p>
-<ul>
-<li><b>Q: Will Chia be open source?</b></li>
-</ul>
-<p>A: Chia will release academic papers about the building blocks of the protocol, and all implementation code will be open source. We're going to use the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License</a>. There's some chance we'll keep our source code a bit more proprietary when testnet is out but mainnet isn't up yet, but we will definitely license all our source code under the Apache License once mainnet is generally available.</p>
-<ul>
-<li><b>Q: Do you have whitepapers where I can read more?</b></li>
-</ul>
-<p>A: Instead of just one white paper like most projects, we're going to have academic papers in journals. So far we have <a href="https://eprint.iacr.org/2017/893">our first paper</a> which was accepted by Asiacrypt. There will be at least two more papers going over proofs of time and how to hook the whole thing together into a blockchain.</p>
-<ul>
-<li><b>Q: Where can I find out more?</b></li>
-</ul>
-<p>A: You can sign up for the announcements list to get info as it comes out. Also we're available to discuss announcements on Keybase. Check out our homepage for links.</p></div>            
-          </div>
-        </div-->
       </div>
 
       <footer class="hero page-footer">
@@ -301,6 +268,5 @@
       </footer>
 
     </div>
-
-
-</body></html>
+  </body>
+</html>
