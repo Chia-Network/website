@@ -1,5 +1,5 @@
 body {
-  color: rgb(102, 102, 102);
+  color: #939896!important;
   font-family: 'Lato', sans-serif!important;
   font-size: 140%;
   line-height: 155%;
@@ -50,6 +50,9 @@ p {
   line-height: 28px;
 }
 
+:focus {
+    outline:none!important;
+}
 
 .active {
   color: #006646!important;
@@ -73,6 +76,7 @@ p {
 }
 .button-link:hover {
   text-decoration: none!important;
+  color:#fff!important;
 }
 .row {
   margin-left: 0;
@@ -232,15 +236,7 @@ ol li {
   opacity: 0.3;
 }
 
-.community {
-  background-image: url('../images/geo-bg.png');
-  background-size: 50%;
-}
 
-.hero .contribute {
-  background-image: url('../images/geo-bg.png');
-  background-size: 50%;
-}
 
 .fi {
   background-image: url('../images/buildings.jpg');
@@ -300,7 +296,20 @@ ol li {
   color:white;
 }
 .jobs_link:hover {
+  color:white;
   text-decoration: none;
+}
+.jobs_link:hover {
+  text-decoration: none;
+}
+/*#main-wrapper {
+  background-image: url(/images/background.svg);
+  background-repeat: no-repeat;
+  background-size: 3200px;
+}*/
+#main-wrapper {
+  
+  background: linear-gradient(180deg, rgba(237, 248, 240, 0.17) 100%, rgba(228,255,237,0.9) 0%);
 }
 /*Start of Main Hero*/
 #main-hero {
@@ -314,13 +323,15 @@ position: absolute;
     right: 0;
     height: 100%;
     width: 130%;
-    background: linear-gradient(180deg, #B5E2C1 0%, rgba(228,255,237,0.11) 100%);
+    background: linear-gradient(180deg, #B5E2C1 0%, rgba(228,255,237,0.17) 100%);
     transform: skew(0deg,29deg);
     z-index: -1;
 }
 
+
 #main-hero h1 {
   font-size: 2.9rem;
+  font-weight: 700;
 }
 #main-hero p {
   font-size: 22px;
@@ -406,6 +417,13 @@ border-bottom:1px solid #eeeeee;
 #community .sub_link_p {
   display: inline-block;
   margin-bottom: 0px;
+}
+#community .content2 li:first-child a {
+  text-decoration: underline!important;
+}
+
+#community .sub_link:hover {
+  color:#3AAC59!important;
 }
 #community .special {
   max-width: 1200px;
@@ -540,7 +558,7 @@ display: inline!important;
   color: #808080;
   font-size: 18px;
   /*font-family: 'Roboto';*/
-  font-weight: 300;
+  font-weight: 700;
   width: 80%;
 }
 #news-feed-page .news-box:last-child {
@@ -580,6 +598,7 @@ display: inline!important;
 #news-feed-page .read-more-link {
   cursor: pointer;
   color: #3AAC59;
+  text-decoration: underline!important;
 }
 
 #news-feed-page .read-more-link a {
@@ -628,7 +647,7 @@ list-style-type: none;
   color: #3AAC59!important;
   padding-left:60px;
   font-size:1.1rem;
-
+  font-weight: 700;
 }
 #faq-page .answer {
   color: #B0B5B3;
