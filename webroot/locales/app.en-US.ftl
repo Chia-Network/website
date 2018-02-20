@@ -6,7 +6,7 @@ get-chia = Get Chia
 
 community = Community
 
-About Chia = About Chia
+about-chia = About Chia
 
 contribute = Contribute
 
@@ -30,10 +30,17 @@ mission = We're building a blockchain based on proofs of space and time to make 
     which is less wasteful, more decentralized, and more secure.
 
 recent-talk = Bram Cohen giving a <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">talk</a> (starts about 20:00) at Blockchain at Berkeley with
-    <a href="https://drive.google.com/file/d/0ByHuc4xBso7TaEpWSlozWlpxcVk/view">slides</a>.
+    <a href="https://view.publitas.com/chia-network/chia-1/">slides</a>.
 
-older-talk = Bram Cohen giving an <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">older talk</a> at BPASE 2017 with
+older-talk = Bram Cohen giving an older <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">talk</a> at BPASE 2017 with
     <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>.
+
+james-talk = James Prestwich giving a <a href="https://www.youtube.com/watch?v=xe5d-Fn1yoo&feature=youtu.be">talk </a> at SF Cryptocurrency Devs Seminar about Chia Script and BLS Signatures with <a href="https://view.publitas.com/chia-network/chia-script/">slides</a>.
+
+
+ scaling-bitcoin = Bram Cohen giving a <a target="blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about data structures for scalling Bitcoin with <a target="blank" href="https://view.publitas.com/chia-network/bitcoin_data_structures/">slides</a>.
+
+ waste-talk = Bram Cohen giving a <a target="blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about removing waste from cryptocurrencies.
 
 tech-paper-link = A very <a href="https://eprint.iacr.org/2017/893">technical paper</a> on proofs of space.
 
@@ -43,7 +50,7 @@ faq-link = Visit our <a href="faq/">Frequently Asked Questions (FAQ)</a> to lear
 
 sell-plan = Chia will be available to the public in the summer of 2018
 
-Ready to invest? = Ready to invest?
+ready-to-invest = Ready to invest?
 
 subscribe = Subscribe to the <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list</a> to learn more.
 
@@ -58,8 +65,7 @@ join-announcement-list = <a class="sub_link" href="https://groups.google.com/a/c
 looking-to-hire = We're looking to hire several technically gifted programmers to work with our
     team of cryptographers on building our protocol. Must have strong algorithms skills.
     Cryptography experience is a plus but not required. Remote is okay but being in San
-    Francisco is a plus. To apply please do several HackerRank challenges and send a link to your
-    HackerRank profile plus your resume to <a href="mailto:jobs@chia.net">jobs@chia.net</a>.
+    Francisco is a plus. To apply please complete several <a target="blank" href="https://leetcode.com/contest/">LeetCode</a> Contests and send a link to your LeetCode profile plus your resume to <a href="mailto:jobs@chia.net">jobs@chia.net</a>.
 
 hiring-detail = We're hiring an Assistant to the Founders (Executive Assistant/Office manager). Location is in San Francisco.
     To apply please send your resume to <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
@@ -85,3 +91,15 @@ footer-language = Language
 footer-contact = Contact
 
 footer-find-us = Find us
+
+news-and-info = <h4>News and Information</h4>
+
+talks-and-papers = <h4>Talks and Papers</h4>
+
+bpase-2018-first = Bram Cohen giving a <a href="https://www.youtube.com/watch?v=iqxkO7C-cyk&feature=youtu.be">talk</a> at BPASE 2018 based on this very <a href="https://eprint.iacr.org/2017/893">technical paper</a> about Proofs of Space. </li>
+
+bpase-2018-second = Ben Fisch giving a <a href="https://www.youtube.com/watch?v=qUoagL7OZ1k&feature=youtu.be">talk</a> at BPASE 2018 on Verifiable Delay Functions.
+
+sign-up = Sign up for annoucements
+
+news = News
