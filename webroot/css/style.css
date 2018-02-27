@@ -524,7 +524,7 @@ display: inline!important;
 #news-feed-page .news-box {
   border: 1px solid #e7e7e7;
   border-radius: 3px;
-  height:207px;
+  height: auto;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.02);
   margin: 0 auto;
   max-width: 100%;
@@ -612,6 +612,7 @@ display: inline!important;
 #news-feed-page .logo-news {
   max-width: 95%;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #news-feed-page .news-box:hover .logo-news {
