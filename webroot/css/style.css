@@ -620,6 +620,15 @@ display: inline!important;
   
 }
 
+#news-feed-page .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+#news-feed-page .col-lg-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /*Newsfeed end*/
 /*FAQ start*/
 #faq-page .container-fluid {
