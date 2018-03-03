@@ -591,10 +591,6 @@ display: inline!important;
   text-align: right;
 }
 
-#news-feed-page .image-box {
-  max-width: 95%;
-}
-
 #news-feed-page .read-more-link {
   cursor: pointer;
   color: #3AAC59;
@@ -610,7 +606,7 @@ display: inline!important;
 }
 
 #news-feed-page .logo-news {
-  max-width: 95%;
+  max-width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
