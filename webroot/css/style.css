@@ -132,15 +132,35 @@ p {
 }
 
 .logo {
- max-width: 25%;
+    width: 100px;
+    max-width: 100%;
 }
 
-
 .navbar {
-  height:100px;
-  padding: .5rem 5rem!important;
-  border: 1px solid rgba(0,0,0,0.06);
-  box-shadow: 0 2px 9px 0 rgba(0,0,0,0.03);}
+  height: auto;
+  min-height: 100px;
+  padding: 1.5rem 5rem!important;
+}
+
+.navbar-shadow {
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 2px 9px 0 rgba(0,0,0,0.03);
+}
+
+@media (min-width: 0px) and (max-width: 612px) { 
+  .navbar-brand {
+    display: inline-block;
+    width: 100%;
+  }
+  .nav {
+    padding-top: 20px;
+    margin: auto;
+  }
+  .navbar {
+    padding-left: 0!important;
+    padding-right: 0!important;
+    text-align: center;
+  }
 }
 
 .header-button {
