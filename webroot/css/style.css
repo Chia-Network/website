@@ -375,7 +375,7 @@ position: absolute;
   padding-top:40px;
 }
 /*End of Main Hero*/
-/*Start of Annoucements*/
+/*Start of Announcements*/
 #announcements {
  padding-top:20px!important;
  padding-bottom: 0px!important;
@@ -386,10 +386,11 @@ position: absolute;
 }
 #announcements .btn-lg {
   padding:1rem 2rem;
+  margin:0 -2rem;
 }
 
-/*End of Annoucements*/
-/*Start of Annoucements*/
+/*End of Announcements*/
+/*Start of Announcements*/
 #learn h2{
 padding-top:30px;
 padding-bottom: 30px;
@@ -420,10 +421,6 @@ padding-bottom: 30px;
 /*Start of Community*/
 #community .row{
 border-top:1px solid #eeeeee;
-border-bottom:1px solid #eeeeee;
-}
-#community .col-6:last-child {
-  border-left:1px solid #eeeeee;
 }
 #community h2 {
   padding: 20px 0px;
@@ -431,8 +428,13 @@ border-bottom:1px solid #eeeeee;
 #community .content {
   padding:60px 60px 60px 0px;
 }
-#community .content2 {
-  padding:60px 0px 60px 60px;
+#community .col-xs-12 {
+  border-bottom: 1px solid #eeeeee;
+}
+@media (min-width: 567px) {
+  #community .col-sm-6:first-child {
+    border-right: 1px solid #eeeeee;
+  }
 }
 #community .sub_link_p {
   display: inline-block;
