@@ -365,15 +365,16 @@ position: absolute;
   box-shadow: none!important;
   border:none!important;
 }
-#main-hero .col:first-child {
-  padding-top:110px;
-}
-#main-hero .col-7 {
-  text-align: center;
-}
 #main-hero .wrap:last-child {
   padding-top:40px;
 }
+.chia-image {
+  width: 70%;
+}
+.vertical-center {
+  margin: auto;
+}
+
 /*End of Main Hero*/
 /*Start of Announcements*/
 #announcements {
@@ -387,6 +388,7 @@ position: absolute;
 #announcements .btn-lg {
   padding:1rem 2rem;
   margin:0 -2rem;
+  white-space: normal;
 }
 
 /*End of Announcements*/
