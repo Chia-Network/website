@@ -104,7 +104,7 @@ A: After the initial release our focus will be on supporting Lightning as it is 
 
 + <b>Q: What scripting language will Chia use?</b>
 
-A: We will be going with minimally modified Bitcoin script for starters (but with a switch to BLS signatures) and longer term probably going with Simplicity. We're building on the Bitcoin codebase, so core development will be in C/C++.
+A: We will be going with a modified Bitcoin script for starters and with a switch to BLS signatures. <a href = "https://www.youtube.com/watch?v=Og52VDU-pjc">This talk</a> explains our reasons for both changes. Longer term we will add Simplicity once it's available. We're building on the Bitcoin codebase, so core development will be in C/C++.
 
 
 
@@ -146,7 +146,7 @@ A: Chia will release academic papers about the building blocks of the protocol, 
 
 + <b>Q: Do you have whitepapers where I can read more?</b>
 
-A: Instead of just one white paper like most projects, we're going to have academic papers in journals. So far we have <a href = "https://eprint.iacr.org/2017/893">our first paper</a> which was accepted by Asiacrypt. There will be at least two more papers going over proofs of time and how to hook the whole thing together into a blockchain.
+A: Instead of just one white paper like most projects, we're going to have academic papers in journals. So far we have <a href = "https://eprint.iacr.org/2017/893">our first paper</a> which was accepted by Asiacrypt and our <a href = "https://eprint.iacr.org/2018/183">second paper</a> which won best paper at Eurocrypt. There will be at least one more paper going over how to hook the whole thing together into a blockchain.
 
 
 
