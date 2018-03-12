@@ -147,7 +147,7 @@ p {
   box-shadow: 0 2px 9px 0 rgba(0,0,0,0.03);
 }
 
-@media (min-width: 0px) and (max-width: 612px) { 
+@media (min-width: 0px) and (max-width: 960px) { 
   .navbar-brand {
     display: inline-block;
     width: 100%;
