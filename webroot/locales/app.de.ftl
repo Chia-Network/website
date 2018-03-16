@@ -6,13 +6,13 @@ get-chia = Chia bekommen
 
 community = Community
 
-about-us = Über uns
+about-chia = Über Chia
 
 contribute = Mitwirken
-        
+
 jobs = Jobs
 
-learn-more = Erfahren Sie mehr
+learn-more = Mehr über Chia erfahren
 
 faq = Häufig gestellte Fragen
 
@@ -36,19 +36,21 @@ older-talk = Ein <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">älterer 
 
 tech-paper-link = Ein sehr <a href="https://eprint.iacr.org/2017/893">technisches Dokument</a> über Proofs of Space
 
-news-link = Folge die neusten Artikel in den <a href="/news">Nachrichten</a>.
+news-link = Folge den neusten Artikel in den <a href="/news">Nachrichten</a>.
 
 faq-link = <a href="faq/">Häufig gestellte Fragen (FAQ)</a>
 
 sell-plan = Wir haben vor, Chia im zweiten Quartal von 2018 zum Verkauf anzubieten, damit jeder in eine bessere digitale Währung investieren kann.
 
-subscribe = Abonniere die <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">Ankündigungsliste</a>, um mehr zu erfahren.
+ready-to-invest = Bereit zu investieren?
+
+subscribe = Abonniere die <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">Ankündigungsliste</a>, um auf dem neuesten Stand zu bleiben.
 
 join-keybase = Besuche unsere Keybase Gruppe, um mitzudiskutieren.
 
 install-keybase = Installiere <a href="https://keybase.io/download">Keybase</a>
 
-request-keybase-access = Führe folgendes in deinem Terminal aus: 
+request-keybase-access = Führe folgendes in deinem Terminal aus:<br> <code>keybase team request-access chia_network.public</code>
 
 join-announcement-list = Besuche unsere <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">Ankündigungsliste</a>, um auf dem Laufenden zu bleiben.
 
@@ -56,9 +58,9 @@ looking-to-hire = Wir sind auf der Suche nach technisch begabten Programmierern,
     um unser Protokoll zu bauen. Wichtig sind dabei ausgeprägte Fähigkeiten mit Algorithmen. 
     Kryptographische Erfahrung ist ein Pluspunkt, aber ist nicht vorausgesetzt. Fernarbeit
     ist möglich, aber nach San Francisco zu kommen wäre bevorzugt. Damit Sie sich bewerben können, sollten Sie verschiedene
-    HackerRank Herausforderungen absolvieren und uns den Link zu Ihrem HackerRank Profil sowie Ihrem Lebenslauf an <a href="mailto:jobs@chia.network">jobs@chia.network</a> schicken.
+    <a target="blank" href="https://leetcode.com/contest/">LeetCode</a> Herausforderungen absolvieren und uns den Link zu Ihrem HackerRank Profil sowie Ihrem Lebenslauf an <a href="mailto:jobs@chia.network">jobs@chia.network</a> schicken.
 
-hiring-detail = Wir suchen einen Assistenten der Gründer (Chefassistent/Büroleiter). Lage ist in San Fransisco. 
+hiring-detail = Wir suchen einen Assistenten für die Gründer (Chefassistent/Büroleiter). Lage ist in San Fransisco. 
     Zum Bewerben schicken Sie bitte Ihren Lebenslauf an <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
 
 financial-instituation-value-prop = Digitales Geld gewinnt mehr und mehr Interesse bei Einzelnen und Investoren. 
@@ -73,12 +75,12 @@ about-detail = Chia Network hat seinen Sitz in San Francisco und ist ein Unterne
 
 contribute-question = Bist du ein Entwickler und möchtest zu dem Chia Network beitragen? Hier sind ein paar Möglichkeiten:
 
-contribute-idea-one = <strong>Löse existierende Probleme</strong>: Der <a href="https://github.com/Chia-Network/website/issues">Issue Tracker</a> ist der beste Ort, um sinnvoll zu dem Chia Network beitragen zu können. Du möchtest vielleicht erst fragen, ob nicht schon jemand anderes an dem Problem arbeitet, bevor du mit dem Patchen beginnst.
+contribute-idea-one = <strong>Löse existierende Probleme</strong>: Der <a href="https://github.com/Chia-Network/website/issues">Issue Tracker</a> ist der beste Ort, um sinnvoll dem Chia Network beitragen zu können. Du möchtest vielleicht erst fragen, ob nicht schon jemand anderes an dem Problem arbeitet, bevor du mit dem Patchen beginnst.
  
-contribute-idea-two = <strong>Übersetzen</strong>: Wir empfehlen, Github's Tools zu nutzen, um einen Klon unserer Repo zu erstellen und dort die Änderungen vorzunehmen. Schau dir unsere Seite auf <a href="https://github.com/Chia-Network/website">github</a> an und reiche einen Pull-Anfrage ein.
+contribute-idea-two = <strong>Übersetzen</strong>: Wir empfehlen, GitHub's Tools zu nutzen, um einen Klon unseres Repo zu erstellen und dort die Änderungen vorzunehmen. Schau dir unsere Seite auf <a href="https://github.com/Chia-Network/website">GitHub</a> an und reiche eine Pull-Anfrage ein.
 
 footer-language = Sprache
 
 footer-contact = Kontakt
 
-footer-find-us = Besuche uns auf
+footer-find-us = Finde uns
