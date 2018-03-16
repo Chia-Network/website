@@ -42,7 +42,7 @@ waste-talk = Bram Cohens <a target="blank" href="https://www.youtube.com/watch?v
 
 tech-paper-link = Ein sehr <a href="https://eprint.iacr.org/2017/893">technisches Dokument</a> über Proofs of Space.
 
-news-link = Folge die neusten Artikel in den <a href="/news">Nachrichten</a>.
+news-link = Folge den neusten Artikeln in den <a href="/news">Nachrichten</a>.
 
 faq-link = Besuchen Sie unsere <a href="faq/">Häufig gestellten Fragen (FAQ)</a>, um mehr zu erfahren!
 
@@ -50,7 +50,7 @@ sell-plan = Chia wird im Sommer 2018 veröffentlicht werden.
 
 ready-to-invest = Bereit zum Investieren?
 
-subscribe = Abonniere die <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">Ankündigungsliste</a>, um mehr zu erfahren.
+subscribe = Abonniere die <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">Ankündigungsliste</a>, um auf dem neusten Stand zu bleiben.
 
 join-keybase = Besuche unsere Keybase Gruppe, um mitzudiskutieren.
 
@@ -66,7 +66,7 @@ looking-to-hire = Wir sind auf der Suche nach technisch begabten Programmierern,
     ist möglich, aber nach San Francisco zu kommen wäre bevorzugt. Damit Sie sich bewerben können, sollten Sie verschiedene
     <a target="blank" href="https://leetcode.com/contest/">LeetCode</a> Herausforderungen absolvieren und uns den Link zu Ihrem LeetCode Profil sowie Ihrem Lebenslauf an <a href="mailto:jobs@chia.net">jobs@chia.net</a> schicken.
 
-hiring-detail = Wir suchen einen Assistenten der Gründer (Chefassistent/Büroleiter). Lage ist in San Fransisco. 
+hiring-detail = Wir suchen einen Assistenten für die Gründer (Chefassistent/Büroleiter). Lage ist in San Fransisco. 
     Zum Bewerben schicken Sie bitte Ihren Lebenslauf an <a href="mailto:jobs@chia.net">jobs@chia.net</a>.
 
 financial-instituation-value-prop = Digitales Geld gewinnt mehr und mehr Interesse bei Einzelnen und Investoren. 
@@ -83,7 +83,7 @@ contribute-question = Bist du ein Entwickler und möchtest zu dem Chia Network b
 
 contribute-idea-one = <strong>Löse existierende Probleme</strong>: Der <a href="https://github.com/Chia-Network/website/issues">Issue Tracker</a> ist der beste Ort, um sinnvoll zu dem Chia Network beitragen zu können. Du möchtest vielleicht erst fragen, ob nicht schon jemand anderes an dem Problem arbeitet, bevor du mit dem Patchen beginnst.
  
-contribute-idea-two = <strong>Übersetzen</strong>: Wir empfehlen, Github's Tools zu nutzen, um einen Klon unserer Repo zu erstellen und dort die Änderungen vorzunehmen. Schau dir unsere Seite auf <a href="https://github.com/Chia-Network/website">github</a> an und reiche einen Pull-Anfrage ein.
+contribute-idea-two = <strong>Übersetzen</strong>: Wir empfehlen, GitHub's Tools zu nutzen, um einen Klon unseres Repo zu erstellen und dort die Änderungen vorzunehmen. Schau dir unsere Seite auf <a href="https://github.com/Chia-Network/website">github</a> an und reiche eine Pull-Anfrage ein.
 
 footer-language = Sprache
 
