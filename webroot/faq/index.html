@@ -11,7 +11,7 @@
     <!--/GoogleAnalytics-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Chia.net</title>
+    <title>FAQ - Chia Network</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
     <link rel="stylesheet" href="/css/style.css?v4" type="text/css">
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css?v2" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="faviconv2.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../faviconv2.ico">
     <link rel="manifest" href="/manifest.json">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="apple-mobile-web-app-title" content="Chia">
@@ -30,33 +30,60 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="//cdn.rawgit.com/showdownjs/showdown/1.6.4/dist/showdown.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-    
+
     <meta name="defaultLanguage" content="en-US">
     <meta name="availableLanguages" content="en-US, fr, ja, nl, de, es, sr, pt-BR, tr">
     <link rel="localization" href="/locales/app.{locale}.ftl">
     <script src="/js/l20n.min.js"></script>
+
     <script defer="" src="/js/bootstrap.min.js"></script>
-    <script defer="" src="/js/locales.js?v=4"></script>    
+    <script defer="" src="/js/locales.js?v=4"></script>
     <script defer="" src="/js/locales.faq.js?v=7"></script>
   </head>
   <body class="layout" id="faq-page">
     <div class="page js-page">
-      <nav class="navbar navbar-light bg-faded">
+      <!--nav id="navbar_homepage" class="navbar navbar-expand-lg navbar-light bg-faded ">
+   <collapsebutton>
+   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+   </button>
+   </collapsebutton>
+
+         <div class="collapse navbar-collapse" id="navbarNav">
+           <a class="navbar-brand" href="/">
+           <img src="../images/chia-logo.svg" class="logo">
+         </a>
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item">
+             <a data-l10n-id="news" class="nav-link disabled" href="/news/index.html">News</a>
+           </li>
+           <li class="nav-item">
+             <a data-l10n-id="faq" class="nav-link disabled" href="/faq/index.html">FAQ</a>
+           </li>
+           <li class="nav-item">
+             <button type="button" class="btn btn-primary btn-lg" ><a data-l10n-id="hiring" class="jobs_link" href="#jobs">We're hiring!</a></button>
+
+           </li>
+         </ul>
+       </div>
+       </nav-->
+      <nav id="navbar-homepage" class="navbar navbar-light bg-faded">
         <a class="navbar-brand" href="/">
           <img src="../images/chia-logo.svg" class="logo">
         </a>
-        <ul class="nav justify-content-end">
+        <ul class="nav">
           <li class="nav-item">
-           <a class="nav-link disabled" href="/news/index.html">News</a>
+            <a data-l10n-id="news" class="nav-link disabled" href="/news/index.html" data-l10n-id="news">News</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="/faq/index.html">FAQ</a>
+            <a data-l10n-id="faq" class="nav-link active" href="/faq/index.html">FAQ</a>
           </li>
           <li class="nav-item">
-            <button type="button" class="btn btn-primary btn-lg" ><a class="jobs_link" href="mailto:hello@chia.net">We're hiring!</a></button>
+            <button type="button" class="btn btn-primary btn-lg" ><a data-l10n-id="hiring" class="jobs_link" href="mailto:hello@chia.net" data-l10n-id="hiring">We're hiring!</a></button>
           </li>
         </ul>
       </nav>
+
 
       <!--header class="hero header">
         <div class="row">
