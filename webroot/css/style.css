@@ -388,11 +388,11 @@ position: absolute;
 #announcements .btn-lg {
   padding:1rem 2rem;
 }
-@media (min-width: 375px) { 
+/*@media (min-width: 375px) { 
   #announcements .centered {
       padding-top:0px;
   }
-}
+}*/
 /*End of Annoucements*/
 /*Start of Annoucements*/
 #learn h2{
