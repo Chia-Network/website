@@ -354,7 +354,7 @@ position: absolute;
 #main-hero .wrap:last-child {
   padding-top:40px;
 }
-@media (min-width: 375px) { 
+/*@media (min-width: 375px) { 
   #main-hero .col:first-child {
       padding-top: 0px;
   }
@@ -373,7 +373,7 @@ position: absolute;
 }
 @media (min-width: 1200px) { 
 
-}
+}*/
 
 /*End of Main Hero*/
 /*Start of Annoucements*/
@@ -405,7 +405,7 @@ padding-bottom: 30px;
 #learn .info-box h4 {
   font-size: 20px;
 }
-@media (min-width: 375px) { 
+/*@media (min-width: 375px) { 
   .col {
       margin-bottom: 20px;
   }
@@ -413,7 +413,7 @@ padding-bottom: 30px;
     padding-top:0px;
     padding-bottom:0px;
   }
-}
+}*/
 /*End of Learn*/
 /*Start of Social-Proof*/
 #social-proof {
