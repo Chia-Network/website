@@ -388,7 +388,11 @@ position: absolute;
 #announcements .btn-lg {
   padding:1rem 2rem;
 }
-
+@media (min-width: 375px) { 
+  #announcements .centered {
+      padding-top:0px;
+  }
+}
 /*End of Annoucements*/
 /*Start of Annoucements*/
 #learn h2{
@@ -400,6 +404,15 @@ padding-bottom: 30px;
 }
 #learn .info-box h4 {
   font-size: 20px;
+}
+@media (min-width: 375px) { 
+  .col {
+      margin-bottom: 20px;
+  }
+  #learn h2 {
+    padding-top:0px;
+    padding-bottom:0px;
+  }
 }
 /*End of Learn*/
 /*Start of Social-Proof*/
