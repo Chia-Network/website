@@ -52,7 +52,7 @@ sell-plan = Chia will be available to the public in the summer of 2018
 
 ready-to-invest = Ready to invest?
 
-subscribe = Subscribe to the <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements list</a> to learn more.
+subscribe = Subscribe to <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements</a> 
 
 join-keybase = Join our Keybase group to participate in discussion.
 
@@ -65,7 +65,7 @@ join-announcement-list = <a class="sub_link" href="https://groups.google.com/a/c
 looking-to-hire = We're looking to hire several technically gifted programmers to work with our
     team of cryptographers on building our protocol. Must have strong algorithms skills.
     Cryptography experience is a plus but not required. Remote is okay but being in San
-    Francisco is a plus. To apply please complete several <a target="blank" href="https://leetcode.com/contest/">LeetCode</a> Contests and send a link to your LeetCode profile plus your resume to <a href="mailto:jobs@chia.net">jobs@chia.net</a>.
+    Francisco is a plus. To apply please complete a couple <a target="blank" href="https://leetcode.com/contest/">LeetCode</a> Contests and send a link to your LeetCode profile plus your resume to <a href="mailto:jobs@chia.net">jobs@chia.net</a>.
 
 hiring-detail = We're hiring an Assistant to the Founders (Executive Assistant/Office manager). Location is in San Francisco.
     To apply please send your resume to <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
