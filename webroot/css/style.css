@@ -670,6 +670,9 @@ display: inline!important;
 #faq-page .faq-list {
 list-style-type: none;
 }
+#faq-page ul li {
+  list-style-type: none;
+}
 #faq-page .col {
   border-bottom: 1px solid #E7E7E7;
   padding:30px 0px;
