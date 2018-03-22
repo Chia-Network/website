@@ -691,6 +691,9 @@ list-style-type: none;
   padding-left:60px;
   
 }
+#faq-page ul {
+  padding-left:0px;
+}
 /*FAQ ends*/
 
 /*translation start*/
