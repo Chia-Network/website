@@ -14,7 +14,7 @@ jobs = Work at Chia
 
 learn-more = Learn More about Chia
 
-faq = Frequently Asked Questions
+faq = FAQ
 
 financial-instituations = Financial Institutions
 

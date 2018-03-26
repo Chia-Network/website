@@ -64,6 +64,7 @@
           </li>
         </ul>
       </nav-->
+     <div class="uniquewrap">
       <nav id="navbar_homepage" class="navbar navbar-expand-lg navbar-light bg-faded ">
         <collapsebutton>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -89,19 +90,19 @@
               </ul>
             </div>
             </nav>
-
+      </div>
 
       <div class="container-fluid" id="main-hero">
 
         <div class="container-fluid wrap" >
 
         <div class="row">
-          <div class="col">
+          <div class="col-sm-5">
             <h1 data-l10n-id="slogan">Green money for a digital world</h1>
             <p data-l10n-id="mission" class="margin-top"> We're building a blockchain based on proofs of space and time to make a cryptocurrency that is less wasteful, more decentralized, and more secure. </p>
 
           </div>
-          <div class="col-7">
+          <div class="col-sm-7">
             <img src="../images/main_illo.svg" alt="chia image">
           </div>
           </div>
@@ -112,22 +113,22 @@
 
         <div class="wrap container-fluid" id="announcements">
           <div class="row">
-            <div class="col">
+            <div class="col-sm-6">
               <h4 data-l10n-id="ready-to-invest">Ready to invest?</h4>
               <h2 data-l10n-id="sell-plan">Chia will be available to the public in the summer of 2018</h2>
             </div>
-            <div class="col">
+            <div class="col-sm-6">
               <div class="centered">
                 <button data-l10n-id="subscribe" type="button" class="btn btn-primary btn-lg" ><a class="button-link" target="blank" href="https://groups.google.com/a/chia.network/forum/#!forum/announce">Subscribe to announcements</a></button>
               </div>
             </div>
-          </div>
+        </div>
         </div>
 
 
       <div class="wrap container-fluid" id="learn">
             <div class="row centered">
-              <div class="col ">
+              <div class="col-sm-12 ">
                 <img src="../images/icon_learn.svg">
               </div>
               <div class="w-100"></div>
@@ -136,7 +137,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col">
+              <div class="col-sm-6">
                 <div class="info-box">
                   <p>
                     <ul>
@@ -175,7 +176,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col">
+              <div class="col-sm-6">
                 <div class="info-box">
                   <p>
                     <ul>
@@ -192,7 +193,7 @@
 
           <div class="container-fluid" id="social-proof">
               <div class="row centered">
-                <div class="col">
+                <div class="col-sm-12">
                   <!-- Added area to make news logos as hyperlink -->
                   <img src="../images/news-logos.png" usemap="#news_logs_map">
                   <map name="news_logs_map">
@@ -208,10 +209,10 @@
 
         <div class="wrap container-fluid" id="about">
           <div class="row">
-            <div class="col centered">
+            <div class="col-sm-5 centered">
                 <img src="../images/second_illo.svg">
             </div>
-            <div class="col-7">
+            <div class="col-sm-7">
                  <img src="../images/icon_about.svg">
                 <h2 data-l10n-id="about-chia">About Chia</h2>
                 <p data-l10n-id="about-detail"> Chia Network is a San Francisco-based company focused on improving crypto-currency infrastructure. Our CEO, Bram Cohen, famously invented BitTorrent: the first modern decentralized network protocol and one of the inspirations for the Bitcoin
@@ -224,7 +225,8 @@
         <div class="container-fluid" id="community">
           <div class="row">
             <div class="special">
-              <div class="col-6">
+              <div class="col-sm-6">
+
                 <div class="content">
                   <img src="../images/icon_finance.svg">
                   <h2 data-l10n-id="financial-instituations">Financial Institutions</h2>
@@ -234,7 +236,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-6">
+              <div class="col-sm-6">
                 <div class="content2">
                   <img src="../images/icon_community.png">
                   <h2 data-l10n-id="community">Community</h2>
@@ -258,11 +260,11 @@
       <a name="jobs"></a>
         <div class="wrap container-fluid" id="jobs" >
           <div class="row">
-            <div class="col">
+            <div class="col-sm-4">
               <img src="../images/icon_work.svg">
               <h2 data-l10n-id="jobs">Work at Chia</h2>
             </div>
-            <div class="col-8">
+            <div class="col-sm-8">
               <p data-l10n-id="looking-to-hire"> We're looking to hire several technically gifted programmers to work with our team of cryptographers on building our protocol. Must have strong algorithms skills. Cryptography experience is a plus but not required. Remote is okay but being
                 in San Francisco is a plus. To apply, please complete a couple <a target="blank" href="https://leetcode.com/contest/">LeetCode</a> Contests and send a link to your LeetCode profile along with your resume to
                 <a href="mailto:jobs@chia.net">jobs@chia.net</a>. </p>
@@ -293,11 +295,19 @@
       <footer class="hero page-footer">
         <div class="wrap container-fluid">
           <div class="row">
-            <div class="col-lg-3">
-                <img src="images/chia-logo-white.svg" class="logo" />
-                <p> ©Chia Network 2018 </p>
+            <div class="col-sm-3">
+              <ul>
+                  <li>
+                    <img src="images/chia-logo-white.svg" class="logo" />
+                  </li>
+                  <li>
+                    <p> ©Chia Network 2018 </p>
+                  </li>
+                </ul>
+                
+                
             </div>
-            <div class="col-lg-3">
+            <div class="col-sm-3">
                 <ul>
                   <li>
                     <p class="header" data-l10n-id="footer-language"> Language </p>
@@ -308,7 +318,7 @@
                 </ul>
 
             </div>
-            <div class="col-lg-3">
+            <div class="col-sm-3">
                 <ul>
                   <li>
                     <p class="header" data-l10n-id="footer-contact"> Contact </p>
@@ -322,7 +332,7 @@
                   </li>
                 </ul>
             </div>
-            <div class="col-lg-3">
+            <div class="col-sm-3">
                <ul >
                   <li>
                     <p class="header" data-l10n-id="footer-find-us"> Find us </p>
@@ -339,14 +349,14 @@
                   </li>
                    <li class="social_footer">
                     <a href="https://github.com/Chia-Network/website" target="blank">
-                        <img src="/images/github.svg" title="GitHub" style="max-width:18px">
+                        <img src="/images/github.svg" title="GitHub" >
                     </a>
                   </li>
                 </ul>
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-12 wrap">
+            <div class="col-sm-12 wrap">
               <div id="lang-box"></div>
               <p class="grey"> By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author
                 must contain its license header with the original author(s) and source. </p>

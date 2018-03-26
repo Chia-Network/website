@@ -132,16 +132,22 @@ p {
 }
 
 .logo {
- max-width: 25%;
+ max-width: 25%!important;
 }
 
 
 .navbar {
-  height:100px;
-  padding: .5rem 5rem!important;
-  border: 1px solid rgba(0,0,0,0.06);
-  box-shadow: 0 2px 9px 0 rgba(0,0,0,0.03);}
+  /*height:100px;
+  padding: 0px;*/
+  /*border: 1px solid rgba(0,0,0,0.06);*/
+  /*box-shadow: 0 2px 9px 0 rgba(0,0,0,0.03);}
+
+
+  -webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.03);
+     -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.03);
+          box-shadow: 0 8px 6px -6px rgba(0,0,0,0.03);*/
 }
+
 
 .header-button {
   font-size: 90%;
@@ -302,6 +308,13 @@ ol li {
 .jobs_link:hover {
   text-decoration: none;
 }
+.uniquewrap {
+  box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom:30px;
+    padding-top:30px;
+}
 /*#main-wrapper {
   background-image: url(/images/background.svg);
   background-repeat: no-repeat;
@@ -345,10 +358,10 @@ position: absolute;
   box-shadow: none!important;
   border:none!important;
 }
-#main-hero .col:first-child {
+#main-hero .col-sm-5 {
   padding-top:110px;
 }
-#main-hero .col-7 {
+#main-hero .col-sm-7 {
   text-align: center;
 }
 #main-hero .wrap:last-child {
@@ -532,7 +545,15 @@ width:20px;
   color:white;
   font-size:14px;
 }
-
+.page-footer .col-sm-3:last-child img:last-child{
+  max-width: 18px!important;
+}
+#news-feed-page .page-footer .col-sm-3:last-child img:last-child{
+  max-width: 18px!important;
+}
+#faq-page .page-footer .col-sm-3:last-child img:last-child{
+  max-width: 18px!important;
+}
 .page-footer .wrap {
   padding-bottom: 20px;
 }
@@ -673,6 +694,7 @@ list-style-type: none;
 #faq-page ul li {
   list-style-type: none;
 }
+
 #faq-page .col {
   border-bottom: 1px solid #E7E7E7;
   padding:30px 0px;
