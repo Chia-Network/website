@@ -708,7 +708,7 @@ list-style-type: none;
   
 }
 #markdown-container {
-  margin-top:30px;
+  margin-top:0px;
 }
 #markdown-container h3 {
   color: #0E6F51;
@@ -716,6 +716,7 @@ list-style-type: none;
   border-bottom: 1px solid #E7E7E7;  
   margin-bottom:30px;
   padding-bottom:30px;  
+  padding-top: 20px;
 }
 #markdown-container ul {
   list-style-type: none;
