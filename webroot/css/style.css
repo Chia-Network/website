@@ -367,26 +367,16 @@ position: absolute;
 #main-hero .wrap:last-child {
   padding-top:40px;
 }
-/*@media (min-width: 375px) { 
-  #main-hero .col:first-child {
-      padding-top: 0px;
-  }
-  #main-hero .wrap:last-child {
-    padding-top: 0px;
-  }
-  .navbar {
-    padding:2rem!important;
+@media (min-width: 375px) { 
+  #main-hero .col-sm-5 {
+    padding-top: 0px!important;
   }
 }
 @media (min-width: 768px) {
-
+#main-hero .col-sm-5 {
+    padding-top: 0px!important;
+  }
 }
-@media (min-width: 992px) { 
-
-}
-@media (min-width: 1200px) { 
-
-}*/
 
 /*End of Main Hero*/
 /*Start of Annoucements*/
@@ -496,6 +486,9 @@ padding-right:5px;
 
 }
 /*End of Jobs*/
+#bodyfaq {
+  background-color:#fafafa;
+}
 #faq-page .page-footer {
 
   padding-top:30px;
