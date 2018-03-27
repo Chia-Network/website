@@ -132,16 +132,22 @@ p {
 }
 
 .logo {
- max-width: 25%;
+ max-width: 25%!important;
 }
 
 
 .navbar {
-  height:100px;
-  padding: .5rem 5rem!important;
-  border: 1px solid rgba(0,0,0,0.06);
-  box-shadow: 0 2px 9px 0 rgba(0,0,0,0.03);
+  /*height:100px;
+  padding: 0px;*/
+  /*border: 1px solid rgba(0,0,0,0.06);*/
+  /*box-shadow: 0 2px 9px 0 rgba(0,0,0,0.03);}
+
+
+  -webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.03);
+     -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.03);
+          box-shadow: 0 8px 6px -6px rgba(0,0,0,0.03);*/
 }
+
 
 .header-button {
   font-size: 90%;
@@ -302,6 +308,13 @@ ol li {
 .jobs_link:hover {
   text-decoration: none;
 }
+.uniquewrap {
+  box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom:30px;
+    padding-top:30px;
+}
 /*#main-wrapper {
   background-image: url(/images/background.svg);
   background-repeat: no-repeat;
@@ -345,15 +358,36 @@ position: absolute;
   box-shadow: none!important;
   border:none!important;
 }
-#main-hero .col:first-child {
+#main-hero .col-sm-5 {
   padding-top:110px;
 }
-#main-hero .col-7 {
+#main-hero .col-sm-7 {
   text-align: center;
 }
 #main-hero .wrap:last-child {
   padding-top:40px;
 }
+/*@media (min-width: 375px) { 
+  #main-hero .col:first-child {
+      padding-top: 0px;
+  }
+  #main-hero .wrap:last-child {
+    padding-top: 0px;
+  }
+  .navbar {
+    padding:2rem!important;
+  }
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) { 
+
+}
+@media (min-width: 1200px) { 
+
+}*/
+
 /*End of Main Hero*/
 /*Start of Annoucements*/
 #announcements {
@@ -367,7 +401,11 @@ position: absolute;
 #announcements .btn-lg {
   padding:1rem 2rem;
 }
-
+/*@media (min-width: 375px) { 
+  #announcements .centered {
+      padding-top:0px;
+  }
+}*/
 /*End of Annoucements*/
 /*Start of Annoucements*/
 #learn h2{
@@ -380,6 +418,15 @@ padding-bottom: 30px;
 #learn .info-box h4 {
   font-size: 20px;
 }
+/*@media (min-width: 375px) { 
+  .col {
+      margin-bottom: 20px;
+  }
+  #learn h2 {
+    padding-top:0px;
+    padding-bottom:0px;
+  }
+}*/
 /*End of Learn*/
 /*Start of Social-Proof*/
 #social-proof {
@@ -498,7 +545,15 @@ width:20px;
   color:white;
   font-size:14px;
 }
-
+.page-footer .col-sm-3:last-child img:last-child{
+  max-width: 18px!important;
+}
+#news-feed-page .page-footer .col-sm-3:last-child img:last-child{
+  max-width: 18px!important;
+}
+#faq-page .page-footer .col-sm-3:last-child img:last-child{
+  max-width: 18px!important;
+}
 .page-footer .wrap {
   padding-bottom: 20px;
 }
@@ -524,7 +579,7 @@ display: inline!important;
 #news-feed-page .news-box {
   border: 1px solid #e7e7e7;
   border-radius: 3px;
-  height:207px;
+  height:auto;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.02);
   margin: 0 auto;
   max-width: 100%;
@@ -592,7 +647,8 @@ display: inline!important;
 }
 
 #news-feed-page .image-box {
-  max-width: 95%;
+  max-width: 150px;
+  height: auto;
 }
 
 #news-feed-page .read-more-link {
@@ -636,6 +692,10 @@ display: inline!important;
 #faq-page .faq-list {
 list-style-type: none;
 }
+#faq-page ul li {
+  list-style-type: none;
+}
+
 #faq-page .col {
   border-bottom: 1px solid #E7E7E7;
   padding:30px 0px;
@@ -683,6 +743,9 @@ list-style-type: none;
   padding-bottom:30px;
   margin-bottom: 30px;
 }  
+#faq-page ul {
+  padding-left:0px;
+}
 /*FAQ ends*/
 
 /*translation start*/

@@ -43,22 +43,36 @@
   </head>
   <body class="layout" id="faq-page">
     <div class="page js-page">
-      <nav class="navbar navbar-light bg-faded">
-        <a class="navbar-brand" href="/">
-          <img src="../images/chia-logo.svg" class="logo">
-        </a>
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-           <a class="nav-link disabled" href="/news/index.html">News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="/faq/index.html">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <button type="button" class="btn btn-primary btn-lg" ><a class="jobs_link" href="mailto:hello@chia.net">We're hiring!</a></button>
-          </li>
-        </ul>
-      </nav>
+
+    <div class="uniquewrap">
+      <nav class="navbar navbar-expand-lg navbar-light bg-faded ">
+        <collapsebutton>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        </collapsebutton>
+
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand" href="/">
+                <img src="../images/chia-logo.svg" class="logo">
+              </a>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a data-l10n-id="news" class="nav-link disabled" href="/news/index.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a data-l10n-id="faq" class="nav-link disabled" href="/faq/index.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="btn btn-primary btn-lg" ><a data-l10n-id="hiring" class="jobs_link" href="#jobs">We're hiring!</a></button>
+
+                </li>
+              </ul>
+            </div>
+            </nav>
+      </div>
+
+     
 
       <!-- 
         NOTE - all of the innerHtml of this node will be replaced by the markdown version of the FAQ (locales.faq.js)
@@ -205,27 +219,33 @@
       <footer class="hero page-footer">
         <div class="wrap container-fluid">
           <div class="row">
-            <div class="col-lg-3">
-                <img src="/images/chia-logo-white.svg" class="logo" />
-                <p> ©Chia Network 2018 </p>
-            </div>
-            <div class="col-lg-3">
-                <ul>
+            <div class="col-sm-3">
+              <ul>
                   <li>
-                    <p class="header"> Language </p>
+                    <img src="/images/chia-logo-white.svg" class="logo" />
                   </li>
                   <li>
-                    <div id="lang-box" class="read-more-link"></div>
+                    <p> ©Chia Network 2018 </p>
                   </li>
                 </ul>
-                
             </div>
-            <div class="col-lg-3">
+            <div class="col-sm-3">
                 <ul>
                   <li>
-                    <p class="header"> Contact </p>
+                    <p class="header" data-l10n-id="footer-language"> Language </p>
                   </li>
-                  
+                  <li>
+                    <div id="lang-box"></div>
+                  </li>
+                </ul>
+
+            </div>
+            <div class="col-sm-3">
+                <ul>
+                  <li>
+                    <p class="header" data-l10n-id="footer-contact"> Contact </p>
+                  </li>
+
                   <li>
                     <a href="mailto:hello@chia.net">hello@chia.net</a>
                   </li>
@@ -234,10 +254,10 @@
                   </li>
                 </ul>
             </div>
-            <div class="col-lg-3">
+            <div class="col-sm-3">
                <ul >
                   <li>
-                    <p class="header"> Find us </p>
+                    <p class="header" data-l10n-id="footer-find-us"> Find us </p>
                   </li>
                   <li class="social_footer">
                     <a href="https://www.facebook.com/Chia-Net-324129071326652/" target="blank">
@@ -251,14 +271,14 @@
                   </li>
                    <li class="social_footer">
                     <a href="https://github.com/Chia-Network/website" target="blank">
-                        <img src="/images/github.svg" title="GitHub" style="max-width:18px">
+                        <img src="/images/github.svg" title="GitHub" >
                     </a>
                   </li>
                 </ul>
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-12 wrap">
+            <div class="col-sm-12 wrap">
               <div id="lang-box"></div>
               <p class="grey"> By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author
                 must contain its license header with the original author(s) and source. </p>
@@ -266,7 +286,5 @@
           </div>
         </div>
       </footer>
-
     </div>
-  </body>
-</html>
+  </body></html>
