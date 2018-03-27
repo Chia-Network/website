@@ -714,6 +714,35 @@ list-style-type: none;
   padding-left:60px;
   
 }
+#markdown-container {
+  margin-top:30px;
+}
+#markdown-container h3 {
+  color: #0E6F51;
+  font-weight: 400;
+  border-bottom: 1px solid #E7E7E7;  
+  margin-bottom:30px;
+  padding-bottom:30px;  
+}
+#markdown-container ul {
+  list-style-type: none;
+}
+#markdown-container p:last-child {
+  border-bottom: none;
+}
+#markdown-container li {
+  color: #3AAC59!important;
+
+  font-size:1.1rem;
+  font-weight: 700;
+}
+#markdown-container p {
+  color: #B0B5B3;
+  padding-left:60px;
+  border-bottom: 1px solid #E7E7E7;
+  padding-bottom:30px;
+  margin-bottom: 30px;
+}  
 #faq-page ul {
   padding-left:0px;
 }
