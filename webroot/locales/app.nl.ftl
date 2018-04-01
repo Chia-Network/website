@@ -20,6 +20,15 @@ slogan = Groen geld voor een digitale wereld
 
 in-the-news = Chia in de pers
 
+team = Team
+
+// Tabs start
+home-tab = Home - Chia Network
+news-tab = News - Chia Network
+faq-tab = FAQ - Chia Network
+team-tab = Team - Chia Network
+// Tabs end
+
 
 // longer content sections
 get-the-latest-news = <br />Bekijk het laatste nieuws van Chia

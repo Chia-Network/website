@@ -22,6 +22,14 @@ slogan = Green money for a digital world
 
 in-the-news = Chia in the News
 
+team = Team
+
+// Tabs start
+home-tab = Home - Chia Network
+news-tab = News - Chia Network
+faq-tab = FAQ - Chia Network
+team-tab = Team - Chia Network
+// Tabs end
 
 // longer content sections
 get-the-latest-news = <br />Get the Latest and Updated Newscast from Chia

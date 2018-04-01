@@ -22,6 +22,15 @@ slogan = 電子世界の為の<br />グリーンマネー
 
 in-the-news = Chiaに関するニュース
 
+team = Team
+
+// Tabs start
+home-tab = Home - Chia Network
+news-tab = News - Chia Network
+faq-tab = FAQ - Chia Network
+team-tab = Team - Chia Network
+// Tabs end
+
 
 // longer content sections
 get-the-latest-news = <br />最新のChiaに関するニュース
