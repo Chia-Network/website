@@ -39,69 +39,41 @@
     <script defer="" src="/js/locales.js?v=4"></script>    
     <script defer="" src="/js/locales.faq.js?v=7"></script>
   </head>
-  <body class="layout" id="faq-page">
+  <body class="layout" id="team-page">
     <div class="page js-page">
       <div class="uniquewrap">
-      <nav class="navbar navbar-light bg-faded">
-        <a class="navbar-brand" href="/">
-          <img src="../images/chia-logo.svg" class="logo">
-        </a>
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-           <a class="nav-link disabled" href="/news/index.html">News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="/faq/index.html">FAQ</a>
-          </li>
-           <li class="nav-item">
-            <a class="nav-link active" href="/team/index.html">Team</a>
-          </li>
-          <li class="nav-item">
-            <button type="button" class="btn btn-primary btn-lg" ><a class="jobs_link" href="mailto:hello@chia.net">We're hiring!</a></button>
-          </li>
-        </ul>
-      </nav>
-    </div>
-      <!--header class="hero header">
-        <div class="row">
-          <div class="col-lg-12 wrap">
-            <div class="box">
-              <div class="row">
-                <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
-                  <div class="box"><a href="/"><img src="../images/chia-logo.svg" class="logo"></a></div>
-                </div>
-              </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-faded ">
+        <collapsebutton>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        </collapsebutton>
+
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand" href="/">
+                <img src="../images/chia-logo.svg" class="logo">
+              </a>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a data-l10n-id="news" class="nav-link disabled" href="/news/index.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a data-l10n-id="faq" class="nav-link disabled" href="/faq/index.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a data-l10n-id="team" class="nav-link active" href="/team/index.html">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a data-l10n-id="hiring" class="jobs_link btn btn-primary btn-lg" role="button" href="mailto:hello@chia.net">We're hiring!</a>
+
+                </li>
+              </ul>
             </div>
-          </div>
-        </div>
-      </header-->
-
+            </nav>
+    </div>
     
-
-
-        <!--
-
-<ul>
-
-<ul>
-<li><b>Q: How is Chia resistant to miner centralization?</b></li>
-</ul>
-<p>A: Chia uses empty storage (like hard disk drives) to farm seeds. As there is so much empty storage space available and anyone with unused storage space will be able to farm, this should lead to farming decentralization. Bitcoin's proof of work mining system drives the formation of blocks toward a limited number of miners because aquiring specialized ASIC mining equipment and locating them near cheap electricity is beyond most people's ability to invest. Manufacturers of storage could optimize storage hardware to farm faster or cheaper, but the cost of doing so is probably not worth the reward and that would otherwise have the benefit of generally decreasing the cost of storage for everyone. Chia should become the most decentralized cryptocurrency on the market.</p>
-<ul>
-<li><b>Q: Will Chia be open source?</b></li>
-</ul>
-<p>A: Chia will release academic papers about the building blocks of the protocol, and all implementation code will be open source. We're going to use the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License</a>. There's some chance we'll keep our source code a bit more proprietary when testnet is out but mainnet isn't up yet, but we will definitely license all our source code under the Apache License once mainnet is generally available.</p>
-<ul>
-<li><b>Q: Do you have whitepapers where I can read more?</b></li>
-</ul>
-<p>A: Instead of just one white paper like most projects, we're going to have academic papers in journals. So far we have <a href="https://eprint.iacr.org/2017/893">our first paper</a> which was accepted by Asiacrypt. There will be at least two more papers going over proofs of time and how to hook the whole thing together into a blockchain.</p>
-<ul>
-<li><b>Q: Where can I find out more?</b></li>
-</ul>
-<p>A: You can sign up for the announcements list to get info as it comes out. Also we're available to discuss announcements on Keybase. Check out our homepage for links.</p></div>            
-          </div>
-        </div-->
-      </div>
+    
+    </div>
 
       <footer class="hero page-footer">
         <div class="wrap container-fluid">
