@@ -79,6 +79,9 @@ var names = {
 
 ### For the FAQ
 
-- Translations of the FAQ are kept in markdown, and don't use l20n
-- Copy [faq.md](/webroot/faq/faq.md) to the [translated markdown files](webroot/faq/locales/) folder, changing its name to `faq.<2 letter locale code>.md`
-- Translate away!
+In order to provide a translation of the FAQ, add the translated ftl file in webroot/locales and name it app.[2 letter locale code].ftl.
+
+<!---
+Or if we switch to using separate files for the FAQ:
+In order to provide a translation of the FAQ, add the translated ftl file in webroot/faq/locales and name it faq.[2 letter locale code].ftl.
+-->
