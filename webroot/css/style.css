@@ -423,6 +423,17 @@ padding-bottom: 30px;
   background-color:#FAFAFA;
   padding-top:60px;
   padding-bottom: 60px;
+  max-width: 100%;
+}
+#news_logos img {
+  opacity: 1;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  max-width: 100px!important;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 /*End of Social-Proof*/
 /*Start of About*/
@@ -497,6 +508,7 @@ padding-right:5px;
   color:#ffffff!important;
 }
 .page-footer .logo {
+  max-width: 142px!important;
   margin-bottom: 1rem;
 }
 #page-footer a:hover {
