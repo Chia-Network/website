@@ -22,6 +22,15 @@ slogan = Moeda verde para um mundo digital
 
 in-the-news = Chia na mídia
 
+team = Team
+
+// Tabs start
+home-tab = Home - Chia Network
+news-tab = News - Chia Network
+faq-tab = FAQ - Chia Network
+team-tab = Team - Chia Network
+// Tabs end
+
 
 // longer content sections
 get-the-latest-news = <br />Fique a par das novidades e atualizações da Chia

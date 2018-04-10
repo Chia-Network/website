@@ -13,7 +13,7 @@
     <!--/GoogleAnalytics-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Chia.net</title>
+    <title data-l10n-id="news-tab">News - Chia Network</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
     <link rel="stylesheet" href="../css/style.css?v4" type="text/css">
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css?v2" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Roboto" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="faviconv2.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../faviconv2.ico">
     <link rel="manifest" href="/manifest.json">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="apple-mobile-web-app-title" content="Chia">
@@ -31,7 +31,7 @@
     <script src="//cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <!-- translation -->
     <meta name="defaultLanguage" content="en-US">
-    <meta name="availableLanguages" content="en-US, fr, ja, nl, de, es, sr, pt-BR, tr">
+    <meta name="availableLanguages" content="en-US, fr, ja, nl, de, es, sr, pt-BR, tr, zh-CN">
     <link rel="localization" href="/locales/app.{locale}.ftl">
     <script defer="" src="/js/l20n.min.js"></script>
     <script defer="" src="/js/locales.js"></script>
@@ -39,22 +39,37 @@
   </head>
 
   <body id="news-feed-page">
-    <nav class="navbar navbar-light bg-faded">
-        <a class="navbar-brand" href="/">
-          <img src="../images/chia-logo.svg" class="logo">
-        </a>
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active" href="/news/index.html" data-l10n-id="news">News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="/faq/index.html">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <button type="button" class="btn btn-primary btn-lg" ><a class="jobs_link" href="mailto:hello@chia.net" data-l10n-id="hiring">We're hiring!</a></button>
-          </li>
-        </ul>
-      </nav>
+    <div class="uniquewrap">
+      <nav class="navbar navbar-expand-lg navbar-light bg-faded ">
+        <collapsebutton>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        </collapsebutton>
+
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand" href="/">
+                <img src="../images/chia-logo.svg" class="logo">
+              </a>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a data-l10n-id="news" class="nav-link active" href="/news/index.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a data-l10n-id="faq" class="nav-link" href="/faq/index.html">FAQ</a>
+                </li>
+                <!--li class="nav-item">
+                  <a data-l10n-id="team" class="nav-link" href="/team/index.html">Team</a>
+                </li-->
+                <li class="nav-item">
+                  <a data-l10n-id="hiring" class="jobs_link btn btn-primary btn-lg" role="button" href="mailto:hello@chia.net">We're hiring!</a>
+
+                </li>
+              </ul>
+            </div>
+            </nav>
+      </div>
+
 
     <!--header class="hero header">
       <div class="row">
@@ -99,7 +114,38 @@
             <div class="wrap container-fluid smaller">
               <div class="row">
                 <div class="col-lg-12">
-				          <div class="news-box row" id="california-sunday-magazine">
+				          <div class="news-box row" id="techcrunch">
+                    <div class="col-lg-2 col-sm-12 col-md-12">
+                      <div class="image-box"> <img src="../images/newslogos/techcrunch.svg" class="logo-news"> </div>
+                    </div>
+                    <div class="col-lg-10 col-sm-12 col-md-8 news-text-content">
+                      <div class="panel-heading news-heading clearfix"> <span>Energy saving Bitcoin rival Chia raises from A16Z, plans mini-IPO</span> <time>March 28, 2018</time> </div>
+                      <div class="description">
+                        <p>  Chia has just raised a $3.395 million seed round led by AngelList’s Naval Ravikant and joined by Andreessen Horowitz, Greylock and more.  </p>
+                        <p>
+                          <a href="https://techcrunch.com/2018/03/28/chia-vs-bitcoin/" target="_blank"><span class="read-more-link">Read more &gt;</span></a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="news-box row" id="btcmanager">
+                    <div class="col-lg-2 col-sm-12 col-md-12">
+                      <div class="image-box"> <img src="../images/newslogos/btcmanager.png" class="logo-news"> </div>
+                    </div>
+                    <div class="col-lg-10 col-sm-12 col-md-8 news-text-content">
+                      <div class="panel-heading news-heading clearfix"> <span>Upcoming Cryptocurrency Chia Aims To Challenge Bitcoin’s Throne</span> <time>March 30, 2018</time> </div>
+                      <div class="description">
+                        <p>  Issues of scalability, volatility, and speed have plagued Bitcoin, slowing the promise it once showed. But, a promising startup called Chia Network aims to capitalize what the flagship cryptocurrency started.</p>
+                        <p>
+                          <a href="https://btcmanager.com/upcoming-cryptocurrency-chia-aims-to-challenge-bitcoins-throne/" target="_blank"><span class="read-more-link">Read more &gt;</span></a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                  
+                  <div class="news-box row" id="california-sunday-magazine">
                     <div class="col-lg-2 col-sm-12 col-md-12">
                       <div class="image-box"> <img src="../images/newslogos/california-sunday-magazine.svg" class="logo-news"> </div>
                     </div>
@@ -245,11 +291,17 @@
     <footer class="hero page-footer">
         <div class="wrap container-fluid">
           <div class="row">
-            <div class="col-lg-3">
-                <img src="/images/chia-logo-white.svg" class="logo" />
-                <p> ©Chia Network 2018 </p>
+            <div class="col-sm-3">
+              <ul>
+                  <li>
+                    <img src="/images/chia-logo-white.svg" class="logo" />
+                  </li>
+                  <li>
+                    <p> ©Chia Network 2018 </p>
+                  </li>
+                </ul>
             </div>
-            <div class="col-lg-3">
+            <div class="col-sm-3">
                 <ul>
                   <li>
                     <p class="header" data-l10n-id="footer-language"> Language </p>
@@ -260,7 +312,7 @@
                 </ul>
 
             </div>
-            <div class="col-lg-3">
+            <div class="col-sm-3">
                 <ul>
                   <li>
                     <p class="header" data-l10n-id="footer-contact"> Contact </p>
@@ -274,31 +326,31 @@
                   </li>
                 </ul>
             </div>
-            <div class="col-lg-3">
+            <div class="col-sm-3">
                <ul >
                   <li>
                     <p class="header" data-l10n-id="footer-find-us"> Find us </p>
                   </li>
                   <li class="social_footer">
-                    <a href="https://www.facebook.com/Chia-Net-324129071326652/" target="blank">
+                    <a href="https://www.facebook.com/Chia-Net-324129071326652/" target="_blank">
                         <img src="/images/soc_fb.svg" title="Facebook" >
                     </a>
                   </li>
                    <li class="social_footer">
-                    <a href="https://twitter.com/ChiaNetworkInc" target="blank">
+                    <a href="https://twitter.com/ChiaNetworkInc" target="_blank">
                         <img src="/images/soc_tw.svg" title="Twitter" >
                     </a>
                   </li>
                    <li class="social_footer">
-                    <a href="https://github.com/Chia-Network/website" target="blank">
-                        <img src="/images/github.svg" title="GitHub" style="max-width:18px">
+                    <a href="https://github.com/Chia-Network/website" target="_blank">
+                        <img src="/images/github.svg" title="GitHub" >
                     </a>
                   </li>
                 </ul>
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-12 wrap">
+            <div class="col-sm-12 wrap">
               <div id="lang-box"></div>
               <p class="grey"> By contributing to this repository, you agree to license your work under the MIT license unless specified otherwise in contrib/debian/copyright or at the top of the file itself. Any work contributed where you are not the original author
                 must contain its license header with the original author(s) and source. </p>

@@ -18,14 +18,14 @@ function loadFaq() {
     // first look for a translated faq
     if(locale == 'en')  {
         $.get('faq.md', function(md) {
-            $('.doc').html(new showdown.Converter().makeHtml(md));  
+            $('#markdown-container').html(new showdown.Converter().makeHtml(md));  
         });
     }   else    {
         $.get('./locales/faq.' + locale + '.md', function(md) {
-            $('.doc').html(new showdown.Converter().makeHtml(md));  
+            $('#markdown-container').html(new showdown.Converter().makeHtml(md));  
         }).fail(function() { // if no translation - fail back
             $.get('faq.md', function(md) {
-                $('.doc').html(new showdown.Converter().makeHtml(md));  
+                $('#markdown-container').html(new showdown.Converter().makeHtml(md));  
             });
         });
     }
