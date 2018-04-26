@@ -110,3 +110,9 @@ bpase-2018-second = Ben Fisch giving a <a href="https://www.youtube.com/watch?v=
 sign-up = Sign up for annoucements
 
 news = News
+
+grinding-attacks = Bram Cohen giving a <a target="_blank" href="https://www.youtube.com/watch?v=2Zlcgt8FVz4">talk</a> at Stanford about stopping grinding attacks in Proofs of Space.
+
+bitcoin-devs-one = Bram Cohen giving a <a target="_blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about data structures for scalling Bitcoin with <a target="_blank" href="https://view.publitas.com/chia-network/bitcoin_data_structures/">slides </a>and<a target="_blank" href="https://github.com/bramcohen/MerkleSet"> code</a>.
+
+bitcoin-devs-two = Bram Cohen giving a <a target="_blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk </a>at SF Bitcoin Devs Seminar about removing waste from cryptocurrencies.
