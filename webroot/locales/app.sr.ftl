@@ -48,17 +48,17 @@ news-link = Pročitajte najnovije artikle <a href="/news">na ovoj</a> sekciji.
 
 faq-link = <a href="faq/">Česta pitanja (FAQ)</a>
 
-sell-plan = Chia valutu planiramo prodavati krajem 2018. godine kako bismo svima omogućili da ulažu u bolju digitalnu valutu.
+sell-plan = Chia će biti dostupna javnosti od ljeta 2018. godine
 
 subscribe = <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">Pridružite se</a> da saznate više.
 
 join-keybase = Pridružite se grupi da biste učestvovali u raspravi.
 
-install-keybase = Preuzmite i instalirajte: <a href="https://keybase.io/download">Keybase</a>
+install-keybase = <p>Preuzmite i instalirajte <a href="https://keybase.io/download">Keybase</a></p>
 
-request-keybase-access = Zatim pokrenite u terminalu:
+request-keybase-access = <p >Zatim pokrenite ovo u terminalu:<br> <code>keybase team request-access chia_network.public</code></p>
 
-join-announcement-list =  <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">Pridružite se</a> za obavijesti.
+join-announcement-list = <a class="sub_link" href="https://groups.google.com/a/chia.network/forum/#!forum/announce">Pridružite se za obavijesti </a>
 
 looking-to-hire = Tražimo nekoliko talentovanih programera koji bi zajedno sa našim timom radili na izgradnji protokola. Programer mora imati dosta iskustva sa algoritmima. Programer ima prioritet ako je iskusan sa kriptografijom ili ako je iz San Franciska. Za prijavu molimo Vas da uradite nekoliko HackerRank izazova i zatim pošaljete link vašeg profila na <a href="mailto:jobs@chia.network">jobs@chia.network</a>.
 
@@ -67,9 +67,9 @@ hiring-detail = Tražimo pomoćnika osnivaču (Izvršni pomoćnik / Direktor kan
 
 financial-instituation-value-prop = Digitalni novac sve više zahtijevaju pojedini i institucionalni ulagači. Chia može pomoći tradicionalnim finansijskim institucijama da zadovolje tu potražnju.
 
-contact-us = <a href="mailto:hello@chia.network">Kontaktirajte nas</a> da saznate više.
+contact-us = <a class="sub_link" href="mailto:hello@chia.network">Kontaktirajte nas da saznate više </a>
 
-about-detail =  Chia Network je kompanija u San Francisku koja je fokusirana na poboljšanje kripto valutne infrastrukture. Naš direktor, Bram Cohen, je tvorac BitTorrent-a: Prvog modernog decentralizovanog mrežnog protokola koji je i jedna od inspiracija za Bitcoin protokol. Naš tim ima veliko iskustvo u kripto valutnom i finansijskom sektor. 
+about-detail =  Chia Network je kompanija u San Francisku koja je fokusirana na poboljšanje kripto valutne infrastrukture. Naš direktor, Bram Cohen, je tvorac BitTorrent-a: Prvog modernog decentralizovanog mrežnog protokola koji je i jedna od inspiracija za Bitcoin protokol. Naš tim ima veliko iskustvo u kripto valutnom i finansijskom sektoru. 
 
 contribute-question = Želite doprinijeti Chia mreži? Evo nekoliko zadataka:
 
@@ -96,3 +96,9 @@ ready-to-invest = Spremni da uložite?
 sign-up = Prijavite se za novosti
 
 news = Vijesti
+
+grinding-attacks = Bram Cohen daje <a target="_blank" href="https://www.youtube.com/watch?v=2Zlcgt8FVz4">govor</a> na Stanfordu o spriječavanju "grinding" napada u Proof of Space algoritmu.
+
+bitcoin-devs-one = Bram Cohen daje <a target="_blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">govor</a> na SF Bitcoin Devs seminaru o strukturama podataka za skaliranje Bitcoin-a sa <a target="_blank" href="https://view.publitas.com/chia-network/bitcoin_data_structures/">ovim slajdovima </a>i<a target="_blank" href="https://github.com/bramcohen/MerkleSet"> ovim kodom</a>.
+
+bitcoin-devs-two = Bram Cohen daje <a target="_blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">govor </a> na SF Bitcoin Devs seminaru o ukladnjanju nepotrebnih stvari iz kriptovaluta.
