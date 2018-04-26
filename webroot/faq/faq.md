@@ -128,7 +128,7 @@ A: There will still be some rewards for desktop farmers and the cost will still 
 
 + <b>Q: Will Chia have a similar supply to that of Bitcoin?</b>
 
-A: There will be fixed farming rewards and they won't have halving so the amount of coins in circulation increases without bound at the fixed rate of annual mining but the proportion of coins (grains?) minted (grown?) each year perpetually goes down as a percentage of the total coins in existence.
+A: There will be three halvings of Chia farming rewards to ultimately get to a low fixed amount of chia rewarded to farmers per block. The coins in circulation continues to increaseat the fixed rate of annual mining but the proportion of coins (grains?) minted (grown?) each year perpetually goes down as a percentage of the total coins in existence. To give a sense of what this means in practice, it will take approximately 153 years for the amount of Chia to double after network launch.
 
 
 
