@@ -37,6 +37,9 @@ get-the-latest-news = <br />Get the Latest and Updated Newscast from Chia
 mission = We're building a blockchain based on proofs of space and time to make a cryptocurrency
     which is less wasteful, more decentralized, and more secure.
 
+ryan-summit = Ryan Singer giving a
+ <a target="_blank" href="https://www.youtube.com/watch?v=P86QQXcnJ4M&feature=youtu.be">keynote</a> at StartEngine Summit 2.0 about rethinking the ICO.
+
 recent-talk = Bram Cohen giving a <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">talk</a> (starts about 20:00) at Blockchain at Berkeley with
     <a href="https://view.publitas.com/chia-network/chia-1/">slides</a>.
 
@@ -59,7 +62,7 @@ sell-plan = Chia will be available to the public in the summer of 2018
 
 ready-to-invest = Ready to invest?
 
-subscribe = Subscribe to <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements</a> 
+subscribe = Subscribe to <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements</a>
 
 join-keybase = Join our Keybase group to participate in discussion.
 
@@ -88,11 +91,11 @@ about-detail = Chia Network is a San Francisco-based company focused on improvin
     sectors, coming from Tradehill, CryptoCorp and Lightning Labs.
 
 contribute-question = Are you a developer and want to contribute to the Chia Network? Here are a few ideas:
-	
+
 contribute-idea-one = <strong>Fix existing issues</strong>: the <a href="https://github.com/Chia-Network/website/issues">issue tracker</a> is the best place to find a useful way to contribute to Chia Network. Before starting to write any patches for issues you find, you may want to comment on the issue to make sure nobody else is already working on it.
 
 contribute-idea-two = <strong>Add Language Translations</strong>: We recommend using Github's tools to make a clone of the web site repo and submit changes through there. Take a look at our site on <a href="https://github.com/Chia-Network/website">github</a> and submit a pull request.
-	
+
 footer-language = Language
 
 footer-contact = Contact
