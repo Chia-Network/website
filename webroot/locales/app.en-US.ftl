@@ -38,7 +38,7 @@ mission = We're building a blockchain based on proofs of space and time to make 
     which is less wasteful, more decentralized, and more secure.
 
 ryan-summit = Ryan Singer giving a
- <a target="_blank" href="https://www.youtube.com/watch?v=P86QQXcnJ4M&feature=youtu.be">keynote</a> at StartEngine Summit 2.0 about rethinking the ICO.
+ <a target="_blank" href="https://www.youtube.com/watch?v=P86QQXcnJ4M">keynote</a> at StartEngine Summit 2.0 about rethinking the ICO.
 
 recent-talk = Bram Cohen giving a <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">talk</a> (starts about 20:00) at Blockchain at Berkeley with
     <a href="https://view.publitas.com/chia-network/chia-1/">slides</a>.
@@ -46,7 +46,7 @@ recent-talk = Bram Cohen giving a <a href="https://www.facebook.com/BerkeleyBloc
 older-talk = Bram Cohen giving an older <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">talk</a> at BPASE 2017 with
     <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>.
 
-james-talk = James Prestwich giving a <a href="https://www.youtube.com/watch?v=xe5d-Fn1yoo&feature=youtu.be">talk </a> at SF Cryptocurrency Devs Seminar about Chia Script and BLS Signatures with <a href="https://view.publitas.com/chia-network/chia-script/">slides</a>.
+james-talk = James Prestwich giving a <a href="https://www.youtube.com/watch?v=xe5d-Fn1yoo">talk </a> at SF Cryptocurrency Devs Seminar about Chia Script and BLS Signatures with <a href="https://view.publitas.com/chia-network/chia-script/">slides</a>.
 
 scaling-bitcoin = Bram Cohen giving a <a target="blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about data structures for scalling Bitcoin with <a target="blank" href="https://view.publitas.com/chia-network/bitcoin_data_structures/">slides</a>.
 
