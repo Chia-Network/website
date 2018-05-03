@@ -105,7 +105,7 @@ news-and-info = <h4>News and Information</h4>
 
 talks-and-papers = <h4>Talks and Papers</h4>
 
-bpase-2018-first = Bram Cohen giving a <a href="https://www.youtube.com/watch?v=iqxkO7C-cyk&feature=youtu.be">talk</a> at BPASE 2018 based on this very <a href="https://eprint.iacr.org/2017/893">technical paper</a> about Proofs of Space.
+bpase-2018-first = Bram Cohen giving a <a href="https://www.youtube.com/watch?v=iqxkO7C-cyk&feature=youtu.be">talk</a> at BPASE 2018 based on this very <a href="https://eprint.iacr.org/2017/893">technical paper</a> about <span class="testcommit">Proofs of Space</span>.
 
 bpase-2018-second = Ben Fisch giving a <a href="https://www.youtube.com/watch?v=qUoagL7OZ1k&feature=youtu.be">talk</a> at BPASE 2018 on Verifiable Delay Functions.
 
