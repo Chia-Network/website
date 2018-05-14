@@ -84,8 +84,8 @@ financial-instituation-value-prop = 数字货币越来越受到个人和机构�
 contact-us = <a class="sub_link" href="mailto:hello@chia.network">与我们联系以了解更多信息</a>
 
 about-detail = Chia Network是一家总部位于旧金山的公司，致力于改善加密货币基础设施。
-    我们的首席执行官Bram Cohen着名发明了BitTorrent：第一个现代分散式网络协议和其中一个
-    比特币协议的灵感。我们的创始团队拥有加密货币和金融方面的经验
+    我们的首席执行官Bram Cohen发明了著名的BitTorrent：第一个现代分散式网络协议为
+    比特币协议提供了灵感。我们的创始团队拥有加密货币和金融方面的经验
     成员来自Tradehill，CryptoCorp和Lightning Labs。
 
 contribute-question = 你是一名开发人员，想为Chia Network做出贡献吗？这里有一些想法：
@@ -94,7 +94,7 @@ contribute-idea-one = <strong>解决现有问题</strong>: <a href="https://gith
 
 contribute-idea-two = <strong>添加语言翻译</strong>: 我们建议你在<a href="https://github.com/Chia-Network/website">Github</a>来Fork一份源码，并通过那里提交更改。
 
-footer-language = 语音
+footer-language = 语言
 
 footer-contact = 联系方式
 
