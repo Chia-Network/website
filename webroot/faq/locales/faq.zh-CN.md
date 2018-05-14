@@ -96,7 +96,7 @@ A: 除了区块链之外，Chia还支持闪电网络，因此支付速度取决�
 
 + <b>Q: 作品中的其他Chia动态？</b>
 
-A: 在首次发布后，我们的重点将是支持Lightning，就像今天一样，增加了外链频道，支持MAST，并可能使用<a href="https://blockstream.com/simplicity.pdf">简单</a>语言 以及支持保险库的智能合约。 Chia将支持原子交换出去。 我们从比特币脚本开始使用BLS签名而不是DSA。 该计划将结合比特币部署推出版本，因为它基于相同的代码库。
+A: 在首次发布后，我们的重点将是支持Lightning，就像今天一样，增加了外链频道，支持MAST，并可能使用<a href="https://blockstream.com/simplicity.pdf">Simplicity</a>语言 以及支持保险库的智能合约。 Chia将支持原子交换出去。 我们从比特币脚本开始使用BLS签名而不是DSA。 该计划将结合比特币部署推出版本，因为它基于相同的代码库。
 
 
 
