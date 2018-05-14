@@ -10,6 +10,7 @@ var names = {
    "sr": "Srpski",
    "pt-BR": "Português",
    "tr": "Türk"
+   "zh-CN": "简体中文"   
 };
 
 // this creates the list of manual language selection links at the bottom of each page
