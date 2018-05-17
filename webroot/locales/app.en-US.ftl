@@ -35,7 +35,7 @@ team-tab = Team - Chia Network
 get-the-latest-news = <br />Get the Latest and Updated Newscast from Chia
 
 mission = We're building a blockchain based on proofs of space and time to make a cryptocurrency
-    which is less wasteful, more decentralized, and more secure.
+    that is less wasteful, more decentralized, and more secure.
 
 ryan-summit = Ryan Singer giving a <a target="_blank" href="https://www.youtube.com/watch?v=P86QQXcnJ4M">keynote</a> at StartEngine Summit 2.0 about rethinking the ICO.
 
