@@ -2,13 +2,13 @@
 
 hiring = 人材募集中！
 
-get-chia = Get Chia
+get-chia = Chiaを取得
 
 community = コミュニティ
 
 about-chia = Chiaについて
 
-contribute = Contribute
+contribute = 寄付する
 
 jobs = Chiaで働く
 
@@ -22,7 +22,7 @@ slogan = 電子世界の為の<br />グリーンマネー
 
 in-the-news = Chiaに関するニュース
 
-team = Team
+team = チーム
 
 // Tabs start
 home-tab = Home - Chia Network
