@@ -2,7 +2,7 @@
 
 + <b>Q: What is Chia?</b>
 
-A: Chia is a pre-launch digital currency and blockchain that relies upon proofs of space and proofs of time instead of traditional proofs of work. Chia "farms" via unused storage space that is allocated by "farmers" who will receive Chia coins for solving a block challenge as a consensus mechanism. Chia "farming" uses proof of space, co-ordinated with another consensus algorithm, proof of time, to mitigate known attacks on previous proof of space based blockchains. Our goal is to to prevent wasting massive amounts of electricity to secure a blockchain and lessen (e.g. ASIC-powered mining) centralisation. A hard disk will have its empty space filled with randomly generated proofs when "seeding."
+A: Chia is a pre-launch digital currency and blockchain that relies upon proofs of space and proofs of time instead of traditional proofs of work. Chia "farms" via unused storage space that is allocated by "farmers" who will receive Chia coins for solving a block challenge as a consensus mechanism. Chia "farming" uses proof of space, co-ordinated with another consensus algorithm, proof of time, to mitigate known attacks on previous proof of space based blockchains. Our goal is to to prevent wasting massive amounts of electricity to secure a blockchain and lessen (e.g. ASIC-powered mining) centralization. A hard disk will have its empty space filled with randomly generated proofs when "seeding."
 
 
 
@@ -128,23 +128,23 @@ A: There will still be some rewards for desktop farmers and the cost will still 
 
 + <b>Q: Will Chia have a similar supply to that of Bitcoin?</b>
 
-A: There will be three halvings of Chia farming rewards to ultimately get to a low fixed amount of chia rewarded to farmers per block. The coins in circulation continues to increaseat the fixed rate of annual mining but the proportion of coins (grains?) minted (grown?) each year perpetually goes down as a percentage of the total coins in existence. To give a sense of what this means in practice, it will take approximately 153 years for the amount of Chia to double after network launch.
+A: There will be three halvings of Chia farming rewards to ultimately get to a low fixed amount of chia rewarded to farmers per block. The coins in circulation continues to increase at the fixed rate of annual mining but the proportion of coins (grains?) minted (grown?) each year perpetually goes down as a percentage of the total coins in existence. To give a sense of what this means in practice, it will take approximately 153 years for the amount of Chia to double after network launch.
 
 
 
 + <b>Q: How is Chia resistant to miner centralization?</b>
 
-A: Chia uses empty storage (like hard disk drives) to farm seeds. As there is so much empty storage space available and anyone with unused storage space will be able to farm, this should lead to farming decentralization. Bitcoin's proof of work mining system drives the formation of blocks toward a limited number of miners because aquiring specialized ASIC mining equipment and locating them near cheap electricity is beyond most people's ability to invest. Manufacturers of storage could optimize storage hardware to farm faster or cheaper, but the cost of doing so is probably not worth the reward and that would otherwise have the benefit of generally decreasing the cost of storage for everyone. Chia should become the most decentralized cryptocurrency on the market.
+A: Chia uses empty storage (like hard disk drives) to farm seeds. As there is so much empty storage space available and anyone with unused storage space will be able to farm, this should lead to farming decentralization. Bitcoin's proof of work mining system drives the formation of blocks toward a limited number of miners because acquiring specialized ASIC mining equipment and locating them near cheap electricity is beyond most people's ability to invest. Manufacturers of storage could optimize storage hardware to farm faster or cheaper, but the cost of doing so is probably not worth the reward and that would otherwise have the benefit of generally decreasing the cost of storage for everyone. Chia should become the most decentralized cryptocurrency on the market.
 
 
 
 + <b>Q: Will Chia be open source?</b>
 
-A: Chia will release academic papers about the building blocks of the protocol, and all implementation code will be open source. We're going to use the <a href = "https://www.apache.org/licenses/LICENSE-2.0">Apache License</a>. There's some chance we'll keep our source code a bit more proprietary when testnet is out but mainnet isn't up yet, but we will definitely license all our source code under the Apache License once mainnet is generally available.
+A: Chia will release academic papers about the building blocks of the protocol, and all implementation code will be open source. We're going to use the <a href = "https://www.apache.org/licenses/LICENSE-2.0">Apache License</a>. There's some chance we'll keep our source code a bit more proprietary while testnet is out but mainnet isn't up yet, but we will definitely license all our source code under the Apache License once mainnet is generally available.
 
 
 
-+ <b>Q: Do you have whitepapers where I can read more?</b>
++ <b>Q: Do you have a whitepaper? where I can read more?</b>
 
 A: Instead of just one white paper like most projects, we're going to have academic papers in journals. So far we have <a href = "https://eprint.iacr.org/2017/893">our first paper</a> which was accepted by Asiacrypt and our <a href = "https://eprint.iacr.org/2018/183">second paper</a> which won best paper at Eurocrypt. There will be at least one more paper going over how to hook the whole thing together into a blockchain.
 
@@ -153,4 +153,3 @@ A: Instead of just one white paper like most projects, we're going to have acade
 + <b>Q: Where can I find out more?</b>
 
 A: You can sign up for the announcements list to get info as it comes out. Also we're available to discuss announcements on Keybase. Check out our homepage for links.
-
