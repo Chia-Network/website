@@ -47,7 +47,7 @@ older-talk = Bram Cohen giving an older <a href="https://www.youtube.com/watch?v
 
 james-talk = James Prestwich giving a <a href="https://www.youtube.com/watch?v=xe5d-Fn1yoo">talk </a> at SF Cryptocurrency Devs Seminar about Chia Script and BLS Signatures with <a href="https://view.publitas.com/chia-network/chia-script/">slides</a>.
 
-scaling-bitcoin = Bram Cohen giving a <a target="blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about data structures for scalling Bitcoin with <a target="blank" href="https://view.publitas.com/chia-network/bitcoin_data_structures/">slides</a>.
+scaling-bitcoin = Bram Cohen giving a <a target="blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about data structures for scaling Bitcoin with <a target="blank" href="https://view.publitas.com/chia-network/bitcoin_data_structures/">slides</a>.
 
 waste-talk = Bram Cohen giving a <a target="blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about removing waste from cryptocurrencies.
 
@@ -109,12 +109,12 @@ bpase-2018-first = Bram Cohen giving a <a href="https://www.youtube.com/watch?v=
 
 bpase-2018-second = Ben Fisch giving a <a href="https://www.youtube.com/watch?v=qUoagL7OZ1k&feature=youtu.be">talk</a> at BPASE 2018 on Verifiable Delay Functions.
 
-sign-up = Sign up for annoucements
+sign-up = Sign up for announcements
 
 news = News
 
 grinding-attacks = Bram Cohen giving a <a target="_blank" href="https://www.youtube.com/watch?v=2Zlcgt8FVz4">talk</a> at Stanford about stopping grinding attacks in Proofs of Space.
 
-bitcoin-devs-one = Bram Cohen giving a <a target="_blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about data structures for scalling Bitcoin with <a target="_blank" href="https://view.publitas.com/chia-network/bitcoin_data_structures/">slides </a>and<a target="_blank" href="https://github.com/bramcohen/MerkleSet"> code</a>.
+bitcoin-devs-one = Bram Cohen giving a <a target="_blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about data structures for scaling Bitcoin with <a target="_blank" href="https://view.publitas.com/chia-network/bitcoin_data_structures/">slides </a>and<a target="_blank" href="https://github.com/bramcohen/MerkleSet"> code</a>.
 
 bitcoin-devs-two = Bram Cohen giving a <a target="_blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk </a>at SF Bitcoin Devs Seminar about removing waste from cryptocurrencies.
