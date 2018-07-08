@@ -35,7 +35,9 @@ team-tab = Team - Chia Network
 get-the-latest-news = <br />Get the Latest and Updated Newscast from Chia
 
 mission = We're building a blockchain based on proofs of space and time to make a cryptocurrency
-    which is less wasteful, more decentralized, and more secure.
+    that is less wasteful, more decentralized, and more secure.
+
+ryan-summit = Ryan Singer giving a <a target="_blank" href="https://www.youtube.com/watch?v=P86QQXcnJ4M">keynote</a> at StartEngine Summit 2.0 about rethinking the ICO.
 
 recent-talk = Bram Cohen giving a <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">talk</a> (starts about 20:00) at Blockchain at Berkeley with
     <a href="https://view.publitas.com/chia-network/chia-1/">slides</a>.
@@ -43,9 +45,9 @@ recent-talk = Bram Cohen giving a <a href="https://www.facebook.com/BerkeleyBloc
 older-talk = Bram Cohen giving an older <a href="https://www.youtube.com/watch?v=aYG0NxoG7yw">talk</a> at BPASE 2017 with
     <a href="https://cyber.stanford.edu/sites/default/files/bramcohen.pdf">slides</a>.
 
-james-talk = James Prestwich giving a <a href="https://www.youtube.com/watch?v=xe5d-Fn1yoo&feature=youtu.be">talk </a> at SF Cryptocurrency Devs Seminar about Chia Script and BLS Signatures with <a href="https://view.publitas.com/chia-network/chia-script/">slides</a>.
+james-talk = James Prestwich giving a <a href="https://www.youtube.com/watch?v=xe5d-Fn1yoo">talk </a> at SF Cryptocurrency Devs Seminar about Chia Script and BLS Signatures with <a href="https://view.publitas.com/chia-network/chia-script/">slides</a>.
 
-scaling-bitcoin = Bram Cohen giving a <a target="blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about data structures for scalling Bitcoin with <a target="blank" href="https://view.publitas.com/chia-network/bitcoin_data_structures/">slides</a>.
+scaling-bitcoin = Bram Cohen giving a <a target="blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about data structures for scaling Bitcoin with <a target="blank" href="https://view.publitas.com/chia-network/bitcoin_data_structures/">slides</a>.
 
 waste-talk = Bram Cohen giving a <a target="blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about removing waste from cryptocurrencies.
 
@@ -59,7 +61,7 @@ sell-plan = Chia will be available to the public in the summer of 2018
 
 ready-to-invest = Ready to invest?
 
-subscribe = Subscribe to <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements</a> 
+subscribe = Subscribe to <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">announcements</a>
 
 join-keybase = Join our Keybase group to participate in discussion.
 
@@ -88,11 +90,11 @@ about-detail = Chia Network is a San Francisco-based company focused on improvin
     sectors, coming from Tradehill, CryptoCorp and Lightning Labs.
 
 contribute-question = Are you a developer and want to contribute to the Chia Network? Here are a few ideas:
-	
+
 contribute-idea-one = <strong>Fix existing issues</strong>: the <a href="https://github.com/Chia-Network/website/issues">issue tracker</a> is the best place to find a useful way to contribute to Chia Network. Before starting to write any patches for issues you find, you may want to comment on the issue to make sure nobody else is already working on it.
 
 contribute-idea-two = <strong>Add Language Translations</strong>: We recommend using Github's tools to make a clone of the web site repo and submit changes through there. Take a look at our site on <a href="https://github.com/Chia-Network/website">github</a> and submit a pull request.
-	
+
 footer-language = Language
 
 footer-contact = Contact
@@ -103,10 +105,16 @@ news-and-info = <h4>News and Information</h4>
 
 talks-and-papers = <h4>Talks and Papers</h4>
 
-bpase-2018-first = Bram Cohen giving a <a href="https://www.youtube.com/watch?v=iqxkO7C-cyk&feature=youtu.be">talk</a> at BPASE 2018 based on this very <a href="https://eprint.iacr.org/2017/893">technical paper</a> about Proofs of Space. </li>
+bpase-2018-first = Bram Cohen giving a <a href="https://www.youtube.com/watch?v=iqxkO7C-cyk&feature=youtu.be">talk</a> at BPASE 2018 based on this very <a href="https://eprint.iacr.org/2017/893">technical paper</a> about <span class="testcommit">Proofs of Space</span>.
 
 bpase-2018-second = Ben Fisch giving a <a href="https://www.youtube.com/watch?v=qUoagL7OZ1k&feature=youtu.be">talk</a> at BPASE 2018 on Verifiable Delay Functions.
 
-sign-up = Sign up for annoucements
+sign-up = Sign up for announcements
 
 news = News
+
+grinding-attacks = Bram Cohen giving a <a target="_blank" href="https://www.youtube.com/watch?v=2Zlcgt8FVz4">talk</a> at Stanford about stopping grinding attacks in Proofs of Space.
+
+bitcoin-devs-one = Bram Cohen giving a <a target="_blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk</a> at SF Bitcoin Devs Seminar about data structures for scaling Bitcoin with <a target="_blank" href="https://view.publitas.com/chia-network/bitcoin_data_structures/">slides </a>and<a target="_blank" href="https://github.com/bramcohen/MerkleSet"> code</a>.
+
+bitcoin-devs-two = Bram Cohen giving a <a target="_blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">talk </a>at SF Bitcoin Devs Seminar about removing waste from cryptocurrencies.
