@@ -57,7 +57,7 @@ news-link = Follow the latest articles on the <a href="/news">news</a> page.
 
 faq-link = Visit our <a href="faq/">Frequently Asked Questions (FAQ)</a> to learn more!
 
-sell-plan = Chia will be available to the public in the summer of 2018
+sell-plan = Chia will be widely available to the public soon
 
 ready-to-invest = Ready to invest?
 
