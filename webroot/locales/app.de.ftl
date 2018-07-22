@@ -26,7 +26,7 @@ team = Team
 
 // Tabs start
 home-tab = Home - Chia Network
-news-tab = News - Chia Network
+news-tab = Nachrichten - Chia Network
 faq-tab = FAQ - Chia Network
 team-tab = Team - Chia Network
 // Tabs end
@@ -36,6 +36,8 @@ team-tab = Team - Chia Network
 get-the-latest-news = <br />Erhalte die neusten Nachrichten über Chia
 
 mission = Wir bauen eine Blockchain, die auf Proof of Space und Proof of Time basiert, um eine bessere Kryptowährung zu schaffen, die vorteilhafter für die Umwelt, dezentralisierter und sicherer ist.
+
+ryan-summit = Ryan Singers <a target="_blank" href="https://www.youtube.com/watch?v=P86QQXcnJ4M">Grundsatzpräsentation</a> bei StartEngine Summit 2.0 über ein Umdenken des ICO.
 
 recent-talk = Bram Cohens <a href="https://www.facebook.com/BerkeleyBlockchain/videos/2006069823011271/">Vortrag</a> (beginnt ab ca. 20:00) bei Blockchain in Berkeley mit 
     <a href="https://view.publitas.com/chia-network/chia-1/">Folien</a>.
@@ -55,7 +57,7 @@ news-link = Folge den neusten Artikeln in den <a href="/news">Nachrichten</a>.
 
 faq-link = Besuchen Sie unsere <a href="faq/">Häufig gestellten Fragen (FAQ)</a>, um mehr zu erfahren!
 
-sell-plan = Chia wird im Sommer 2018 veröffentlicht werden.
+sell-plan = Chia wird bald öffentlich gemacht.
 
 ready-to-invest = Bereit zum Investieren?
 
@@ -106,6 +108,14 @@ talks-and-papers = <h4>Vorträge und Dokumente</h4>
 
 bpase-2018-first = Bram Cohens <a href="https://www.youtube.com/watch?v=iqxkO7C-cyk&feature=youtu.be">Vortrag</a> bei der BPASE 2018 basierend auf diesem sehr <a href="https://eprint.iacr.org/2017/893">technischem Dokument</a> über Proofs of Space. </li>
 
+bpase-2018-second = Ben Fischs <a href="https://www.youtube.com/watch?v=qUoagL7OZ1k&feature=youtu.be">Vortrag</a> bei der BPASE 2018 über Verifiable Delay Functions.
+
 sign-up = Für Ankündigungen anmelden
 
 news = Nachrichten
+
+grinding-attacks = Bram Cohens <a target="_blank" href="https://www.youtube.com/watch?v=2Zlcgt8FVz4">Präsentation</a> bei Stanford über das Abwehren von Grinding Angriffen bei Proofs of Space.
+
+bitcoin-devs-one = Bram Cohens <a target="_blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">Vortrag</a> bei dem SF Bitcoin Devs Seminar über Datenstrukturen zum Skalieren von Bitcoin mit <a target="_blank" href="https://view.publitas.com/chia-network/bitcoin_data_structures/">Folien </a>und<a target="_blank" href="https://github.com/bramcohen/MerkleSet"> Code</a>.
+
+bitcoin-devs-two = Bram Cohens <a target="_blank" href="https://www.youtube.com/watch?v=zZaB4hM8SQ4">Vortrag </a>bei dem SF Bitcoin Devs Seminar über das Reduzieren vom Energieverbrauch bei Kryptowährungen.
