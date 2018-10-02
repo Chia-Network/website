@@ -32,7 +32,7 @@ A: Seeding is a process that requires reading and writing every sector of the al
 
 + <b>Q: When will Chia launch?</b>
 
-A: Chia plans a coin sale in Q2 and a network launch by the end of 2018, but this is not set in stone and is dependent on further development.
+A: Chia plans a public sale, and a network launch in 2019, but this is not set in stone and is dependent on further development.
 
 
 
@@ -50,7 +50,7 @@ A: No code has been written yet. A bunch of mathematical primitives have been wo
 
 + <b>Q: When can I farm Chia?</b>
 
-A: We hope to have a public sale in Q2 2018, and you'll be able to farm once the network launches which we hope will be before the end of 2018. All dates remain subject to change based on ongoing development.
+A: We hope to have a public sale, and you'll be able to farm once the network launches, by the end of 2019. All dates remain subject to change based on ongoing development.
 
 
 
@@ -154,44 +154,3 @@ A: Instead of just one white paper like most projects, we're going to have acade
 
 A: You can sign up for the announcements list to get info as it comes out. Also we're available to discuss announcements on Keybase. Check out our homepage for links.
 
-
-+ <a name="vdf-faq"></a>
-#### VDF Competition FAQ
-
-+ <br /><b>Q: When does the contest start and end?</b>
-
-A: Start date is October 1, 2018. We’ll release tentative benchmarks on that date, and firm them up a month later. Submissions are due two months after that, followed by announcements of the winners one month later. Total contest run time will be roughly three months.
-
-
-+ <b>Q: Is it okay for people to enter as teams?</b>
-
-A: Yes.
-
-
-+ <b>Q: Who are the judges?</b>
-
-A: Chia employees.
-
-
-+ <b>Q: What are you giving contestants access to?</b>
-
-A: We’ll share a reference implementation of the algorithm and specs of the machines on which benchmarks are going to be run.
-
-
-+ <b>Q: What are contestants submitting?</b>
-
-A: To be eligible, contestants will submit source code and documentation of their implementations which is required to be made available as public domain, MIT licensed, or Apache licensed.
-
-
-+ <b>Q: What are the criteria for winning?</b>
-
-A: There are three main criteria for winning, ordered in priority:<br />
-1) Speed<br />
-2) Optimization<br />
-3) Novelty<br />
-<br />The goal is to make a good implementation of the VDF algorithm. The most important, but not only, criterion for an algorithm being good is that it run fast on the target hardware. We might consider a submission which isn’t terribly fast overall, but has a unique optimization. Novelty/originality of the approach to the algorithm will also be considered.
-
-
-+ <b>Q: Will the bitcoin be valued on the date it is paid out after the winner is announced?</b>
-
-A: We’ll be valuing the rewards in dollars however we pay them out. The initial commitment is that we’re giving out $100,000 in prizes for this first round of competition.

@@ -48,7 +48,7 @@ A: Bisher wurde noch kein Code geschrieben. Etwas primitive Mathematik wurde sch
 
 + <b>Q: Wann werde ich Chia farmen können?</b>
 
-A: Es wird einen öffentlich zugänglichen Verkauf im zweiten Quartal von 2018 geben und Sie werden farmen können, wenn das Netzwerk startet.
+A: Es wird einen öffentlich zugänglichen Verkauf geben und Sie werden farmen können, wenn das Netzwerk startet.
 
 
 + <b>Q: Was bedeutet Proof of Time?</b>
