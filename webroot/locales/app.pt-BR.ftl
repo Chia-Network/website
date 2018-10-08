@@ -18,7 +18,7 @@ faq = Perguntas frequentes
 
 financial-instituations = Instituições financeiras
 
-slogan = Moeda verde para um mundo digital
+slogan = Moeda sustentável para um mundo digital
 
 in-the-news = Chia na mídia
 
@@ -49,7 +49,7 @@ news-link = Acompanhe os artigos mais recentes na seção <a href="/news">novida
 
 faq-link = <a href="faq/">Perguntas frequentes (FAQ)</a>
 
-sell-plan = Planejamos vender Chia ao público no segundo trimestre de 2018 para permitir com que todos invistam em uma moeda digital melhor.
+sell-plan = Chia estará disponível para o público em breve.
 
 subscribe = Inscreva-se na <a href="https://groups.google.com/a/chia.network/forum/#!forum/announce">lista de anúncios</a> para saber mais.
 
