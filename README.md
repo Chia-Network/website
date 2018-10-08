@@ -20,7 +20,7 @@ Then browse to http://127.0.0.1:8000/
 
 # Translations
 
-This site uses [l20n.js]([https://http://l20n.org/) v5.0 to translate static html content. Please take a moment to familiarize yourself
+This site uses [l20n.js](http://l20n.org/) v5.0 to translate static html content. Please take a moment to familiarize yourself
 with its rules and syntax before adding content or translations.
 
 ## Guidelines for new content in existing files
