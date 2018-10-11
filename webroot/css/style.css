@@ -396,6 +396,10 @@ position: absolute;
   padding-bottom: 0;
 }
 
+#vdf a {
+  text-decoration: underline;
+}
+
 /*@media (min-width: 375px) {
   #announcements .centered {
       padding-top:0px;
