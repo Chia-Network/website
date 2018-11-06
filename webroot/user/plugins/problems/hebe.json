@@ -1,0 +1,15 @@
+{
+   "project":"grav-plugin-problems",
+   "platforms":{
+      "grav":{
+         "nodes":{
+            "plugin":[
+               {
+                  "source":"/",
+                  "destination":"/user/plugins/problems"
+               }
+            ]
+         }
+      }
+   }
+}

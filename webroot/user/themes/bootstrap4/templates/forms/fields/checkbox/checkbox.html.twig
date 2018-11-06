@@ -1,0 +1,18 @@
+{% set value = (value is null ? field.default : value) %}
+
+<div class="form-field">
+    <div class="col-sm-10 offset-sm-2">
+        <div class="checkbox">
+            <label>
+                <input type="checkbox"
+                       name="{{ (scope ~ field.name)|fieldName }}"
+                        {% if value == true %} checked="checked" {% endif %}
+                        {% if field.autofocus in ['on', 'true', 1] %}autofocus="autofocus"{% endif %}
+                        {% if field.novalidate in ['on', 'true', 1] %}novalidate="novalidate"{% endif %}
+                        {% if field.validate.required in ['on', 'true', 1] %}required="required"{% endif %}
+                />
+                {{ field.label|e }} {{ field.validate.required in ['on', 'true', 1] ? '<span class="required">*</span>' }}
+            </label>
+        </div>
+    </div>
+</div>

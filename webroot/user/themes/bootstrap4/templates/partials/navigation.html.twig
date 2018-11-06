@@ -1,0 +1,46 @@
+{% set navbar_style = theme_var('navbar_style') %}
+{% set navbar_bgcolor = theme_var('navbar_bgcolor') %}
+<nav class="navbar navbar-expand-md {{ navbar_style }}" role="navigation">
+    <div class="container">
+        <a class="navbar-brand" href="{{ base_url == '' ? '/' : base_url }}">{{ site.title|e('html') }}</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse justify-content-end">
+            <ul class="navbar-nav">
+                {% for page in pages.children.visible %}
+                    {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
+                    {% if config.themes.bootstrap4.dropdown.enabled and page.children.visible.count > 0 %}
+                        <li class="nav-item dropdown {{ current_page }}">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ page.menu }}</a>
+                            <div class="dropdown-menu">
+                                {% set current_parent = page.active ? 'active' : '' %}
+                                <a href="{{ page.url }}" class="dropdown-item {{ current_parent }}">{{ page.menu }}</a>
+                                <div class="dropdown-divider"></div>
+                                {% for child in page.children.visible %}
+                                    {% set current_child = (child.active or child.activeChild) ? 'active' : '' %}
+                                    <a href="{{ child.url }}" class="dropdown-item {{ current_child }}">{{ child.menu }}</a>
+                                {% endfor %}
+                            </div>
+                        </li>
+                    {% else %}
+                        <li class="nav-item {{ current_page }}"><a class="nav-link" href="{{ page.url }}">{{ page.menu }}</a></li>
+                    {% endif %}
+                {% endfor %}
+                {% for mitem in site.menu %}
+                    <li class="nav-item">
+                        {% set icon = mitem.icon ? '<i class="fa fa-fw fa-' ~ mitem.icon ~ '"></i> ' : '' %}
+                        <a class="nav-link" href="{{ mitem.url }}">{{ icon }}{{ mitem.text }}</a>
+                    </li>
+                {% endfor %}
+
+                {% if config.plugins.login.enabled and grav.user.username %}
+                    <li class="nav-item"><span class="nav-link"><i class="fa fa-lock"></i> {% include 'partials/login-status.html.twig' %}</span></li>
+                {% endif %}
+            </ul>
+        </div>
+
+        <div class="navbar-button"><a href="#hiring" class="lg-button-outline">We're hiring ➞</a></div>
+    </div>
+</nav>

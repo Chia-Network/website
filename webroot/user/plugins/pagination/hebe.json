@@ -1,0 +1,15 @@
+{
+   "project":"grav-plugin-pagination",
+   "platforms":{
+      "grav":{
+         "nodes":{
+            "plugin":[
+               {
+                  "source":"/",
+                  "destination":"/user/plugins/pagination"
+               }
+            ]
+         }
+      }
+   }
+}

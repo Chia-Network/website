@@ -1,0 +1,80 @@
+/* Typography */
+
+/* Tables */
+table {
+    width: 100%;
+    border: 1px solid $border-color;
+    margin: 30px 0;
+}
+
+th {
+    font-weight: bold;
+    background: lighten($border-color, 2%);
+    padding: 5px;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid $border-color;
+}
+
+/* Notice Styles */
+blockquote {
+    margin-bottom: 1rem;
+    padding-left: 20px;
+    font-size: 1.25rem;
+
+    cite {
+        display: block;
+        font-size: 80%;
+        color: $text-text;
+
+        &::before {
+            content: "\2014 \00A0";
+        }
+    }
+
+    > blockquote > blockquote {
+        margin: 0;
+
+        p {
+            padding: 15px;
+            display: block;
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+            border: 1px solid #f0f0f0;
+        }
+
+        > p {
+            /* Yellow */
+            margin-left: -75px;
+            color: #8a6d3b;
+            background-color: #fcf8e3;
+            border-color: #faebcc;
+        }
+
+        blockquote > p {
+            /* Red */
+            margin-left: -100px;
+            color: #a94442;
+            background-color: #f2dede;
+            border-color: #ebccd1;
+        }
+
+        blockquote > blockquote > p {
+            /* Blue */
+            margin-left: -125px;
+            color: #31708f;
+            background-color: #d9edf7;
+            border-color: #bce8f1;
+        }
+
+        blockquote > blockquote > blockquote > p {
+            /* Blue */
+            margin-left: -150px;
+            color: #3c763d;
+            background-color: #dff0d8;
+            border-color: #d6e9c6;
+        }
+    }
+}

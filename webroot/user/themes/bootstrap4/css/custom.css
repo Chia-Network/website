@@ -1,0 +1,288 @@
+body {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 125%;
+}
+
+
+/* HEADINGS & TEXT */
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+h2 {
+  line-height: 130%;
+}
+
+h3 {
+  color: rgba(60, 144, 86, 1);
+  font-size: 80%;
+  font-weight: 700;
+  line-height: 300%;
+  text-transform: uppercase;
+}
+
+h4 span {
+  color: rgba(0, 0, 0, 1);
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h5, h6 {
+  font-weight: 700;
+}
+
+p {
+  line-height: 150%;
+}
+
+/* LINKS & BUTTONS */
+
+a, a:link, a:visited {
+  color: rgba(60, 144, 86, 0.8);
+}
+
+a:hover {
+  color: rgba(60, 144, 86, 0.9);
+}
+
+a:active {
+}
+
+.lower-feature a {
+  color: rgba(180, 180, 180, 1);
+}
+
+a.lg-button {
+  background-color: rgba(60, 144, 86, 1);
+  color: rgba(15, 36, 37, 1);
+  font-weight: bold;
+  padding: 15px 22px;
+}
+
+a.lg-button:hover {
+  background-color: rgba(60, 144, 86, 0.8);
+  text-decoration: none;
+}
+
+a.lg-button-outline {
+  background-color: rgba(15, 36, 37, 1);
+  border: 2px solid rgba(60, 144, 86, 1);
+  color: rgba(60, 144, 86, 1);
+  font-weight: bold;
+  padding: 15px 22px;
+}
+
+a.lg-button-outline:hover {
+  background-color: rgba(15, 36, 37, 1);
+  color: rgba(60, 144, 86, 0.8);
+  text-decoration: none;
+}
+
+
+/* GENERAL STYLES */
+
+.brand-green {
+  color: rgba(60, 144, 86, 1);
+}
+
+
+
+/* HEADER & FOOTER */
+
+.navbar-brand {
+  background-image: url(../assets/chia-logo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30px;
+  overflow: hidden;
+  width: 75px;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.navbar {
+  color: rgba(255, 255, 255, 1);
+  padding: 30px 0;
+}
+
+ul.navbar-nav li a {
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  size: 80%;
+}
+
+.navbar-nav,
+button.navbar-toggler {
+  display: none;
+}
+
+.header {
+  text-align: left;
+}
+
+.bg-wrapper {
+  background-color: rgba(15, 36, 37, 1);
+  background-image: url('/user/themes/bootstrap4/assets/dot-bg-1.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  padding-bottom: 7%;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.bg-wrapper
+  @media only all and (max-width: 47.938rem) {
+    .bg-wrapper {
+      background-image: none; } }
+
+.header.hero {
+  background: none;
+}
+
+.header.hero h1 {
+  font-size: 280%;
+  line-height: 110%;
+}
+
+.header.hero h5 {
+  padding-top: 10px;
+}
+
+.header h1 {
+  max-width: 400px; }
+  @media only all and (min-width: 48rem) and (max-width: 59.938rem) {
+    .header h1 {
+      max-width: 60%; } }
+  @media only all and (max-width: 47.938rem) {
+    .header h1 {
+      max-width: 95%; } }
+
+.footer {
+  background-color: rgba(34, 55, 57, 1);
+  color: rgba(255, 255, 255, 0.7);
+  height: auto;
+  position: inherit;
+}
+
+.footer .row {
+  padding: 40px 0;
+}
+
+.footer a, .footer a:link, .footer a:visited {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-logo {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.footer h6 {
+  margin-bottom: 18px;
+}
+
+.footer ul.social {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer ul.social li {
+  display: inline;
+  padding-right: 10px;
+}
+
+
+
+/* PAGE CONTENTS */
+
+.modular .body-content {
+  padding: 40px 0;
+  text-align: left;
+}
+
+.body-content {
+  position: relative;
+}
+.body-content::before {
+  background-image: url('/user/themes/bootstrap4/assets/dot-bg-1.png');
+  background-position: right center;
+  background-repeat: no-repeat;
+  bottom: 0;
+  content: "";
+  filter: grayscale(100%);
+  height: 100%;
+  opacity: 0.1;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+.body-content .container {
+  /* This will make it stack on top of the ::before */
+  position: relative;
+}
+
+.body-content .row {
+  padding: 60px 0;
+}
+
+.body-content .extra-padding {
+  padding: 0 80px;
+}
+
+.about-feature {
+  background-color: rgba(240, 240, 240, 1);
+  padding: 40px 0;
+}
+
+.about-feature .subhead h4 {
+  color: rgba(60, 144, 86, 1);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 120%;
+  font-weight: bold;
+  padding: 30px 0 10px 0;
+}
+
+.about-investors {
+  padding: 40px 0;
+}
+
+ul.investors {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.investors li {
+  display: inline;
+  text-align: center;
+}
+
+ul.investors li img {
+  width: 30%;
+  opacity: 0.5;
+  padding: 25px;
+}
+
+ul.investors li img:hover {
+  opacity: 0.85;
+}
+
+
+.lower-feature {
+  background-color: rgba(15, 36, 37, 1);
+  background-image: url('/user/themes/bootstrap4/assets/dot-bg-1.png');
+  background-position: 600px -500px;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  color: rgba(255, 255, 255, 1);
+  padding: 30px 0 60px 0;
+}
+
+.lower-feature h2 {
+  margin: 25px 0 15px 0;
+}

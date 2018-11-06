@@ -1,0 +1,5 @@
+navbar_style: navbar-dark
+
+
+dropdown:
+  enabled: false

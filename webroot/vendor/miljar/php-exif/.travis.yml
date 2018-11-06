@@ -1,0 +1,38 @@
+language: php
+
+env:
+  global:
+    - DEPENDENCIES=no
+
+matrix:
+  include:
+    - php: 5.3
+      dist: precise
+    - php: 5.4
+      dist: precise
+    - php: 5.6
+    - php: 7.0
+    - php: 7.1
+    - php: nightly
+  allow_failures:
+    - php: 7.2
+    - php: nightly
+
+script:
+  - mkdir -p build/logs
+  - php vendor/bin/phpunit -c phpunit.xml.dist
+  - ./vendor/bin/phpunit --coverage-clover ./build/logs/clover.xml
+  - ./vendor/bin/phpcs --standard=PSR2 ./lib/
+
+before_script:
+  - composer install --prefer-source
+
+after_script:
+  - php vendor/bin/coveralls -v 
+
+before_install:
+  - composer self-update
+  - wget http://www.sno.phy.queensu.ca/~phil/exiftool/Image-ExifTool-9.90.tar.gz
+  - tar -zxvf Image-ExifTool-9.90.tar.gz
+  - cd Image-ExifTool-9.90 && perl Makefile.PL && make test && sudo make install
+  - cd .. && rm -rf Image-ExifTool-9.90

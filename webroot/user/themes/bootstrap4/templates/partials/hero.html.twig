@@ -1,0 +1,23 @@
+{% if page.header.hero_image %}
+  {% set header_image_media = page.media.images[page.header.hero_image] %}
+{% else %}
+  {% set header_image_media = page.media.images|first %}
+{% endif %}
+
+<div class="header hero {{ page.header.hero_classes }} {{ classes }} {{ page.header.hero_scroll ? 'hero-scroll-icon' : '' }}">
+    <div class="container">
+        {% if content %}
+            {{ content|raw }}
+        {% else %}
+            {{ page.content }}
+        {% endif %}
+
+        {% for button in page.header.buttons %}
+            <a class="btn{% if button.primary %} btn-primary{% endif %}" href="{{ '//' in button.url ? button.url : base_url ~ button.url }}">{{ button.text }}</a>
+        {% endfor %}
+
+        {% if page.header.hero_scroll %}
+            <i id="to-start" class="pulse fa fa-angle-down"></i>
+        {% endif %}
+    </div>
+</div>

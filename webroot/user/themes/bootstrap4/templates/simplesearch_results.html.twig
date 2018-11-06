@@ -1,0 +1,35 @@
+{% extends 'partials/simplesearch_base.html.twig' %}
+
+{% block content %}
+    <div class="simplesearch simplesearch-results">
+        {% include 'partials/hero.html.twig' with {'content': '<h1 class="search-header">' ~ "PLUGIN_SIMPLESEARCH.SEARCH_RESULTS"|t ~ '</h1>'} %}
+
+        <div class="main-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 blog-main">
+                        <div class="form-group text-center mb-5">
+                            {% include 'partials/simplesearch_searchbox.html.twig' %}
+                        </div>
+
+                        {% if query %}
+                            <h2>
+                                {% set count = search_results ? search_results.count : 0 %}
+                                {% if count == 1 %}
+                                    {{ "PLUGIN_SIMPLESEARCH.SEARCH_RESULTS_SUMMARY_SINGULAR"|t(query|e)|raw }}
+                                {% else %}
+                                    {{ "PLUGIN_SIMPLESEARCH.SEARCH_RESULTS_SUMMARY_PLURAL"|t(query|e, count)|raw }}
+                                {% endif %}
+                            </h2>
+                        {% endif %}
+
+                        {% for child in search_results %}
+                            {% include 'partials/blog_item.html.twig' with {'blog': page, 'page': child, 'truncate': true} %}
+                        {% endfor %}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

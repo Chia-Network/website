@@ -1,0 +1,40 @@
+#grav-login {
+    max-width: 50rem !important;
+
+    .col-sm-2 {
+        width: 50%;
+        text-align: right;
+        padding-top: 5px;
+    }
+
+    .col-sm-10 {
+        width: 50%;
+    }
+
+    form {
+        padding-top: 30px
+    }
+
+    .rememberme {
+        float: right !important;
+    }
+
+    .form-actions {
+        button {
+            margin-top: 50px;
+        }
+
+        .button.secondary {
+            line-height: 26px;
+
+            i {
+                line-height: 26px;
+            }
+        }
+    }
+
+    .button {
+        vertical-align: bottom !important;
+    }
+}
+

@@ -1,0 +1,15 @@
+{
+   "project":"grav-plugin-taxonomylist",
+   "platforms":{
+      "grav":{
+         "nodes":{
+            "plugin":[
+               {
+                  "source":"/",
+                  "destination":"/user/plugins/taxonomylist"
+               }
+            ]
+         }
+      }
+   }
+}

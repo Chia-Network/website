@@ -1,0 +1,26 @@
+{
+    "name": "antoligy/dom-string-iterators",
+    "description": "Composer package for DOMWordsIterator and DOMLettersIterator",
+    "type": "library",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "CC0-1.0",
+    "authors": [
+        {
+            "name": "Alex Wilson",
+            "email": "a@ax.gy"
+        },
+        {
+            "name": "Kornel Lesinski",
+            "email": "pornel@pornel.net"
+        },
+        {
+            "name": "Patrick Galbraith",
+            "email": "patrick.j.galbraith@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "": "src/" }
+    }
+}

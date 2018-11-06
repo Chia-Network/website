@@ -1,0 +1,12 @@
+name: Bootstrap4 Site
+version: 1.0.1
+description: "The **Bootstrap4 Site Skeleton** provides you with sample one page and blog content and plugins including: **Pagination**, **Breadcrumbs**, **Taxonomy List** and more."
+icon: bold
+author:
+  name: Trilby Media
+  email: hello@trilby.media
+  url: https://trilby.media
+homepage: htttps://github.com/trilbymedia/grav-skeleton-bootstrap4-site
+keywords: bootstrap4, bootstrap, bootstrapper, blog, onepage, skeleton, pagination, breadcrumbs, feed, archives, relatedpages, random, simplesearch, taxonomy, taxonomylist
+bugs: https://github.com/trilbymedia/grav-skeleton-bootstrap4-site/issues
+license: MIT

@@ -1,0 +1,35 @@
+enabled: true                   # set to false to disable this plugin completely
+limit: 5                        # the number of related pages to display
+show_score: true                # toggle to determine if scores should be displayed in output
+score_threshold: 20             # minimum score needed to show up in the list
+filter:                         # filter a configurable collection of pages to compare
+    items:
+        @page: /blog            # supports @self, @page, and @taxonomy collections
+    order:
+        by: date                # order type by default
+        dir: desc               # order direction
+page_in_filter: true            # true if the current page must be in the filtered collection
+explicit_pages:
+    process: true               # true|flase to enable this explicit page matching
+    score: 100                  # score (0 - 100) to give explicit pages
+taxonomy_match:                 # taxonomy type matching
+    taxonomy: tag               # which taxonomy type to use
+    taxonomy_taxonomy:
+        process: true           # true|false to enable taxonomy to taxonomy matching
+        score_scale:            # scores for number of matches
+            1: 50
+            2: 75
+            3: 100
+    taxonomy_content:
+        process: true           # true|false to enable taxonomy to content matching
+        score_scale:            # scores for number of matches
+            1: 20
+            2: 30
+            3: 45
+            4: 60
+            5: 70
+            6: 80
+            7: 90
+            8: 100
+content_match:                  # Disable this if you have lots of posts, performance implications...
+    process: false              # true|false to enable content to content matching

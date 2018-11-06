@@ -1,0 +1,44 @@
+// Hero
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-size: cover;
+    background-position: center;
+
+    &.hero-fullscreen {
+        height: 100vh;
+    }
+
+    &.hero-large {
+        height: 500px;
+    }
+
+    &.hero-medium {
+        height: 400px;
+    }
+
+    &.hero-small {
+        height: 110px;
+    }
+
+    &.hero-tiny {
+        height: 8rem;
+    }
+
+    .header-fixed & {
+        background-position: 50% 0;
+    }
+
+    // Hero Scroll Icon
+    #to-start {
+        display: inline-block;
+        position: absolute;
+        bottom: 10px;
+        font-size: 2rem;
+        cursor: pointer;
+        z-index: 2;
+    }
+}

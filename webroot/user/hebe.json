@@ -1,0 +1,54 @@
+{
+   "project":"grav-skeleton-bootstrap4",
+   "platforms":{
+      "grav":{
+         "nodes":{
+            "skeleton":[
+               {
+                  "source":"/",
+                  "destination":"/user"
+               }
+            ],
+            "admin plugin":[{
+               "project":"grav-plugin-admin"
+            }],
+            "archives plugin":[{
+               "project":"grav-plugin-archives"
+            }],
+            "bootstrapper plugin":[{
+               "project":"grav-plugin-bootstrapper"
+            }],
+            "breadcrumbs plugin":[{
+               "project":"grav-plugin-breadcrumbs"
+            }],
+            "feed plugin":[{
+               "project":"grav-plugin-feed"
+            }],
+            "form plugin":[{
+               "project":"grav-plugin-form"
+            }],
+            "login plugin":[{
+               "project":"grav-plugin-login"
+            }],
+            "pagination plugin":[{
+               "project":"grav-plugin-pagination"
+            }],
+            "random plugin":[{
+               "project":"grav-plugin-random"
+            }],
+            "relatedpages plugin":[{
+               "project":"grav-plugin-relatedpages"
+            }],
+            "simplesearch plugin":[{
+               "project":"grav-plugin-simplesearch"
+            }],
+            "taxonomylist plugin":[{
+               "project":"grav-plugin-taxonomylist"
+            }],
+            "bootstrap4 theme":[{
+               "project":"grav-theme-bootstrap4"
+            }]
+         }
+      }
+   }
+}

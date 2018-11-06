@@ -1,0 +1,191 @@
+{
+    "title": "BBC News - UK",
+    "name": "BBC News - UK",
+    "etag": "",
+    "last_modified": "",
+    "timestamp": 1536958590,
+    "last_checked": 1536958589,
+    "amount": 4,
+    "items": [
+        {
+            "rtl": [
+                "ar",
+                "fa",
+                "ur",
+                "ps",
+                "syr",
+                "dv",
+                "he",
+                "yi"
+            ],
+            "id": "eaa758a39453a5dc129a910282d535d4608264cc690d354bbad133e67de2d38f",
+            "title": "Electoral Commission 'misinterpreted' Vote Leave expenses, court rules",
+            "url": "https:\/\/www.bbc.co.uk\/news\/uk-politics-45519676",
+            "author": "",
+            "date": {
+                "date": "2018-09-14 16:15:55.000000",
+                "timezone_type": 2,
+                "timezone": "GMT"
+            },
+            "publishedDate": {
+                "date": "2018-09-14 16:15:55.000000",
+                "timezone_type": 2,
+                "timezone": "GMT"
+            },
+            "updatedDate": {
+                "date": "2018-09-14 16:15:55.000000",
+                "timezone_type": 2,
+                "timezone": "GMT"
+            },
+            "content": "<p>The Electoral Commission loses a High Court case over its policing of Vote Leave&#039;s referendum spending.<\/p>",
+            "enclosureUrl": "",
+            "enclosureType": "",
+            "language": "en-gb",
+            "xml": {
+                "title": {},
+                "description": {},
+                "link": "https:\/\/www.bbc.co.uk\/news\/uk-politics-45519676",
+                "guid": "https:\/\/www.bbc.co.uk\/news\/uk-politics-45519676",
+                "pubDate": "Fri, 14 Sep 2018 16:15:55 GMT"
+            },
+            "namespaces": {
+                "media": "http:\/\/search.yahoo.com\/mrss\/"
+            }
+        },
+        {
+            "rtl": [
+                "ar",
+                "fa",
+                "ur",
+                "ps",
+                "syr",
+                "dv",
+                "he",
+                "yi"
+            ],
+            "id": "3207b94e8e885fad203e5bd200242ebd93fc91e1785439b151bb233aece1f3a8",
+            "title": "Westminster attack: PC Keith Palmer 'left unprotected' at Parliament gate, says family",
+            "url": "https:\/\/www.bbc.co.uk\/news\/uk-45522294",
+            "author": "",
+            "date": {
+                "date": "2018-09-14 18:06:52.000000",
+                "timezone_type": 2,
+                "timezone": "GMT"
+            },
+            "publishedDate": {
+                "date": "2018-09-14 18:06:52.000000",
+                "timezone_type": 2,
+                "timezone": "GMT"
+            },
+            "updatedDate": {
+                "date": "2018-09-14 18:06:52.000000",
+                "timezone_type": 2,
+                "timezone": "GMT"
+            },
+            "content": "<p>Keith Palmer&#039;s family say he was left with just &quot;a spray and a baton&quot; during last year&#039;s terror attack.<\/p>",
+            "enclosureUrl": "",
+            "enclosureType": "",
+            "language": "en-gb",
+            "xml": {
+                "title": {},
+                "description": {},
+                "link": "https:\/\/www.bbc.co.uk\/news\/uk-45522294",
+                "guid": "https:\/\/www.bbc.co.uk\/news\/uk-45522294",
+                "pubDate": "Fri, 14 Sep 2018 18:06:52 GMT"
+            },
+            "namespaces": {
+                "media": "http:\/\/search.yahoo.com\/mrss\/"
+            }
+        },
+        {
+            "rtl": [
+                "ar",
+                "fa",
+                "ur",
+                "ps",
+                "syr",
+                "dv",
+                "he",
+                "yi"
+            ],
+            "id": "100e820a22fce1003ef4da40431be74853cd081bbc11815cf9c7ca91948f69fb",
+            "title": "Woman killed as lorry crashes into house in Barnsley",
+            "url": "https:\/\/www.bbc.co.uk\/news\/uk-england-south-yorkshire-45524619",
+            "author": "",
+            "date": {
+                "date": "2018-09-14 19:16:09.000000",
+                "timezone_type": 2,
+                "timezone": "GMT"
+            },
+            "publishedDate": {
+                "date": "2018-09-14 19:16:09.000000",
+                "timezone_type": 2,
+                "timezone": "GMT"
+            },
+            "updatedDate": {
+                "date": "2018-09-14 19:16:09.000000",
+                "timezone_type": 2,
+                "timezone": "GMT"
+            },
+            "content": "<p>The crash happened in Brierley at about 13:40 BST and caused massive damage to the side of the house.<\/p>",
+            "enclosureUrl": "",
+            "enclosureType": "",
+            "language": "en-gb",
+            "xml": {
+                "title": {},
+                "description": {},
+                "link": "https:\/\/www.bbc.co.uk\/news\/uk-england-south-yorkshire-45524619",
+                "guid": "https:\/\/www.bbc.co.uk\/news\/uk-england-south-yorkshire-45524619",
+                "pubDate": "Fri, 14 Sep 2018 19:16:09 GMT"
+            },
+            "namespaces": {
+                "media": "http:\/\/search.yahoo.com\/mrss\/"
+            }
+        },
+        {
+            "rtl": [
+                "ar",
+                "fa",
+                "ur",
+                "ps",
+                "syr",
+                "dv",
+                "he",
+                "yi"
+            ],
+            "id": "1135fa489345c09396ca3f64bcb23b42346d7f9fbf832813070be331b8e3f413",
+            "title": "Boy murdered stepmum Fiona Scourfield with samurai sword",
+            "url": "https:\/\/www.bbc.co.uk\/news\/uk-wales-45522338",
+            "author": "",
+            "date": {
+                "date": "2018-09-14 14:51:39.000000",
+                "timezone_type": 2,
+                "timezone": "GMT"
+            },
+            "publishedDate": {
+                "date": "2018-09-14 14:51:39.000000",
+                "timezone_type": 2,
+                "timezone": "GMT"
+            },
+            "updatedDate": {
+                "date": "2018-09-14 14:51:39.000000",
+                "timezone_type": 2,
+                "timezone": "GMT"
+            },
+            "content": "<p>A teenager &quot;obsessed&quot; with extreme violence tried to upload pictures of her body to the internet.<\/p>",
+            "enclosureUrl": "",
+            "enclosureType": "",
+            "language": "en-gb",
+            "xml": {
+                "title": {},
+                "description": {},
+                "link": "https:\/\/www.bbc.co.uk\/news\/uk-wales-45522338",
+                "guid": "https:\/\/www.bbc.co.uk\/news\/uk-wales-45522338",
+                "pubDate": "Fri, 14 Sep 2018 14:51:39 GMT"
+            },
+            "namespaces": {
+                "media": "http:\/\/search.yahoo.com\/mrss\/"
+            }
+        }
+    ]
+}

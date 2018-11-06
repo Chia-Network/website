@@ -1,0 +1,94 @@
+/* images responsive */
+img {
+    max-width: 100%;
+}
+
+/* Center the footer text */
+.container .text-muted {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Make branding more obvious */
+.navbar .navbar-brand {
+    font-size: 26px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+// Header
+.header {
+    @include linear-gradient(darken($header-bg,5%), lighten($header-bg,5%));
+    //margin-top: -20px;
+    padding-top: 65px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: $header-text;
+
+     h1 {
+        font-size: 60px;
+        color: $header-title;
+        margin-top: 0;
+
+        @include breakpoint(tablet-range) {
+            font-size: 40px;
+        }
+
+        @include breakpoint(mobile-only) {
+            font-size: 30px;
+            line-height: 1.2;
+            margin-bottom: 2.5rem;
+        }
+    }
+
+    h2 {
+        margin-top: 0;
+        font-weight: normal;
+
+        @include breakpoint(tablet-range) {
+            font-size: 30px;
+        }
+
+        @include breakpoint(mobile-only) {
+            font-size: 25px;
+        }
+    }
+
+    .btn {
+        font-size: 1.375rem;
+        padding: 10px 30px;
+        margin-top: 30px;
+        border-radius: $border-radius;
+        box-shadow: none;
+        border: 0;
+
+        @include breakpoint(mobile-only) {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+// Main
+.main-content {
+    margin-top: 2rem;
+}
+
+// Footer
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: $footer-bg;
+}

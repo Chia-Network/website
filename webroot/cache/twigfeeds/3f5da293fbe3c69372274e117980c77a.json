@@ -1,0 +1,123 @@
+{
+    "title": "NYT > World",
+    "name": "NY Times",
+    "etag": "\"7872ec734cac9b2e2863eaa1c696d289\"",
+    "last_modified": "Fri, 14 Sep 2018 20:31:34 GMT",
+    "timestamp": 1536957094,
+    "last_checked": 1536958589,
+    "amount": 2,
+    "items": [
+        {
+            "rtl": [
+                "ar",
+                "fa",
+                "ur",
+                "ps",
+                "syr",
+                "dv",
+                "he",
+                "yi"
+            ],
+            "id": "a7cfd20a0637a7eb9485c47fdf2e54c197e3a28a8a4e461d7b3812a4e850c191",
+            "title": "U.S. Is Ending Final Source of Aid for Palestinian Civilians",
+            "url": "https:\/\/www.nytimes.com\/2018\/09\/14\/world\/middleeast\/us-aid-palestinian-civilians.html?partner=rss&emc=rss",
+            "author": "EDWARD WONG",
+            "date": {
+                "date": "2018-09-14 18:36:27.000000",
+                "timezone_type": 2,
+                "timezone": "GMT"
+            },
+            "publishedDate": {
+                "date": "2018-09-14 18:36:27.000000",
+                "timezone_type": 2,
+                "timezone": "GMT"
+            },
+            "updatedDate": {
+                "date": "2018-09-14 18:36:27.000000",
+                "timezone_type": 2,
+                "timezone": "GMT"
+            },
+            "content": "<p>An American aid agency is blocking Palestinian access to $10 million intended for peace programs with Israelis because of President Trump\u2019s policy.<\/p>",
+            "enclosureUrl": "",
+            "enclosureType": "",
+            "language": "en-us",
+            "xml": {
+                "title": "U.S. Is Ending Final Source of Aid for Palestinian Civilians",
+                "link": "https:\/\/www.nytimes.com\/2018\/09\/14\/world\/middleeast\/us-aid-palestinian-civilians.html?partner=rss&emc=rss",
+                "guid": "https:\/\/www.nytimes.com\/2018\/09\/14\/world\/middleeast\/us-aid-palestinian-civilians.html",
+                "description": "An American aid agency is blocking Palestinian access to $10 million intended for peace programs with Israelis because of President Trump\u2019s policy.",
+                "pubDate": "Fri, 14 Sep 2018 18:36:27 GMT",
+                "category": [
+                    "Palestinians",
+                    "United States International Relations",
+                    "Foreign Aid",
+                    "United States Agency for International Development",
+                    "West Bank",
+                    "Israel",
+                    "United States Politics and Government"
+                ]
+            },
+            "namespaces": {
+                "atom": "http:\/\/www.w3.org\/2005\/Atom",
+                "media": "http:\/\/search.yahoo.com\/mrss\/",
+                "dc": "http:\/\/purl.org\/dc\/elements\/1.1\/"
+            }
+        },
+        {
+            "rtl": [
+                "ar",
+                "fa",
+                "ur",
+                "ps",
+                "syr",
+                "dv",
+                "he",
+                "yi"
+            ],
+            "id": "e1254a4502a111e49ba4041212cfd905080e5c23e1f7d491007a63c3bb75544c",
+            "title": "Live Briefing: Typhoon Mangkhut Updates: Storm Slams into the Philippines",
+            "url": "https:\/\/www.nytimes.com\/2018\/09\/14\/world\/asia\/typhoon-mangkhut-philippines-hong-kong.html?partner=rss&emc=rss",
+            "author": "THE NEW YORK TIMES",
+            "date": {
+                "date": "2018-09-14 19:32:03.000000",
+                "timezone_type": 2,
+                "timezone": "GMT"
+            },
+            "publishedDate": {
+                "date": "2018-09-14 19:32:03.000000",
+                "timezone_type": 2,
+                "timezone": "GMT"
+            },
+            "updatedDate": {
+                "date": "2018-09-14 19:32:03.000000",
+                "timezone_type": 2,
+                "timezone": "GMT"
+            },
+            "content": "<p>The super typhoon, also known as Ompong, made landfall on Luzon in the early hours of Saturday, bringing with it battering winds and lashing rain.<\/p>",
+            "enclosureUrl": "",
+            "enclosureType": "",
+            "language": "en-us",
+            "xml": {
+                "title": "Live Briefing: Typhoon Mangkhut Updates: Storm Slams into the Philippines",
+                "link": "https:\/\/www.nytimes.com\/2018\/09\/14\/world\/asia\/typhoon-mangkhut-philippines-hong-kong.html?partner=rss&emc=rss",
+                "guid": "https:\/\/www.nytimes.com\/2018\/09\/14\/world\/asia\/typhoon-mangkhut-philippines-hong-kong.html",
+                "description": "The super typhoon, also known as Ompong, made landfall on Luzon in the early hours of Saturday, bringing with it battering winds and lashing rain.",
+                "pubDate": "Fri, 14 Sep 2018 19:32:03 GMT",
+                "category": [
+                    "Typhoon Mangkhut (2018)",
+                    "Typhoons",
+                    "Philippines",
+                    "Hong Kong",
+                    "China",
+                    "Hurricanes and Tropical Storms",
+                    "Global Warming"
+                ]
+            },
+            "namespaces": {
+                "atom": "http:\/\/www.w3.org\/2005\/Atom",
+                "media": "http:\/\/search.yahoo.com\/mrss\/",
+                "dc": "http:\/\/purl.org\/dc\/elements\/1.1\/"
+            }
+        }
+    ]
+}

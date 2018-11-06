@@ -1,0 +1,32 @@
+<div class="modular-row features {{ page.header.class }}">
+    <div class="container">
+        {{ content }}
+
+        <div class="feature-items">
+            <div class="row">
+                {% set cols = page.header.class == 'big' ? 'col-md-6' : 'col-md-3' %}
+                {% for feature in page.header.features %}
+                    <div class="feature col-12 {{ cols }} {% if feature.icon %}has-icon{% endif %}">
+                        {% if feature.icon %}
+                            <i class="fa fa-fw fa-{{ feature.icon }}"></i>
+                        {% endif %}
+
+                        <div class="feature-content {% if feature.icon %}push{% endif %}">
+                            {% if feature.heading %}
+                                <h3>{{ feature.heading }}</h3>
+                            {% endif %}
+
+                            {% if feature.subheading %}
+                                <h2>{{ feature.subheading }}</h2>
+                            {% endif %}
+
+                            {% if feature.text %}
+                                <p>{{ feature.text }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

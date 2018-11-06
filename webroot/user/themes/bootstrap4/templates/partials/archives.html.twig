@@ -1,0 +1,12 @@
+<ul class="list-group">
+    {% for month,items in archives_data %}
+        <li class="list-group-item">
+            <a href="{{ base_url }}/{{ config.plugins.archives.taxonomy_names.month }}{{ config.system.param_sep }}{{ month|date('M_Y')|lower|e('url') }}" class="d-flex justify-content-between align-items-center">
+                {{ month|date('F Y') }}
+                {% if archives_show_count %}
+                    <span class="badge badge-primary badge-pill">{{ items|length }}</span>
+                {% endif %}
+            </a>
+        </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,50 @@
+{% set feed_url = blog.url == '/' or blog.url == base_url_relative ? (base_url_relative ~ '/' ~ blog.slug) : blog.url %}
+{% set new_base_url = blog.url == '/' ? '' : blog.url %}
+
+{% if config.plugins.simplesearch.enabled %}
+<div class="sidebar-content">
+    <h5>SimpleSearch</h5>
+    {% include 'partials/simplesearch_searchbox.html.twig' %}
+</div>
+{% endif %}
+
+{% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
+    <h5>Related Posts</h5>
+    {% include 'partials/relatedpages.html.twig' %}
+{% endif %}
+
+{% if config.plugins.random.enabled %}
+<div class="sidebar-content">
+    <h5>Random Article</h5>
+    <a class="btn" href="{{ base_url_relative }}/random"><i class="fa fa-retweet"></i> I'm Feeling Lucky!</a>
+</div>
+{% endif %}
+
+<div class="sidebar-content">
+    <h5>Some Text Widget</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+</div>
+
+{% if config.plugins.taxonomylist.enabled %}
+<div class="sidebar-content">
+    <h5>Popular Tags</h5>
+    {% include 'partials/taxonomylist.html.twig' with {'base_url':new_base_url, 'taxonomy':'tag'} %}
+</div>
+{% endif %}
+
+{% if config.plugins.archives.enabled %}
+<div class="sidebar-content">
+    <h5>Archives</h5>
+    {% include 'partials/archives.html.twig' with {'base_url':new_base_url} %}
+</div>
+{% endif %}
+
+{% if config.plugins.feed.enabled %}
+<div class="sidebar-content">
+    <h5>Syndicate</h5>
+    <div class="btn-group">
+        <a class="btn btn-warning" href="{{ feed_url }}.atom"><i class="fa fa-rss-square"></i> Atom 1.0</a>
+        <a class="btn btn-warning" href="{{ feed_url }}.rss"><i class="fa fa-rss-square"></i> RSS</a>
+    </div>
+</div>
+{% endif %}

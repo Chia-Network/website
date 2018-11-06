@@ -1,0 +1,32 @@
+// Callout
+.callout {
+    background: $text-bg;
+    color: $text-text;
+    padding: 15px $content-padding;
+    @include clearfix;
+
+    .container {
+        h2 {
+            padding-top: 1.25rem;
+        }
+
+        img {
+            &.float-md-left {
+                margin-right: 2rem;
+            }
+
+            &.float-md-right {
+                margin-left: 2rem;
+            }
+
+            @include breakpoint(mobile-only) {
+                margin-bottom: 1rem;
+
+                &.float-md-left,
+                &.float-md-right {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}

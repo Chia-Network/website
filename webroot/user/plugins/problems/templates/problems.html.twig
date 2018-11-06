@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Grav Problems</title>
+    <meta name="description" content="Grav is an easy to use, yet powerful, open source flat-file CMS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ problems_url }}/css/spectre.min.css" type="text/css" />
+    <link rel="stylesheet" href="{{ problems_url }}/css/spectre-icons.min.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container grid-md">
+      <div class="columns">
+        <div class="column">
+
+          <div class="text-center">
+            <img class="logo" src="{{ problems_url }}/assets/grav-logo.svg" />
+
+            <p class="reload toast toast-primary">
+              Please <strong>Review</strong> and <strong>Resolve</strong> before continuing <a href="{{ base_url }}" class="btn btn-primary"><i class="icon icon-refresh"></i> Reload Page</a>
+            </p>
+          </div>
+
+          <ul class="problems">
+            {% for problem in problems %}
+              {% set status = problem.status ? 'success' : problem.level == 'critical' ? 'error' : 'warning' %}
+              <li class="menu">
+                <div class="toast toast-{{ status }}">
+                  <strong>{{ problem.id }}:</strong>
+                  {{ problem.msg|raw }}
+                  {% if problem.help %}<a href="{{ problem.help }}" class="btn btn-sm btn-{{ status  }}" target="_blank"><i class="icon icon-bookmark"></i> Help</a>{% endif %}
+                </div>
+                {% if problem.details is iterable %}
+                  <ul class="details">
+                  {% for key,value in problem.details.errors %}
+                    <li class="menu-item">
+                      <div class="menu-badge">
+                        <label class="label label-error"><i class="icon icon-cross"></i></label>
+                      </div>
+                      <span class="active"><code>{{ key }}</code> - {{ value }}</span>
+                    </li>
+                  {% endfor %}
+
+                  {% for key,value in problem.details.success %}
+                    <li class="menu-item">
+                      <div class="menu-badge">
+                        <label class="label label-success"><i class="icon icon-check"></i></label>
+                      </div>
+                      <span class=""><code>{{ key }}</code> - {{ value }}</span>
+                    </li>
+                  {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+
+              {#{% for msg in type %} %}#}
+                {#<li class="{{ type }}">{{ msg }}</li>#}
+              {#{% endfor %}#}
+            {% endfor %}
+          </ul>
+
+          <p class="footer text-center">
+            <a href="http://getgrav.org">Grav</a> was <img src="{{ problems_url }}/assets/code-3.svg" /> with <img class="love" src="{{ problems_url }}/assets/heart.svg" /> by <a href="https://trilby.media">Trilby Media</a>.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

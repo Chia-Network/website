@@ -1,0 +1,84 @@
+<div class="list-item">
+
+    {% set header_image = page.header.header_image|defined(true) %}
+    {% set header_image_width  = page.header.header_image_width|defined(900) %}
+    {% set header_image_height = page.header.header_image_height|defined(300) %}
+    {% set header_image_file = page.header.header_image_file %}
+
+    <div class="list-blog-header">
+
+        {% if page.header.link %}
+            <h3>
+                {% if page.header.continue_link is not sameas(false) %}
+                    <a href="{{ page.url }}"><i class="fa fa-angle-double-right"></i></a>
+                {% endif %}
+                <a href="{{ page.header.link }}">{{ page.title }}</a>
+            </h3>
+        {% else %}
+            <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+        {% endif %}
+
+        <div class="list-blog-meta my-3">
+            <span class="list-blog-date">
+                <i class="fa fa-calendar"></i> <span>{{ page.date|date("F j, Y, g:i a") }}</span>
+            </span>
+
+            {% if page.taxonomy.tag %}
+            <span class="list-blog-tags float-right">
+                {% for tag in page.taxonomy.tag %}
+                    <a class="badge badge-primary" href="{{ blog.url }}/tag{{ config.system.param_sep }}{{ tag }}">{{ tag }}</a>
+                {% endfor %}
+            </span>
+            {% endif %}
+        </div>
+
+        {% if big_header %}
+            {{ page.media.images|first.cropResize(900,600).html('','blog-header-image') }}
+        {% else %}
+            {% if header_image %}
+                {% if header_image_file %}
+                    {% set header_image_media = page.media.images[header_image_file] %}
+                {% else %}
+                    {% set header_image_media = page.media.images|first %}
+                {% endif %}
+                {{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
+            {% endif %}
+        {% endif %}
+    </div>
+
+    <div class="list-blog-padding">
+
+        {% if page.header.continue_link is sameas(false) %}
+            <p>{{ page.content }}</p>
+            {% if not truncate %}
+            {% set show_prev_next = true %}
+            {% endif %}
+        {% elseif truncate and page.summary != page.content %}
+            <p>{{ page.summary }}</p>
+            <p><a href="{{ page.url }}">Continue Reading...</a></p>
+        {% elseif truncate %}
+            {% if page.summary != page.content %}
+                <p>{{ page.content|truncate(550) }}</p>
+            {% else %}
+                <p>{{ page.content }}</p>
+            {% endif %}
+            <p><a href="{{ page.url }}">Continue Reading...</a></p>
+        {% else %}
+            <p>{{ page.content }}</p>
+            {% set show_prev_next = true %}
+        {% endif %}
+
+        {% if show_prev_next %}
+            <p class="text-center mt-4">
+                {% if not page.isFirst %}
+                    <a class="btn btn-primary" href="{{ page.nextSibling.url }}"><i class="fa fa-chevron-left"></i> Next Post</a>
+                {% endif %}
+
+                {% if not page.isLast %}
+                    <a class="btn btn-primary" href="{{ page.prevSibling.url }}">Previous Post <i class="fa fa-chevron-right"></i></a>
+                {% endif %}
+            </p>
+        {% endif %}
+
+    </div>
+</div>
