@@ -1,7 +1,7 @@
 body {
   color: #939896!important;
   font-family: 'Lato', sans-serif!important;
-  font-size: 140%;
+  font-size: 150%;
   line-height: 155%;
   margin: 0;
 }
@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-  font-size: 180%;
+  font-size: 170%;
   margin-top: 0;
   color:#006646!important;
 }
@@ -38,7 +38,7 @@ h4 {
   h1 {
     margin-top: 0;
     font-size: 200%;
-    line-height: 140%;
+    line-height: 130%;
   }
 }
 
