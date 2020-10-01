@@ -1,4 +1,4 @@
-This is the web site at <https://chia.network/>. Pull requests accepted!
+This is the awesome web site at <https://chia.network/>. Pull requests accepted!
 
 If you have ideas for the FAQ, check out <https://github.com/Chia-Network/website/tree/master/webroot/faq>
 
@@ -79,6 +79,6 @@ var names = {
 
 ### For the FAQ
 
-- Translations of the FAQ are kept in markdown, and don't use l20n
+- Translations of the FAQs are kept in markdown, and don't use l20n
 - Copy [faq.md](/webroot/faq/faq.md) to the [translated markdown files](webroot/faq/locales/) folder, changing its name to `faq.<2 letter locale code>.md`
 - Translate away!
